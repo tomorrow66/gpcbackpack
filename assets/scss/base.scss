@@ -68,3 +68,26 @@ code {
   width: 100%;
   height: auto;
 }
+
+/* Homepage icon styles
+-------------------------------------------------- */
+.section-full {
+  background: #333;
+  padding: ($line-height-computed * 3) 0; 
+}
+.icon-bg {
+	background: url("/assets/img/icons/icon_pattern.png");
+  border-radius: $border-radius-base;
+  padding: $line-height-computed / 2;
+  min-height: 140px;
+  position: relative;
+}
+
+.img-responsive {
+  width: 50%;
+  height: 50%;
+  overflow: auto;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}

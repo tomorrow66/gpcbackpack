@@ -7541,3 +7541,33 @@ code {
   width: 100%;
   height: auto;
 }
+
+/* Homepage icon styles
+-------------------------------------------------- */
+/* line 74, ../scss/base.scss */
+.section-full {
+  background: #333;
+  padding: 60px 0;
+}
+
+/* line 78, ../scss/base.scss */
+.icon-bg {
+  background: url("/assets/img/icons/icon_pattern.png");
+  border-radius: 4px;
+  padding: 10px;
+  min-height: 140px;
+  position: relative;
+}
+
+/* line 86, ../scss/base.scss */
+.img-responsive {
+  width: 50%;
+  height: 50%;
+  overflow: auto;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}

@@ -12,27 +12,37 @@
 	<div id="slider">
     <div id="owl-demo" class="owl-carousel owl-theme">
 
-		  <div class="item"><img src="assets/img/slider/header_image.jpg" alt=""></div>
+		  <div class="item"><img src="assets/img/slider/header_image2a.jpg" alt=""></div>
 		 
 		</div>
   </div>
 
-  <div class="container">
-    <!-- Example row of columns -->
-    <div class="row">
-      <div class="col-lg-3">
-        <img src="assets/svg/icons/academic_success.png" class="img-responsive" alt="Responsive image">
+  <div class="section-full">
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="icon-bg">
+            <img src="assets/img/icons/academic_success.png" class="img-responsive" alt="Responsive image">
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="icon-bg">
+            <img src="assets/img/icons/campus_life.png" class="img-responsive" alt="Responsive image">
+          </div>
+         </div>
+        <div class="col-lg-3">
+          <div class="icon-bg">
+            <img src="assets/img/icons/gpc_college_online.png" class="img-responsive" alt="Responsive image">
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="icon-bg">
+            <img src="assets/img/icons/military_outreach.png" class="img-responsive" alt="Responsive image">
+          </div>
+        </div>
       </div>
-      <div class="col-lg-3">
-        <img src="assets/svg/icons/campus_life.png" class="img-responsive" alt="Responsive image">
-     	</div>
-      <div class="col-lg-3">
-        <img src="assets/svg/icons/gpc_college_online.png" class="img-responsive" alt="Responsive image">
-      </div>
-      <div class="col-lg-3">
-        <img src="assets/svg/icons/military_outreach.png" class="img-responsive" alt="Responsive image">
-      </div>
-    </div>
+  </div>
 
   </div>
 
