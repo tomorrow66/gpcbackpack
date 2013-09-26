@@ -7553,13 +7553,16 @@ code {
 /* line 78, ../scss/base.scss */
 .icon-bg {
   background: url("/assets/img/icons/icon_pattern.png");
-  border-radius: 4px;
+  border-radius: 8px;
   padding: 10px;
   min-height: 140px;
   position: relative;
+  -moz-box-shadow: inset 1px -1px 1px 1px #000000;
+  -webkit-box-shadow: inset 1px -1px 1px 1px #000000;
+  box-shadow: inset 1px -1px 1px 1px #000000;
 }
 
-/* line 86, ../scss/base.scss */
+/* line 89, ../scss/base.scss */
 .img-responsive {
   width: 50%;
   height: 50%;

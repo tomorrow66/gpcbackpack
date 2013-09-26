@@ -77,10 +77,13 @@ code {
 }
 .icon-bg {
 	background: url("/assets/img/icons/icon_pattern.png");
-  border-radius: $border-radius-base;
+  border-radius: $border-radius-base * 2;
   padding: $line-height-computed / 2;
   min-height: 140px;
   position: relative;
+  -moz-box-shadow:    inset 1px -1px 1px 1px #000000;
+   -webkit-box-shadow: inset 1px -1px 1px 1px #000000;
+   box-shadow:         inset 1px -1px 1px 1px #000000;
 }
 
 .img-responsive {
