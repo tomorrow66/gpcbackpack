@@ -28,7 +28,7 @@ $brand-info:            #5bc0de;
 // Scaffolding
 // -------------------------
 
-$body-bg:               #fff;
+$body-bg:               #bcbfac;
 $text-color:            $gray-dark;
 
 // Links
@@ -40,7 +40,7 @@ $link-hover-color:      darken($link-color, 15%);
 // Typography
 // -------------------------
 
-$font-family-sans-serif:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-sans-serif:  'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
 $font-family-serif:       Georgia, "Times New Roman", Times, serif;
 $font-family-monospace:   Monaco, Menlo, Consolas, "Courier New", monospace;
 $font-family-base:        $font-family-sans-serif;
@@ -243,9 +243,9 @@ $screen-md-max:              ($screen-lg-min - 1);
 // --------------------------------------------------
 
 // Number of columns in the grid system
-$grid-columns:              12;
+$grid-columns:              16;
 // Padding, to be divided by two and applied to the left and right of all columns
-$grid-gutter-width:         30px;
+$grid-gutter-width:         24px;
 // Point at which the navbar stops collapsing
 $grid-float-breakpoint:     $screen-sm-min;
 
@@ -279,9 +279,9 @@ $navbar-default-brand-hover-color:         darken($navbar-default-brand-color, 1
 $navbar-default-brand-hover-bg:            transparent;
 
 // Navbar toggle
-$navbar-default-toggle-hover-bg:           #ddd;
-$navbar-default-toggle-icon-bar-bg:        #ccc;
-$navbar-default-toggle-border-color:       #ddd;
+$navbar-default-toggle-hover-bg:           transparent;
+$navbar-default-toggle-icon-bar-bg:        transparent;
+$navbar-default-toggle-border-color:       transparent;
 
 
 // Inverted navbar

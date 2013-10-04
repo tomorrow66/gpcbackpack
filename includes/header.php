@@ -1,4 +1,15 @@
 <?php
+  # The name of your company, website etc.
+  $siteTitle = "GPC";
+
+function slug($pageTitle) {
+   $pageTitle = str_replace(" ", "-", $pageTitle); // Replaces all spaces with hyphens.
+   $pageTitle = preg_replace('/[`~!@#$%\^&*()+={}[\]\\\\|;:\'",.><?\/]/', '-', $pageTitle);
+   $pageTitle = strtolower($pageTitle);
+
+   return preg_replace('/-+/', '-', $pageTitle); // Replaces multiple hyphens with single one.
+}
+  
 // Gives you the current URL for the page
 // Can be used for facebook & twitter graphs
 function curPageURL()
@@ -29,11 +40,11 @@ function curPageURL()
     <meta name="twitter:url" content="<?php echo curPageURL();?>">
     <meta name="twitter:title" content="<?php echo "$siteTitle";?> &#8212; <?php echo "$pageTitle";?>">
     <meta name="twitter:description" content="<?php echo "$pageDesc";?>">
-    <meta name="twitter:image" content="http://yourdomain.com/img/meta/twitter.png">
+    <meta name="twitter:image" content="http://yourdomain.com/assets/img/meta/twitter.png">
   
     <!-- Facebook Open Graph -->
     <meta property="og:title" content="<?php echo "$siteTitle";?> &#8212; <?php echo "$pageTitle";?>"/>
-    <meta property="og:image" content="http://yourdomain.com/img/meta/facebook.png"/>
+    <meta property="og:image" content="http://yourdomain.com/assets/img/meta/facebook.png"/>
     <meta property="og:site_name" content="<?php echo "$pageTitle";?>"/>
     <meta property="og:description" content="<?php echo "$pageDesc";?>"/>
 
@@ -55,10 +66,10 @@ function curPageURL()
     <link rel="apple-touch-icon-precomposed"                 href="img/apple-touch/favicon-57.png">
   
     <!-- If this is a blog or something, use your Google+ profile -->
-    <link rel="author" href="https://plus.google.com/u/0/114624679580057221162/posts"/>
+    <link rel="author" href=""/>
   
     <!-- Google Font, does have fallbacks though -->
-    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
 
     <title><?php echo "$siteTitle";?> &#8212; <?php echo "$pageTitle";?></title>
 
@@ -68,7 +79,7 @@ function curPageURL()
 
   </head>
 
-  <body>
+  <body id="<?php echo slug($pageTitle);?>">
     <!-- Wrap all page content here -->
     <div id="wrap">
     <?php
