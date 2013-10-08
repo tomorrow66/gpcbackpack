@@ -36,32 +36,32 @@
         <div class="col-xs-4">
           <div class="icon-bg">
             <div class="Center-Container">
-            	<img src="assets/img/icons/academic_success2.svg" class="Absolute-Center is-Image" alt="">
-            	<div class="caption">Academic Success</div>
+            	<a href="/academic-success.php"><img src="assets/img/icons/academic_success2.svg" class="Absolute-Center is-Image" alt="">
+                <div class="caption">Academic Success</div></a>
             </div>
           </div>
         </div>
         <div class="col-xs-4">
           <div class="icon-bg">
             <div class="Center-Container">
-              <img src="assets/img/icons/campus_life2.svg" class="Absolute-Center is-Image" alt="">
-              <div class="caption">Campus Life</div>
+              <a href="/campus-life.php"><img src="assets/img/icons/campus_life2.svg" class="Absolute-Center is-Image" alt="">
+                <div class="caption">Campus Life</div></a>
             </div>
           </div>
          </div>
         <div class="col-xs-4">
           <div class="icon-bg">
             <div class="Center-Container">
-              <img src="assets/img/icons/gpc_college_online2.svg" class="Absolute-Center is-Image" alt="">
-              <div class="caption">GPC Online - Campus</div>
+              <a href="/gpc-online-college.php"><img src="assets/img/icons/gpc_college_online2.svg" class="Absolute-Center is-Image" alt="">
+                <div class="caption">GPC Online - Campus</div></a>
             </div>
           </div>
         </div>
         <div class="col-xs-4">
           <div class="icon-bg">
             <div class="Center-Container">
-              <img src="assets/img/icons/military_outreach2.svg" class="Absolute-Center is-Image" alt="">
-              <div class="caption">Military Outreach</div>
+              <a href="/military-outreach.php"><img src="assets/img/icons/military_outreach2.svg" class="Absolute-Center is-Image" alt="">
+                <div class="caption">Military Outreach</div></a>
             </div>
           </div>
         </div>
@@ -71,32 +71,32 @@
         <div class="col-xs-4">
           <div class="icon-bg">
             <div class="Center-Container">
-              <img src="assets/img/icons/paying_for_college2.svg" class="Absolute-Center is-Image" alt="">
-              <div class="caption">Paying for College</div>
+              <a href="/paying-for-college.php"><img src="assets/img/icons/paying_for_college2.svg" class="Absolute-Center is-Image" alt="">
+                <div class="caption">Paying for College</div></a>
             </div>
           </div>
         </div>
         <div class="col-xs-4">
           <div class="icon-bg">
             <div class="Center-Container">
-              <img src="assets/img/icons/safety_security2.svg" class="Absolute-Center is-Image" alt="">
-              <div class="caption">Safety & Security</div>
+              <a href="/safety-security.php"><img src="assets/img/icons/safety_security2.svg" class="Absolute-Center is-Image" alt="">
+                <div class="caption">Safety & Security</div></a>
             </div>
           </div>
          </div>
         <div class="col-xs-4">
           <div class="icon-bg">
             <div class="Center-Container">
-              <img src="assets/img/icons/student_success2.svg" class="Absolute-Center is-Image" alt="">
-              <div class="caption">Student Success</div>
+              <a href="/student-success.php"><img src="assets/img/icons/student_success2.svg" class="Absolute-Center is-Image" alt="">
+                <div class="caption">Student Success</div></a>
             </div>
           </div>
         </div>
         <div class="col-xs-4">
           <div class="icon-bg">
             <div class="Center-Container">
-              <img src="assets/img/icons/tech_help2.svg" class="Absolute-Center is-Image" alt="">
-              <div class="caption">Technology Tips</div>
+              <a href="/tech-tips.php"><img src="assets/img/icons/tech_help2.svg" class="Absolute-Center is-Image" alt="">
+                <div class="caption">Technology Tips</div></a>
             </div>
           </div>
         </div>

@@ -16,7 +16,7 @@
   <div id="homeCarousel" class="carousel slide">
     <div class="carousel-inner">
       <div class="item active">
-        <img src="assets/img/slider/header_image2b.jpg" alt="First slide">
+        <img src="assets/img/slider/bannerimage.png" alt="First slide">
         <div class="container">
           <div class="carousel-caption">
             <h3>Welcome!</h3>

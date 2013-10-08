@@ -11,6 +11,24 @@
 	include("includes/header.php"); 
 ?>
 
+  <!-- Carousel
+  ================================================== -->
+  <div id="homeCarousel" class="carousel slide">
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="assets/img/slider/bannerimage.png" alt="First slide">
+        <div class="container">
+          <div class="carousel-caption">
+            <h3>Welcome!</h3>
+            <p><span>Use the backpack site below to guide you to online and on campus resources.</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+  </div><!-- /.carousel -->
+  
   <div class="icon-section-full">
     <div class="container">
       <!-- Example row of columns -->
