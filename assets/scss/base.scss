@@ -21,9 +21,11 @@
   }
   
   .navbar-nav {
-    width: 75%;
-    @media (min-width: $screen-md) {
-      width: 80%;
+    width: 100%;
+    background: #900627;
+    float: right;
+    @media (min-width: $screen-sm) {
+      width: 75%;
     }
     
     li {
@@ -64,15 +66,24 @@ body {
   height: auto !important;
   height: 100%;
   /* Negative indent footer by its height */
-  margin: 0 auto -60px;
+  margin: 0 auto -135px;
   /* Pad bottom by footer height */
-  padding: 0 0 60px;
+  padding: 0 0 135px;
+
+  @media (min-width: $grid-float-breakpoint) {
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+  }
 }
 
 /* Set the fixed height of the footer here */
 #footer {
-  height: 60px;
+  height: 135px;
   background-color: $brand-primary;
+
+  @media (min-width: $grid-float-breakpoint) {
+    height: 60px;
+  }
 
   .credit {
     text-align: center;
@@ -219,18 +230,17 @@ code {
     @media (min-width: $grid-float-breakpoint) {
       background: #333;
       padding: ($line-height-computed * 3) 0;
-      margin-bottom: ($line-height-computed * 3);
     }
   }
 }
 .icon-section-full {
   background: url("/assets/img/icons/icon_pattern.png");
-  padding: ($line-height-computed * 5) 0 60px;
+  padding: $line-height-computed 0 60px;
   padding-bottom: 0;
 	@include clearfix();
   @media (min-width: $grid-float-breakpoint) {
-    background: #333;
-    padding: ($line-height-computed * 8) 0 60px;
+    background: #252525;
+    padding: ($line-height-computed * 3) 0 60px;
   }
   .bkpk-icons {
     margin-bottom: 20px;
@@ -303,6 +313,9 @@ code {
 
 /* Section area styles
 -------------------------------------------------- */
+section.main #content {
+  background: #e0e4cd;
+}
 .section-header {
   color: #fff;
   background: #9c9e8e;
@@ -311,7 +324,7 @@ code {
     background: #b70c32;
     padding: 10px;
     border-bottom-color: #8fa68e;
-    border-bottom-width: 5px;
+    border-bottom-width: 10px;
     border-bottom-style: solid;
     @include clearfix(); 
 
@@ -328,4 +341,8 @@ code {
   }
 
 }
-
+/* Panel Group styles
+-------------------------------------------------- */
+.panel-group {
+  margin: 20px 0;
+}

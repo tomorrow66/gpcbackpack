@@ -94,7 +94,7 @@
       </div>
     </div>
     <!-- Example row of columns -->
-    <div class="container">
+    <div id="content" class="container">
       <div class="content">
         <p class="lead">Welcome to the Georgia Perimeter College backpack site! </p>
         <p>Et whatever pariatur bespoke est. Truffaut pickled fanny pack placeat mlkshk. Wolf elit roof party shabby chic literally, disrupt art party chia enim. Wes Anderson direct trade dolor pug aliqua meh. Commodo pug seitan nulla, authentic XOXO fap vinyl. Delectus wolf bespoke aute, reprehenderit culpa hashtag et four loko bicycle rights veniam shabby chic hoodie sustainable mustache. Quinoa est Brooklyn fingerstache Banksy.</p>

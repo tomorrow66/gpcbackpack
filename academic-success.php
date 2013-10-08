@@ -11,6 +11,24 @@
 	include("includes/header.php"); 
 ?>
 
+  <!-- Carousel
+  ================================================== -->
+  <div id="homeCarousel" class="carousel slide">
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="assets/img/slider/header_image2b.jpg" alt="First slide">
+        <div class="container">
+          <div class="carousel-caption">
+            <h3>Welcome!</h3>
+            <p><span>Use the backpack site below to guide you to online and on campus resources.</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+  </div><!-- /.carousel -->
+
   <div class="icon-section-full">
     <div class="container">
       <!-- Example row of columns -->
@@ -94,7 +112,7 @@
       </div>
     </div>
     <!-- Example row of columns -->
-    <div class="container">
+    <div id="content" class="container">
       <div class="content">
         <p class="lead">Welcome to the Georgia Perimeter College backpack site! </p>
         <p>Et whatever pariatur bespoke est. Truffaut pickled fanny pack placeat mlkshk. Wolf elit roof party shabby chic literally, disrupt art party chia enim. Wes Anderson direct trade dolor pug aliqua meh. Commodo pug seitan nulla, authentic XOXO fap vinyl. Delectus wolf bespoke aute, reprehenderit culpa hashtag et four loko bicycle rights veniam shabby chic hoodie sustainable mustache. Quinoa est Brooklyn fingerstache Banksy.</p>
