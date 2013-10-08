@@ -7769,6 +7769,8 @@ code {
   background: url("/assets/img/icons/icon_pattern.png");
   padding: 100px 0 60px;
   padding-bottom: 0;
+  overflow: hidden;
+  *zoom: 1;
 }
 @media (min-width: 768px) {
   /* line 226, ../scss/base.scss */
@@ -7777,23 +7779,23 @@ code {
     padding: 160px 0 60px;
   }
 }
-/* line 234, ../scss/base.scss */
+/* line 235, ../scss/base.scss */
 .icon-section-full .bkpk-icons {
   margin-bottom: 20px;
 }
 
-/* line 238, ../scss/base.scss */
+/* line 239, ../scss/base.scss */
 .icon-section-full .icons.row:last-of-type {
   margin-top: 20px;
 }
 
-/* line 242, ../scss/base.scss */
+/* line 243, ../scss/base.scss */
 .icons.row .col-xs-3 {
   padding-left: 0;
   padding-right: 0;
 }
 @media (min-width: 768px) {
-  /* line 242, ../scss/base.scss */
+  /* line 243, ../scss/base.scss */
   .icons.row .col-xs-3 {
     padding-left: 15px;
     padding-right: 15px;
@@ -7801,7 +7803,7 @@ code {
 }
 
 @media (min-width: 768px) {
-  /* line 252, ../scss/base.scss */
+  /* line 253, ../scss/base.scss */
   .icon-bg {
     background: url("/assets/img/icons/icon_pattern.png");
     border-radius: 8px;
@@ -7814,7 +7816,7 @@ code {
   }
 }
 
-/* line 265, ../scss/base.scss */
+/* line 266, ../scss/base.scss */
 .Absolute-Center {
   width: 50%;
   height: 50%;
@@ -7827,32 +7829,32 @@ code {
   right: 0;
 }
 
-/* line 277, ../scss/base.scss */
+/* line 278, ../scss/base.scss */
 .Center-Container {
   height: 140px;
 }
 
-/* line 283, ../scss/base.scss */
+/* line 284, ../scss/base.scss */
 .Absolute-Center.is-Image {
   width: 100%;
   height: 50%;
   padding: 10px;
 }
 @media (min-width: 768px) {
-  /* line 283, ../scss/base.scss */
+  /* line 284, ../scss/base.scss */
   .Absolute-Center.is-Image {
     width: 50%;
     padding: 0;
   }
 }
 
-/* line 292, ../scss/base.scss */
+/* line 293, ../scss/base.scss */
 .Absolute-Center.is-Image img {
   width: 100%;
   height: auto;
 }
 
-/* line 297, ../scss/base.scss */
+/* line 298, ../scss/base.scss */
 .caption {
   color: #eee;
   font-size: 13px;
@@ -7861,9 +7863,8 @@ code {
 
 /* Section area styles
 -------------------------------------------------- */
-/* line 305, ../scss/base.scss */
+/* line 306, ../scss/base.scss */
 .section-header {
-  margin-top: -60px;
   color: #fff;
   background: #9c9e8e;
 }
