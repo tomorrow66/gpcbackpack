@@ -4,7 +4,7 @@
 	# Website description
 	$pageDesc  = "Georgia Perimeter College";
 	# Page title eg. homepage, blog etc.
-	$pageTitle = "Student Success";
+	$pageTitle = "Personal Success";
 	$sectionHeader = "Utilizing the services and support available to you.";
 	$sectionSubHeader = "";
 	# Include header

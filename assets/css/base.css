@@ -7796,32 +7796,34 @@ code {
 /* line 245, ../scss/base.scss */
 .icon-section-full .bkpk-icons {
   margin-bottom: 20px;
+  padding-left: 2px;
+  padding-right: 2px;
 }
 
-/* line 249, ../scss/base.scss */
+/* line 251, ../scss/base.scss */
 .icon-section-full .icons.row:last-of-type {
   margin-top: 20px;
 }
 
-/* line 253, ../scss/base.scss */
+/* line 255, ../scss/base.scss */
 .icons.row .col-xs-3 {
   padding-left: 0;
   padding-right: 0;
 }
 @media (min-width: 768px) {
-  /* line 253, ../scss/base.scss */
+  /* line 255, ../scss/base.scss */
   .icons.row .col-xs-3 {
     padding-left: 15px;
     padding-right: 15px;
   }
 }
 
-/* line 263, ../scss/base.scss */
+/* line 265, ../scss/base.scss */
 .icon-bg {
   padding-bottom: 100%;
 }
 @media (min-width: 768px) {
-  /* line 263, ../scss/base.scss */
+  /* line 265, ../scss/base.scss */
   .icon-bg {
     background: url("/assets/img/icons/icon_pattern.png");
     border-radius: 8px;
@@ -7833,7 +7835,7 @@ code {
   }
 }
 
-/* line 277, ../scss/base.scss */
+/* line 279, ../scss/base.scss */
 .Absolute-Center {
   width: 50%;
   height: 50%;
@@ -7846,27 +7848,27 @@ code {
   right: 0;
 }
 
-/* line 295, ../scss/base.scss */
+/* line 297, ../scss/base.scss */
 .Absolute-Center.is-Image {
   width: 100%;
   height: auto;
   padding: 10px;
 }
 @media (min-width: 768px) {
-  /* line 295, ../scss/base.scss */
+  /* line 297, ../scss/base.scss */
   .Absolute-Center.is-Image {
     width: 100%;
     padding: 0;
   }
 }
 
-/* line 304, ../scss/base.scss */
+/* line 306, ../scss/base.scss */
 .Absolute-Center.is-Image img {
   width: 100%;
   height: auto;
 }
 
-/* line 309, ../scss/base.scss */
+/* line 311, ../scss/base.scss */
 .caption {
   color: #eee;
   font-size: 13px;
@@ -7875,17 +7877,17 @@ code {
 
 /* Section area styles
 -------------------------------------------------- */
-/* line 317, ../scss/base.scss */
+/* line 319, ../scss/base.scss */
 section.main #content {
   background: #e0e4cd;
 }
 
-/* line 320, ../scss/base.scss */
+/* line 322, ../scss/base.scss */
 .section-header {
   color: #fff;
   background: #9c9e8e;
 }
-/* line 324, ../scss/base.scss */
+/* line 326, ../scss/base.scss */
 .section-header .container {
   background: #b70c32;
   padding: 10px;
@@ -7895,14 +7897,14 @@ section.main #content {
   overflow: hidden;
   *zoom: 1;
 }
-/* line 332, ../scss/base.scss */
+/* line 334, ../scss/base.scss */
 .section-header .container strong.title {
   font-weight: bold;
   font-size: 28px;
   float: left;
   margin-right: 20px;
 }
-/* line 338, ../scss/base.scss */
+/* line 340, ../scss/base.scss */
 .section-header .container .subtitle {
   float: left;
   margin-top: 13px;
@@ -7910,7 +7912,7 @@ section.main #content {
 
 /* Panel Group styles
 -------------------------------------------------- */
-/* line 348, ../scss/base.scss */
+/* line 350, ../scss/base.scss */
 .panel-group {
   margin: 20px 0;
 }
@@ -7918,7 +7920,7 @@ section.main #content {
 /* Test styles
 -------------------------------------------------- */
 /* Calculate fluid ratio based on two dimensions (width/height) */
-/* line 372, ../scss/base.scss */
+/* line 374, ../scss/base.scss */
 figure.fluidratio {
   /* This element will have fluid ratio from 4:1 at 800px to 2:1 at 300px. */
   padding-top: 15.625%;
@@ -7933,20 +7935,20 @@ figure.fluidratio {
   position: relative;
 }
 @media (min-width: 768px) {
-  /* line 372, ../scss/base.scss */
+  /* line 374, ../scss/base.scss */
   figure.fluidratio {
     margin-top: 156px;
   }
 }
 @media (min-width: 992px) {
-  /* line 372, ../scss/base.scss */
+  /* line 374, ../scss/base.scss */
   figure.fluidratio {
     margin-top: 106px;
   }
 }
 
 /* Since positioning the image, we need to help out the caption */
-/* line 387, ../scss/base.scss */
+/* line 389, ../scss/base.scss */
 figcaption {
   z-index: 10;
   top: 12%;
@@ -7956,39 +7958,39 @@ figcaption {
   position: absolute;
 }
 @media (min-width: 768px) {
-  /* line 387, ../scss/base.scss */
+  /* line 389, ../scss/base.scss */
   figcaption {
     top: 0%;
   }
 }
 @media (min-width: 992px) {
-  /* line 387, ../scss/base.scss */
+  /* line 389, ../scss/base.scss */
   figcaption {
     top: 20%;
   }
 }
-/* line 403, ../scss/base.scss */
+/* line 405, ../scss/base.scss */
 figcaption .headline {
   color: #ffc626;
   font-size: 18px;
 }
 @media (min-width: 768px) {
-  /* line 403, ../scss/base.scss */
+  /* line 405, ../scss/base.scss */
   figcaption .headline {
     font-size: 36px;
   }
 }
-/* line 410, ../scss/base.scss */
+/* line 412, ../scss/base.scss */
 figcaption p {
   color: #FFF;
 }
 @media (min-width: 768px) {
-  /* line 410, ../scss/base.scss */
+  /* line 412, ../scss/base.scss */
   figcaption p {
     font-size: 18px;
   }
 }
-/* line 416, ../scss/base.scss */
+/* line 418, ../scss/base.scss */
 figcaption .headline, figcaption p span {
   display: inline;
   line-height: 2.2;
