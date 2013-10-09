@@ -10,10 +10,19 @@
 	# Include header
 	include("includes/header.php"); 
 ?>
+
+  <figure class="fluidratio">
+    <figcaption>
+      <strong class="headline">Welcome!</strong>
+      <p>
+        <span>Use the backpack site below to guide you to online and on campus resources.</span>
+      </p>
+    </figcaption>
+  </figure>
   
   <!-- Carousel
   ================================================== -->
-  <div id="homeCarousel" class="carousel slide">
+  <!-- <div id="homeCarousel" class="carousel slide">
     <div class="carousel-inner">
       <div class="item active">
         <img src="assets/img/slider/bannerimage.png" alt="First slide">
@@ -27,7 +36,7 @@
     </div>
     <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
     <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
-  </div><!-- /.carousel -->
+  </div> --><!-- /.carousel -->
 
   <div class="icon-section-full">
     <div class="container">
@@ -36,32 +45,28 @@
         <div class="col-xs-4">
           <div class="icon-bg">
             <div class="Center-Container">
-            	<a href="/academic-success.php"><img src="assets/img/icons/academic_success2.svg" class="Absolute-Center is-Image" alt="">
-                <div class="caption">Academic Success</div></a>
+            	<a href="/academic-success.php"><img src="assets/img/new_icons/academic_success.png" class="Absolute-Center is-Image" alt=""></a>
             </div>
           </div>
         </div>
         <div class="col-xs-4">
           <div class="icon-bg">
             <div class="Center-Container">
-              <a href="/campus-life.php"><img src="assets/img/icons/campus_life2.svg" class="Absolute-Center is-Image" alt="">
-                <div class="caption">Campus Life</div></a>
+              <a href="/campus-life.php"><img src="assets/img/new_icons/campus_life.png" class="Absolute-Center is-Image" alt=""></a>
             </div>
           </div>
          </div>
         <div class="col-xs-4">
           <div class="icon-bg">
             <div class="Center-Container">
-              <a href="/gpc-online-college.php"><img src="assets/img/icons/gpc_college_online2.svg" class="Absolute-Center is-Image" alt="">
-                <div class="caption">GPC Online - Campus</div></a>
+              <a href="/gpc-online-college.php"><img src="assets/img/new_icons/icollege.png" class="Absolute-Center is-Image" alt=""></a>
             </div>
           </div>
         </div>
         <div class="col-xs-4">
           <div class="icon-bg">
             <div class="Center-Container">
-              <a href="/military-outreach.php"><img src="assets/img/icons/military_outreach2.svg" class="Absolute-Center is-Image" alt="">
-                <div class="caption">Military Outreach</div></a>
+              <a href="/military-outreach.php"><img src="assets/img/new_icons/military_outreach.png" class="Absolute-Center is-Image" alt=""></a>
             </div>
           </div>
         </div>
@@ -71,32 +76,28 @@
         <div class="col-xs-4">
           <div class="icon-bg">
             <div class="Center-Container">
-              <a href="/paying-for-college.php"><img src="assets/img/icons/paying_for_college2.svg" class="Absolute-Center is-Image" alt="">
-                <div class="caption">Paying for College</div></a>
+              <a href="/paying-for-college.php"><img src="assets/img/new_icons/paying_for_college.png" class="Absolute-Center is-Image" alt=""></a>
             </div>
           </div>
         </div>
         <div class="col-xs-4">
           <div class="icon-bg">
             <div class="Center-Container">
-              <a href="/safety-security.php"><img src="assets/img/icons/safety_security2.svg" class="Absolute-Center is-Image" alt="">
-                <div class="caption">Safety & Security</div></a>
+              <a href="/safety-security.php"><img src="assets/img/new_icons/safety_security.png" class="Absolute-Center is-Image" alt=""></a>
             </div>
           </div>
          </div>
         <div class="col-xs-4">
           <div class="icon-bg">
             <div class="Center-Container">
-              <a href="/student-success.php"><img src="assets/img/icons/student_success2.svg" class="Absolute-Center is-Image" alt="">
-                <div class="caption">Student Success</div></a>
+              <a href="/student-success.php"><img src="assets/img/new_icons/personal_success.png" class="Absolute-Center is-Image" alt=""></a>
             </div>
           </div>
         </div>
         <div class="col-xs-4">
           <div class="icon-bg">
             <div class="Center-Container">
-              <a href="/tech-tips.php"><img src="assets/img/icons/tech_help2.svg" class="Absolute-Center is-Image" alt="">
-                <div class="caption">Technology Tips</div></a>
+              <a href="/tech-tips.php"><img src="assets/img/new_icons/tech_tips.png" class="Absolute-Center is-Image" alt=""></a>
             </div>
           </div>
         </div>

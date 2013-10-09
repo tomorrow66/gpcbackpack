@@ -7768,7 +7768,7 @@ code {
 #home .icon-section-full {
   background: url("/assets/img/icons/icon_pattern.png");
   padding: 40px 0;
-  padding-bottom: 60px;
+  padding-bottom: 0;
 }
 @media (min-width: 768px) {
   /* line 226, ../scss/base.scss */
@@ -7816,13 +7816,16 @@ code {
   }
 }
 
+/* line 263, ../scss/base.scss */
+.icon-bg {
+  padding-bottom: 100%;
+}
 @media (min-width: 768px) {
   /* line 263, ../scss/base.scss */
   .icon-bg {
     background: url("/assets/img/icons/icon_pattern.png");
     border-radius: 8px;
-    padding: 10px;
-    min-height: 140px;
+    padding: 10px 0 50%;
     position: relative;
     -moz-box-shadow: inset 1px -1px 1px 1px #000000;
     -webkit-box-shadow: inset 1px -1px 1px 1px #000000;
@@ -7830,7 +7833,7 @@ code {
   }
 }
 
-/* line 276, ../scss/base.scss */
+/* line 277, ../scss/base.scss */
 .Absolute-Center {
   width: 50%;
   height: 50%;
@@ -7843,32 +7846,27 @@ code {
   right: 0;
 }
 
-/* line 288, ../scss/base.scss */
-.Center-Container {
-  height: 140px;
-}
-
-/* line 294, ../scss/base.scss */
+/* line 295, ../scss/base.scss */
 .Absolute-Center.is-Image {
   width: 100%;
-  height: 50%;
+  height: auto;
   padding: 10px;
 }
 @media (min-width: 768px) {
-  /* line 294, ../scss/base.scss */
+  /* line 295, ../scss/base.scss */
   .Absolute-Center.is-Image {
-    width: 50%;
+    width: 100%;
     padding: 0;
   }
 }
 
-/* line 303, ../scss/base.scss */
+/* line 304, ../scss/base.scss */
 .Absolute-Center.is-Image img {
   width: 100%;
   height: auto;
 }
 
-/* line 308, ../scss/base.scss */
+/* line 309, ../scss/base.scss */
 .caption {
   color: #eee;
   font-size: 13px;
@@ -7877,17 +7875,17 @@ code {
 
 /* Section area styles
 -------------------------------------------------- */
-/* line 316, ../scss/base.scss */
+/* line 317, ../scss/base.scss */
 section.main #content {
   background: #e0e4cd;
 }
 
-/* line 319, ../scss/base.scss */
+/* line 320, ../scss/base.scss */
 .section-header {
   color: #fff;
   background: #9c9e8e;
 }
-/* line 323, ../scss/base.scss */
+/* line 324, ../scss/base.scss */
 .section-header .container {
   background: #b70c32;
   padding: 10px;
@@ -7897,14 +7895,14 @@ section.main #content {
   overflow: hidden;
   *zoom: 1;
 }
-/* line 331, ../scss/base.scss */
+/* line 332, ../scss/base.scss */
 .section-header .container strong.title {
   font-weight: bold;
   font-size: 28px;
   float: left;
   margin-right: 20px;
 }
-/* line 337, ../scss/base.scss */
+/* line 338, ../scss/base.scss */
 .section-header .container .subtitle {
   float: left;
   margin-top: 13px;
@@ -7912,7 +7910,96 @@ section.main #content {
 
 /* Panel Group styles
 -------------------------------------------------- */
-/* line 346, ../scss/base.scss */
+/* line 348, ../scss/base.scss */
 .panel-group {
   margin: 20px 0;
+}
+
+/* Test styles
+-------------------------------------------------- */
+/* Calculate fluid ratio based on two dimensions (width/height) */
+/* line 372, ../scss/base.scss */
+figure.fluidratio {
+  /* This element will have fluid ratio from 4:1 at 800px to 2:1 at 300px. */
+  padding-top: 15.625%;
+  height: 162.5px;
+  background-size: cover;
+  -moz-background-size: cover;
+  /* Firefox 3.6 */
+  background-position: center;
+  /* Internet Explorer 7/8 */
+  background-image: url(/assets/img/slider/bannerimage.png);
+  margin-top: 97px;
+  position: relative;
+}
+@media (min-width: 768px) {
+  /* line 372, ../scss/base.scss */
+  figure.fluidratio {
+    margin-top: 156px;
+  }
+}
+@media (min-width: 992px) {
+  /* line 372, ../scss/base.scss */
+  figure.fluidratio {
+    margin-top: 106px;
+  }
+}
+
+/* Since positioning the image, we need to help out the caption */
+/* line 387, ../scss/base.scss */
+figcaption {
+  z-index: 10;
+  top: 12%;
+  left: 10%;
+  right: 10%;
+  text-align: left;
+  position: absolute;
+}
+@media (min-width: 768px) {
+  /* line 387, ../scss/base.scss */
+  figcaption {
+    top: 0%;
+  }
+}
+@media (min-width: 992px) {
+  /* line 387, ../scss/base.scss */
+  figcaption {
+    top: 20%;
+  }
+}
+/* line 403, ../scss/base.scss */
+figcaption .headline {
+  color: #ffc626;
+  font-size: 18px;
+}
+@media (min-width: 768px) {
+  /* line 403, ../scss/base.scss */
+  figcaption .headline {
+    font-size: 36px;
+  }
+}
+/* line 410, ../scss/base.scss */
+figcaption p {
+  color: #FFF;
+}
+@media (min-width: 768px) {
+  /* line 410, ../scss/base.scss */
+  figcaption p {
+    font-size: 18px;
+  }
+}
+/* line 416, ../scss/base.scss */
+figcaption .headline, figcaption p span {
+  display: inline;
+  line-height: 2.2;
+  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0.7);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='black',endColorstr='black');
+  zoom: 1;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.7) 10px 0 0, rgba(0, 0, 0, 0.7) -10px 0 0;
+  -moz-box-shadow: rgba(0, 0, 0, 0.7) 10px 0 0, rgba(0, 0, 0, 0.7) -10px 0 0;
+  box-shadow: rgba(0, 0, 0, 0.7) 10px 0 0, rgba(0, 0, 0, 0.7) -10px 0 0;
+  padding: 5px;
+  margin: 5px 0;
+  clear: both;
 }
