@@ -13,15 +13,15 @@
     </div>
     <div class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="/">Home</a></li>
-        <li><a href="/academic-success.php">Academic Success</a></li>
-        <li><a href="/campus-life.php">Campus-Life</a></li>
-        <li><a href="/gpc-online-college.php">GPC Online College</a></li>
-        <li><a href="/military-outreach.php">Military Outreach</a></li>
-        <li><a href="/safety-security.php">Safety & Security</a></li>
-        <li><a href="/student-success.php">Student Success</a></li>
-        <li><a href="/tech-tips.php">Technology Tips</a></li>
-        <li><a href="/paying-for-college.php">Paying for College</a></li>
+        <li class="<?php echo ($_SERVER['PHP_SELF'] == '/index.php' ? ' active' : '');?>"><a href="/">Home</a></li>
+        <li class="<?php echo ($_SERVER['PHP_SELF'] == '/academic-success.php' ? ' active' : '');?>"><a href="/academic-success.php">Academic Success</a></li>
+        <li class="<?php echo ($_SERVER['PHP_SELF'] == '/campus-life.php' ? ' active' : '');?>"><a href="/campus-life.php">Campus-Life</a></li>
+        <li class="<?php echo ($_SERVER['PHP_SELF'] == '/gpc-online-college.php' ? ' active' : '');?>"><a href="/gpc-online-college.php">GPC Online College</a></li>
+        <li class="<?php echo ($_SERVER['PHP_SELF'] == '/military-outreach.php' ? ' active' : '');?>"><a href="/military-outreach.php">Military Outreach</a></li>
+        <li class="<?php echo ($_SERVER['PHP_SELF'] == '/safety-security.php' ? ' active' : '');?>"><a href="/safety-security.php">Safety & Security</a></li>
+        <li class="<?php echo ($_SERVER['PHP_SELF'] == '/student-success.php' ? ' active' : '');?>"><a href="/student-success.php">Student Success</a></li>
+        <li class="<?php echo ($_SERVER['PHP_SELF'] == '/tech-tips.php' ? ' active' : '');?>"><a href="/tech-tips.php">Technology Tips</a></li>
+        <li class="<?php echo ($_SERVER['PHP_SELF'] == '/paying-for-college.php' ? ' active' : '');?>"><a href="/paying-for-college.php">Paying for College</a></li>
       </ul>
     </div><!--/.nav-collapse -->
   </div>
