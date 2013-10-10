@@ -59,14 +59,14 @@
         <div class="col-xs-4">
           <div class="icon-bg">
             <div class="Center-Container">
-              <a href="/gpc-online-college.php"><img src="assets/img/new_icons/icollege.png" class="Absolute-Center is-Image" alt=""></a>
+              <a href="/gpc-online-college.php"><img src="assets/img/new_icons/icollege_2.png" class="Absolute-Center is-Image" alt=""></a>
             </div>
           </div>
         </div>
         <div class="col-xs-4">
           <div class="icon-bg">
             <div class="Center-Container">
-              <a href="/military-outreach.php"><img src="assets/img/new_icons/military_outreach.png" class="Absolute-Center is-Image" alt=""></a>
+              <a href="/military-outreach.php"><img src="assets/img/new_icons/military_outreach_2.png" class="Absolute-Center is-Image" alt=""></a>
             </div>
           </div>
         </div>
@@ -90,7 +90,7 @@
         <div class="col-xs-4">
           <div class="icon-bg">
             <div class="Center-Container">
-              <a href="/student-success.php"><img src="assets/img/new_icons/personal_success.png" class="Absolute-Center is-Image" alt=""></a>
+              <a href="/student-success.php"><img src="assets/img/new_icons/personal_success_2.png" class="Absolute-Center is-Image" alt=""></a>
             </div>
           </div>
         </div>

@@ -56,14 +56,14 @@
         <div class="col-xs-4 col-md-2 bkpk-icons">
           <div class="icon-bg">
             <div class="Center-Container">
-              <a href="/gpc-online-college.php"><img src="assets/img/new_icons/icollege.png" class="Absolute-Center is-Image" alt=""></a>
+              <a href="/gpc-online-college.php"><img src="assets/img/new_icons/icollege_2.png" class="Absolute-Center is-Image" alt=""></a>
             </div>
           </div>
         </div>
         <div class="col-xs-4 col-md-2 bkpk-icons">
           <div class="icon-bg">
             <div class="Center-Container">
-              <a href="/military-outreach.php"><img src="assets/img/new_icons/military_outreach.png" class="Absolute-Center is-Image" alt=""></a>
+              <a href="/military-outreach.php"><img src="assets/img/new_icons/military_outreach_2.png" class="Absolute-Center is-Image" alt=""></a>
             </div>
           </div>
         </div>
@@ -84,7 +84,7 @@
         <div class="col-xs-4 col-md-2 bkpk-icons">
           <div class="icon-bg">
             <div class="Center-Container">
-              <a href="/student-success.php"><img src="assets/img/new_icons/personal_success.png" class="Absolute-Center is-Image" alt=""></a>
+              <a href="/student-success.php"><img src="assets/img/new_icons/personal_success_2.png" class="Absolute-Center is-Image" alt=""></a>
             </div>
           </div>
         </div>
@@ -112,10 +112,108 @@
     <!-- Example row of columns -->
     <div id="content" class="container">
       <div class="content">
-        <p class="lead">Welcome to the Georgia Perimeter College backpack site! </p>
-        <p>Et whatever pariatur bespoke est. Truffaut pickled fanny pack placeat mlkshk. Wolf elit roof party shabby chic literally, disrupt art party chia enim. Wes Anderson direct trade dolor pug aliqua meh. Commodo pug seitan nulla, authentic XOXO fap vinyl. Delectus wolf bespoke aute, reprehenderit culpa hashtag et four loko bicycle rights veniam shabby chic hoodie sustainable mustache. Quinoa est Brooklyn fingerstache Banksy.</p>
-        <p>Duis seitan cardigan, meh nisi aesthetic ad mumblecore wayfarers umami put a bird on it Shoreditch occaecat. Narwhal next level Intelligentsia, quis before they sold out Marfa sartorial polaroid. Nulla messenger bag XOXO skateboard, irure paleo Vice velit polaroid ea ut. 90's Bushwick letterpress, in Truffaut chia Williamsburg. Cray sriracha distillery occaecat, Wes Anderson flexitarian sartorial shabby chic Austin. PBR&B paleo eiusmod seitan sunt. Godard deserunt fashion axe synth sartorial do.</p>
-        <p>Godard deserunt fashion axe synth sartorial do.</p>
+        
+        <section class="panel panel-default">
+					<div class="panel-heading">
+						<h3 class="panel-title">Athletics</h3>
+					</div>
+					<div class="panel-body">
+						Home Page - <a href="http://depts.gpc.edu/~athletic/#.UiY4cJjD_IU">http://depts.gpc.edu/~athletic/#.UiY4cJjD_IU</a>
+					</div>
+				</section>
+      
+      	<section class="panel panel-default">
+					<div class="panel-heading">
+						<h3 class="panel-title">Campus Maps and Locations</h3>
+					</div>
+					<div class="panel-body">
+						Campus Maps and Locations - <a href="http://www.gpc.edu/Facilities_and_Services/campuses.php3">http://www.gpc.edu/Facilities_and_Services/campuses.php3</a>
+					</div>
+				</section>
+      
+      	<section class="panel panel-default">
+					<div class="panel-heading">
+						<h3 class="panel-title">Fine Arts</h3>
+					</div>
+					<div class="panel-body">
+						<!-- List group -->
+						<ul class="list-group">
+							<li class="list-group-item">
+								Home Page - <a href="http://depts.gpc.edu/~clafa/ 
+">http://depts.gpc.edu/~clafa/</a>
+							</li>
+							<li class="list-group-item">
+								Event Calendar - <a href=" http://www.gpc.edu/calendar/index.htm?type=11117-fine_arts"> http://www.gpc.edu/calendar/index.htm?type=11117-fine_arts</a>
+							</li>
+						</ul>
+					</div>
+				</section>
+      
+      	<section class="panel panel-default">
+					<div class="panel-heading">
+						<h3 class="panel-title">Health and Wellness</h3>
+					</div>
+					<div class="panel-body">
+						<!-- List group -->
+						<ul class="list-group">
+							<li class="list-group-item">
+								Home Page - <a href="http://depts.gpc.edu/~gpchwr/#.UiY6wZjD_IU">http://depts.gpc.edu/~gpchwr/#.UiY6wZjD_IU </a>
+							</li>
+							<li class="list-group-item">
+								Event Calendar - <a href="http://www.gpc.edu/calendar/index.htm?type=11117-fine_arts"> http://www.gpc.edu/calendar/index.htm?type=11117-fine_arts</a>
+							</li>
+              <li class="list-group-item">
+                Wellness Events by Campus - <a href="http://depts.gpc.edu/~gpchwr/events.html#.UiY7OZjD_IV">http://depts.gpc.edu/~gpchwr/events.html#.UiY7OZjD_IV</a>
+              </li>
+              <li class="list-group-item">
+                Facilities by Campus - <a href="http://depts.gpc.edu/~gpchwr/campusfacilitieshome.html#.UiY6-ZjD_IU">http://depts.gpc.edu/~gpchwr/campusfacilitieshome.html#.UiY6-ZjD_IU</a>
+              </li>
+              <li class="list-group-item">
+                <a href=""></a>
+              </li>
+						</ul>
+					</div>
+				</section>
+
+        <section class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">Student Affairs</h3>
+          </div>
+          <div class="panel-body">
+            <!-- List group -->
+            <ul class="list-group">
+              <li class="list-group-item">
+                Deans of Student Services - <a href="http://depts.gpc.edu/~gpcdeans/#.UiY4GZjD_IV">http://depts.gpc.edu/~gpcdeans/#.UiY4GZjD_IV</a>
+              </li>
+              <li class="list-group-item">
+                GPC Student Handbook - <a href="http://globaldatebooksonline.com/flipbooks/georgiapc2012/">http://globaldatebooksonline.com/flipbooks/georgiapc2012/</a>
+              </li>
+              <li class="list-group-item">
+                GPC Student Handbook - <a href="#">Download PDF</a>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">Student Life</h3>
+          </div>
+          <div class="panel-body">
+            <!-- List group -->
+            <ul class="list-group">
+              <li class="list-group-item">
+                Student Life Home Page - <a href="http://depts.gpc.edu/~gpcslife/index.html#.UiYy4JjD_IU">http://depts.gpc.edu/~gpcslife/index.html#.UiYy4JjD_IU</a>
+              </li>
+              <li class="list-group-item">
+                Campus Events Calendar - <a href="http://depts.gpc.edu/~gpcslife/campusevents.htm#.UiYzBpjD_IU">http://depts.gpc.edu/~gpcslife/campusevents.htm#.UiYzBpjD_IU</a>
+              </li>
+              <li class="list-group-item">
+                Student Club and Organization Listing - <a href="http://depts.gpc.edu/~gpcslife/studentclubs.html#.UiYyuJjD_IV">http://depts.gpc.edu/~gpcslife/studentclubs.html#.UiYyuJjD_IV</a>
+              </li>
+            </ul>
+          </div>
+        </section>
       
       </div>
     </div>
