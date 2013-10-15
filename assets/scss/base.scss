@@ -448,9 +448,12 @@ figcaption {
   }
   p {
     color: #FFF;
+    line-height: 2.6;
+    max-width: 450px;
     @media (min-width: $grid-float-breakpoint) {
       font-size: 18px;
-      max-width: 450px;
+      line-height: normal;
+      margin-top: -10px;
     }
   }
   .headline, p span {

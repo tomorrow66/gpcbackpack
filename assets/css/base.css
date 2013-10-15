@@ -8025,15 +8025,18 @@ figcaption .headline {
 /* line 449, ../scss/base.scss */
 figcaption p {
   color: #FFF;
+  line-height: 2.6;
+  max-width: 450px;
 }
 @media (min-width: 768px) {
   /* line 449, ../scss/base.scss */
   figcaption p {
     font-size: 18px;
-    max-width: 450px;
+    line-height: normal;
+    margin-top: -10px;
   }
 }
-/* line 456, ../scss/base.scss */
+/* line 459, ../scss/base.scss */
 figcaption .headline, figcaption p span {
   display: inline;
   line-height: 2.2;

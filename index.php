@@ -12,7 +12,7 @@
 ?>
 
   <figure class="fluidratio">
-    <figcaption>
+    <figcaption class="container">
       <strong class="headline">Welcome to your Digital Backpack</strong>
       <p>
         <span>Use the backpack site below to guide you to online and on campus resources.</span>
