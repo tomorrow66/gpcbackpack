@@ -8007,7 +8007,7 @@ figcaption {
 @media (min-width: 992px) {
   /* line 425, ../scss/base.scss */
   figcaption {
-    top: 20%;
+    top: 5%;
   }
 }
 /* line 441, ../scss/base.scss */
@@ -8030,9 +8030,10 @@ figcaption p {
   /* line 449, ../scss/base.scss */
   figcaption p {
     font-size: 18px;
+    max-width: 450px;
   }
 }
-/* line 455, ../scss/base.scss */
+/* line 456, ../scss/base.scss */
 figcaption .headline, figcaption p span {
   display: inline;
   line-height: 2.2;

@@ -435,7 +435,7 @@ figcaption {
   }
 
   @media (min-width: $screen-md) {
-    top: 20%;
+    top: 5%;
   }
   
   .headline {
@@ -450,6 +450,7 @@ figcaption {
     color: #FFF;
     @media (min-width: $grid-float-breakpoint) {
       font-size: 18px;
+      max-width: 450px;
     }
   }
   .headline, p span {
