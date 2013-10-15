@@ -7947,12 +7947,23 @@ section.main #content {
   margin: 20px 0;
 }
 
-/* line 380, ../scss/base.scss */
+/* line 379, ../scss/base.scss */
+.panel-body {
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+/* line 382, ../scss/base.scss */
 .panel-body a {
   color: #267CFD;
 }
 
-/* line 385, ../scss/base.scss */
+/* line 387, ../scss/base.scss */
+.list-group-item {
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+/* line 392, ../scss/base.scss */
 .panel-title {
   font-size: 16px;
   font-weight: 700;
@@ -7961,7 +7972,7 @@ section.main #content {
 /* Test styles
 -------------------------------------------------- */
 /* Calculate fluid ratio based on two dimensions (width/height) */
-/* line 410, ../scss/base.scss */
+/* line 417, ../scss/base.scss */
 figure.fluidratio {
   /* This element will have fluid ratio from 4:1 at 800px to 2:1 at 300px. */
   padding-top: 15.625%;
@@ -7976,20 +7987,20 @@ figure.fluidratio {
   position: relative;
 }
 @media (min-width: 768px) {
-  /* line 410, ../scss/base.scss */
+  /* line 417, ../scss/base.scss */
   figure.fluidratio {
     margin-top: 156px;
   }
 }
 @media (min-width: 992px) {
-  /* line 410, ../scss/base.scss */
+  /* line 417, ../scss/base.scss */
   figure.fluidratio {
     margin-top: 106px;
   }
 }
 
 /* Since positioning the image, we need to help out the caption */
-/* line 425, ../scss/base.scss */
+/* line 432, ../scss/base.scss */
 figcaption {
   z-index: 10;
   top: 12%;
@@ -7999,44 +8010,44 @@ figcaption {
   position: absolute;
 }
 @media (min-width: 768px) {
-  /* line 425, ../scss/base.scss */
+  /* line 432, ../scss/base.scss */
   figcaption {
     top: 0%;
   }
 }
 @media (min-width: 992px) {
-  /* line 425, ../scss/base.scss */
+  /* line 432, ../scss/base.scss */
   figcaption {
     top: 5%;
   }
 }
-/* line 441, ../scss/base.scss */
+/* line 448, ../scss/base.scss */
 figcaption .headline {
   font-family: 'Arvo', san-serif;
   color: #ffc626;
   font-size: 18px;
 }
 @media (min-width: 768px) {
-  /* line 441, ../scss/base.scss */
+  /* line 448, ../scss/base.scss */
   figcaption .headline {
     font-size: 36px;
   }
 }
-/* line 449, ../scss/base.scss */
+/* line 456, ../scss/base.scss */
 figcaption p {
   color: #FFF;
   line-height: 2.6;
   max-width: 450px;
 }
 @media (min-width: 768px) {
-  /* line 449, ../scss/base.scss */
+  /* line 456, ../scss/base.scss */
   figcaption p {
     font-size: 18px;
     line-height: normal;
     margin-top: -10px;
   }
 }
-/* line 459, ../scss/base.scss */
+/* line 466, ../scss/base.scss */
 figcaption .headline, figcaption p span {
   display: inline;
   line-height: 2.2;

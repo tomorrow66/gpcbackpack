@@ -377,9 +377,16 @@ section.main #content {
 }
 
 .panel-body {
+  text-overflow: ellipsis;
+  overflow: hidden;
   a {
     color: #267CFD;
   }
+}
+
+.list-group-item {
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 .panel-title {
