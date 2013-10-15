@@ -69,7 +69,7 @@ function curPageURL()
     <link rel="author" href=""/>
   
     <!-- Google Font, does have fallbacks though -->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700|Arvo:400,700' rel='stylesheet' type='text/css'>
 
     <title><?php echo "$siteTitle";?> &#8212; <?php echo "$pageTitle";?></title>
 

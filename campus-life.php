@@ -42,56 +42,56 @@
         <div class="col-xs-4 col-md-2 bkpk-icons">
           <div class="icon-bg">
             <div class="Center-Container">
-              <a href="/academic-success.php"><img src="assets/img/new_icons/academic_success.png" class="Absolute-Center is-Image" alt=""></a>
+              <a href="/academic-success.php"><img src="assets/img/new_icons_3/academic_success.png" class="Absolute-Center is-Image" alt=""></a>
             </div>
           </div>
         </div>
         <div class="col-xs-4 col-md-2 bkpk-icons">
           <div class="icon-bg">
             <div class="Center-Container">
-              <a href="/campus-life.php"><img src="assets/img/new_icons/campus_life.png" class="Absolute-Center is-Image" alt=""></a>
+              <a href="/campus-life.php"><img src="assets/img/new_icons_3/campus_life.png" class="Absolute-Center is-Image" alt=""></a>
             </div>
           </div>
          </div>
         <div class="col-xs-4 col-md-2 bkpk-icons">
           <div class="icon-bg">
             <div class="Center-Container">
-              <a href="/gpc-online-college.php"><img src="assets/img/new_icons/icollege_2.png" class="Absolute-Center is-Image" alt=""></a>
+              <a href="/gpc-online-college.php"><img src="assets/img/new_icons_3/icollege.png" class="Absolute-Center is-Image" alt=""></a>
             </div>
           </div>
         </div>
         <div class="col-xs-4 col-md-2 bkpk-icons">
           <div class="icon-bg">
             <div class="Center-Container">
-              <a href="/military-outreach.php"><img src="assets/img/new_icons/military_outreach_2.png" class="Absolute-Center is-Image" alt=""></a>
+              <a href="/military-outreach.php"><img src="assets/img/new_icons_3/military_outreach.png" class="Absolute-Center is-Image" alt=""></a>
             </div>
           </div>
         </div>
         <div class="col-xs-4 col-md-2 bkpk-icons">
           <div class="icon-bg">
             <div class="Center-Container">
-              <a href="/paying-for-college.php"><img src="assets/img/new_icons/paying_for_college.png" class="Absolute-Center is-Image" alt=""></a>
+              <a href="/paying-for-college.php"><img src="assets/img/new_icons_3/paying_for_college.png" class="Absolute-Center is-Image" alt=""></a>
             </div>
           </div>
         </div>
         <div class="col-xs-4 col-md-2 bkpk-icons">
           <div class="icon-bg">
             <div class="Center-Container">
-              <a href="/safety-security.php"><img src="assets/img/new_icons/safety_security.png" class="Absolute-Center is-Image" alt=""></a>
+              <a href="/safety-security.php"><img src="assets/img/new_icons_3/safety_security.png" class="Absolute-Center is-Image" alt=""></a>
             </div>
           </div>
          </div>
         <div class="col-xs-4 col-md-2 bkpk-icons">
           <div class="icon-bg">
             <div class="Center-Container">
-              <a href="/student-success.php"><img src="assets/img/new_icons/personal_success_2.png" class="Absolute-Center is-Image" alt=""></a>
+              <a href="/student-success.php"><img src="assets/img/new_icons_3/personal_success.png" class="Absolute-Center is-Image" alt=""></a>
             </div>
           </div>
         </div>
         <div class="col-xs-4 col-md-2 bkpk-icons">
           <div class="icon-bg">
             <div class="Center-Container">
-              <a href="/tech-tips.php"><img src="assets/img/new_icons/tech_tips.png" class="Absolute-Center is-Image" alt=""></a>
+              <a href="/tech-tips.php"><img src="assets/img/new_icons_3/technology_tips.png" class="Absolute-Center is-Image" alt=""></a>
             </div>
           </div>
         </div>
@@ -112,6 +112,10 @@
     <!-- Example row of columns -->
     <div id="content" class="container">
       <div class="content">
+
+        <div class="videoWrapper">
+          <iframe src="//player.vimeo.com/video/70726792" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/70726792">GPC Infomercial draft 2.1 for team review</a> from <a href="http://vimeo.com/user1162080">Rick Lockridge</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+        </div>
         
         <section class="panel panel-default">
 					<div class="panel-heading">
@@ -168,9 +172,6 @@
               <li class="list-group-item">
                 Facilities by Campus - <a href="http://depts.gpc.edu/~gpchwr/campusfacilitieshome.html#.UiY6-ZjD_IU">http://depts.gpc.edu/~gpchwr/campusfacilitieshome.html#.UiY6-ZjD_IU</a>
               </li>
-              <li class="list-group-item">
-                <a href=""></a>
-              </li>
 						</ul>
 					</div>
 				</section>
@@ -217,7 +218,7 @@
       
       </div>
     </div>
-
+	 
   </section>
 
 <?php

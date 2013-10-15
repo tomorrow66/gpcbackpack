@@ -7762,68 +7762,80 @@ code {
   width: 5%;
 }
 
-/* Homepage icon styles
+/* Homepage & Section icon styles
 -------------------------------------------------- */
 /* line 226, ../scss/base.scss */
 #home .icon-section-full {
   background: url("/assets/img/icons/icon_pattern.png");
-  padding: 40px 0;
+  padding: 0;
   padding-bottom: 0;
 }
 @media (min-width: 768px) {
   /* line 226, ../scss/base.scss */
   #home .icon-section-full {
     background: #252525;
-    padding: 60px 0;
+    padding: 30px 0;
+  }
+}
+@media (min-width: 768px) {
+  /* line 234, ../scss/base.scss */
+  #home .icon-section-full .icon-bg {
+    padding: 10px 0 50%;
   }
 }
 
-/* line 236, ../scss/base.scss */
+/* line 241, ../scss/base.scss */
 .icon-section-full {
   background: url("/assets/img/icons/icon_pattern.png");
-  padding: 20px 0 60px;
+  padding: 7px 0 5px;
   padding-bottom: 0;
   overflow: hidden;
   *zoom: 1;
 }
 @media (min-width: 768px) {
-  /* line 236, ../scss/base.scss */
+  /* line 241, ../scss/base.scss */
   .icon-section-full {
     background: #252525;
-    padding: 60px 0 60px;
+    padding: 7px 0 5px;
   }
 }
-/* line 245, ../scss/base.scss */
+/* line 250, ../scss/base.scss */
 .icon-section-full .bkpk-icons {
   margin-bottom: 20px;
   padding-left: 2px;
   padding-right: 2px;
 }
+@media (min-width: 768px) {
+  /* line 255, ../scss/base.scss */
+  .icon-section-full .icon-bg {
+    padding: 10px 0 80%;
+  }
+}
 
-/* line 251, ../scss/base.scss */
+/* line 261, ../scss/base.scss */
 .icon-section-full .icons.row:last-of-type {
   margin-top: 20px;
 }
 
-/* line 255, ../scss/base.scss */
+/* line 265, ../scss/base.scss */
 .icons.row .col-xs-3 {
   padding-left: 0;
   padding-right: 0;
 }
 @media (min-width: 768px) {
-  /* line 255, ../scss/base.scss */
+  /* line 265, ../scss/base.scss */
   .icons.row .col-xs-3 {
     padding-left: 15px;
     padding-right: 15px;
   }
 }
 
-/* line 265, ../scss/base.scss */
+/* line 275, ../scss/base.scss */
 .icon-bg {
   padding-bottom: 100%;
 }
 @media (min-width: 768px) {
-  /* line 265, ../scss/base.scss */
+  /* line 275, ../scss/base.scss */
   .icon-bg {
     background: url("/assets/img/icons/icon_pattern.png");
     border-radius: 8px;
@@ -7835,7 +7847,7 @@ code {
   }
 }
 
-/* line 279, ../scss/base.scss */
+/* line 289, ../scss/base.scss */
 .Absolute-Center {
   width: 50%;
   height: 50%;
@@ -7848,27 +7860,27 @@ code {
   right: 0;
 }
 
-/* line 297, ../scss/base.scss */
+/* line 307, ../scss/base.scss */
 .Absolute-Center.is-Image {
   width: 100%;
   height: auto;
   padding: 10px;
 }
 @media (min-width: 768px) {
-  /* line 297, ../scss/base.scss */
+  /* line 307, ../scss/base.scss */
   .Absolute-Center.is-Image {
     width: 100%;
-    padding: 0;
+    padding: 10px;
   }
 }
 
-/* line 306, ../scss/base.scss */
+/* line 316, ../scss/base.scss */
 .Absolute-Center.is-Image img {
   width: 100%;
   height: auto;
 }
 
-/* line 311, ../scss/base.scss */
+/* line 321, ../scss/base.scss */
 .caption {
   color: #eee;
   font-size: 13px;
@@ -7877,17 +7889,17 @@ code {
 
 /* Section area styles
 -------------------------------------------------- */
-/* line 319, ../scss/base.scss */
+/* line 329, ../scss/base.scss */
 section.main #content {
   background: #e0e4cd;
 }
 
-/* line 322, ../scss/base.scss */
+/* line 332, ../scss/base.scss */
 .section-header {
   color: #fff;
   background: #9c9e8e;
 }
-/* line 326, ../scss/base.scss */
+/* line 336, ../scss/base.scss */
 .section-header .container {
   background: #b70c32;
   padding: 10px;
@@ -7897,30 +7909,59 @@ section.main #content {
   overflow: hidden;
   *zoom: 1;
 }
-/* line 334, ../scss/base.scss */
+/* line 344, ../scss/base.scss */
 .section-header .container strong.title {
   font-weight: bold;
   font-size: 28px;
   float: left;
   margin-right: 20px;
 }
-/* line 340, ../scss/base.scss */
+/* line 350, ../scss/base.scss */
 .section-header .container .subtitle {
   float: left;
   margin-top: 13px;
 }
 
+/* line 357, ../scss/base.scss */
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+  margin-bottom: 20px;
+}
+/* line 364, ../scss/base.scss */
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 /* Panel Group styles
 -------------------------------------------------- */
-/* line 350, ../scss/base.scss */
+/* line 375, ../scss/base.scss */
 .panel-group {
   margin: 20px 0;
+}
+
+/* line 380, ../scss/base.scss */
+.panel-body a {
+  color: #267CFD;
+}
+
+/* line 385, ../scss/base.scss */
+.panel-title {
+  font-size: 16px;
+  font-weight: 700;
 }
 
 /* Test styles
 -------------------------------------------------- */
 /* Calculate fluid ratio based on two dimensions (width/height) */
-/* line 374, ../scss/base.scss */
+/* line 410, ../scss/base.scss */
 figure.fluidratio {
   /* This element will have fluid ratio from 4:1 at 800px to 2:1 at 300px. */
   padding-top: 15.625%;
@@ -7935,20 +7976,20 @@ figure.fluidratio {
   position: relative;
 }
 @media (min-width: 768px) {
-  /* line 374, ../scss/base.scss */
+  /* line 410, ../scss/base.scss */
   figure.fluidratio {
     margin-top: 156px;
   }
 }
 @media (min-width: 992px) {
-  /* line 374, ../scss/base.scss */
+  /* line 410, ../scss/base.scss */
   figure.fluidratio {
     margin-top: 106px;
   }
 }
 
 /* Since positioning the image, we need to help out the caption */
-/* line 389, ../scss/base.scss */
+/* line 425, ../scss/base.scss */
 figcaption {
   z-index: 10;
   top: 12%;
@@ -7958,39 +7999,40 @@ figcaption {
   position: absolute;
 }
 @media (min-width: 768px) {
-  /* line 389, ../scss/base.scss */
+  /* line 425, ../scss/base.scss */
   figcaption {
     top: 0%;
   }
 }
 @media (min-width: 992px) {
-  /* line 389, ../scss/base.scss */
+  /* line 425, ../scss/base.scss */
   figcaption {
     top: 20%;
   }
 }
-/* line 405, ../scss/base.scss */
+/* line 441, ../scss/base.scss */
 figcaption .headline {
+  font-family: 'Arvo', san-serif;
   color: #ffc626;
   font-size: 18px;
 }
 @media (min-width: 768px) {
-  /* line 405, ../scss/base.scss */
+  /* line 441, ../scss/base.scss */
   figcaption .headline {
     font-size: 36px;
   }
 }
-/* line 412, ../scss/base.scss */
+/* line 449, ../scss/base.scss */
 figcaption p {
   color: #FFF;
 }
 @media (min-width: 768px) {
-  /* line 412, ../scss/base.scss */
+  /* line 449, ../scss/base.scss */
   figcaption p {
     font-size: 18px;
   }
 }
-/* line 418, ../scss/base.scss */
+/* line 455, ../scss/base.scss */
 figcaption .headline, figcaption p span {
   display: inline;
   line-height: 2.2;
