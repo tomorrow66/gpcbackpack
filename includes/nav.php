@@ -19,7 +19,7 @@
         <li class="<?php echo ($_SERVER['PHP_SELF'] == '/gpc-online-college.php' ? ' active' : '');?>"><a href="/gpc-online-college.php">GPC Online College</a></li>
         <li class="<?php echo ($_SERVER['PHP_SELF'] == '/military-outreach.php' ? ' active' : '');?>"><a href="/military-outreach.php">Military Outreach</a></li>
         <li class="<?php echo ($_SERVER['PHP_SELF'] == '/safety-security.php' ? ' active' : '');?>"><a href="/safety-security.php">Safety & Security</a></li>
-        <li class="<?php echo ($_SERVER['PHP_SELF'] == '/student-success.php' ? ' active' : '');?>"><a href="/student-success.php">Student Success</a></li>
+        <li class="<?php echo ($_SERVER['PHP_SELF'] == '/student-success.php' ? ' active' : '');?>"><a href="/student-success.php">Personal Success</a></li>
         <li class="<?php echo ($_SERVER['PHP_SELF'] == '/tech-tips.php' ? ' active' : '');?>"><a href="/tech-tips.php">Technology Tips</a></li>
         <li class="<?php echo ($_SERVER['PHP_SELF'] == '/paying-for-college.php' ? ' active' : '');?>"><a href="/paying-for-college.php">Paying for College</a></li>
       </ul>
