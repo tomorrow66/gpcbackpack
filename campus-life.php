@@ -53,7 +53,7 @@
           <div class="icon-bg">
             <div class="Center-Container">
               <a href="/campus-life.php">
-                <img src="assets/img/new_icons_3/campus_life.png" class="Absolute-Center is-Image" alt="">
+                <img src="assets/img/new_icons_3/" class="Absolute-Center is-Image" alt="">
                  <h3 class="icon-title">Campus Life</h3>
               </a>
             </div>
