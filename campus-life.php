@@ -7,6 +7,7 @@
 	$pageTitle = "Campus Life";
 	$sectionHeader = "Engaging you inside and outside the classroom.";
 	$sectionSubHeader = "";
+  $vimeoID = "74936179";
 	# Include header
 	include("includes/header.php"); 
 ?>
@@ -138,7 +139,7 @@
       <div class="content">
 
         <div class="videoWrapper">
-          <iframe src="//player.vimeo.com/video/70726792" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/70726792">GPC Infomercial draft 2.1 for team review</a> from <a href="http://vimeo.com/user1162080">Rick Lockridge</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+          <iframe src="//player.vimeo.com/video/<?php echo "$vimeoID";?>" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/70726792">GPC Infomercial draft 2.1 for team review</a> from <a href="http://vimeo.com/user1162080">Rick Lockridge</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
         </div>
         
         <section class="panel panel-default">
