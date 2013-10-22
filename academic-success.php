@@ -7,6 +7,8 @@
 	$pageTitle = "Academic Success";
 	$sectionHeader = "Discovering how to start, study, and succeed in class.";
 	$sectionSubHeader = "";
+  $sectionDesc = "Discover how to start, study, and succeed in class. Prepare for success by reviewing topics such as GPC’s Academic Calendar and Expectations, Department websites, Course Catalog, Programs of Study, Program Advisement Forms, English as a Second Language (ESL), and Honors Program.";
+  $vimeoID = "70726792";
 	# Include header
 	include("includes/header.php"); 
 ?>
@@ -35,94 +37,10 @@
     <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
   </div> --><!-- /.carousel -->
 
-  <div class="icon-section-full">
-    <div class="container">
-      <!-- Example row of columns -->
-      <div class="icons row">
-        <div class="col-xs-4 col-md-2 bkpk-icons">
-          <div class="icon-bg">
-            <div class="Center-Container">
-              <a href="/academic-success.php">
-                <img src="assets/img/new_icons_3/academic_success.png" class="Absolute-Center is-Image" alt="">
-                <h3 class="icon-title">Academic Success</h3>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-4 col-md-2 bkpk-icons">
-          <div class="icon-bg">
-            <div class="Center-Container">
-              <a href="/campus-life.php">
-                <img src="assets/img/new_icons_3/" class="Absolute-Center is-Image" alt="">
-                 <h3 class="icon-title">Campus Life</h3>
-              </a>
-            </div>
-          </div>
-         </div>
-        <div class="col-xs-4 col-md-2 bkpk-icons">
-          <div class="icon-bg">
-            <div class="Center-Container">
-              <a href="/gpc-online-college.php">
-                <img src="assets/img/new_icons_3/icollege.png" class="Absolute-Center is-Image" alt="">
-                 <h3 class="icon-title">GPC Online Campus</h3>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-4 col-md-2 bkpk-icons">
-          <div class="icon-bg">
-            <div class="Center-Container">
-              <a href="/military-outreach.php">
-                <img src="assets/img/new_icons_3/military_outreach.png" class="Absolute-Center is-Image" alt="">
-                 <h3 class="icon-title">Military Outreach</h3>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-4 col-md-2 bkpk-icons">
-          <div class="icon-bg">
-            <div class="Center-Container">
-              <a href="/paying-for-college.php">
-                <img src="assets/img/new_icons_3/paying_for_college.png" class="Absolute-Center is-Image" alt="">
-                 <h3 class="icon-title">Paying for College</h3>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-4 col-md-2 bkpk-icons">
-          <div class="icon-bg">
-            <div class="Center-Container">
-              <a href="/safety-security.php">
-                <img src="assets/img/new_icons_3/safety_security.png" class="Absolute-Center is-Image" alt="">
-                 <h3 class="icon-title">Safety & Security</h3>
-              </a>
-            </div>
-          </div>
-         </div>
-        <div class="col-xs-4 col-md-2 bkpk-icons">
-          <div class="icon-bg">
-            <div class="Center-Container">
-              <a href="/student-success.php">
-                <img src="assets/img/new_icons_3/personal_success.png" class="Absolute-Center is-Image" alt="">
-                 <h3 class="icon-title">Personal Success</h3>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-4 col-md-2 bkpk-icons">
-          <div class="icon-bg">
-            <div class="Center-Container">
-              <a href="/tech-tips.php">
-                <img src="assets/img/new_icons_3/technology_tips.png" class="Absolute-Center is-Image" alt="">
-                 <h3 class="icon-title">Technology Tips</h3>
-               </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-  </div>
+  <?php
+    # Include Icon Nav
+    include("includes/category-icon-nav.php");
+  ?>
 
   <section class="main">
     <div class="section-header">
@@ -138,103 +56,52 @@
       <div class="content">
 
         <div class="videoWrapper">
-          <iframe src="//player.vimeo.com/video/70726792" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/70726792">GPC Infomercial draft 2.1 for team review</a> from <a href="http://vimeo.com/user1162080">Rick Lockridge</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+          <iframe src="//player.vimeo.com/video/<?php echo "$vimeoID";?>" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
         </div>
-        
-        <section class="panel panel-default">
-					<div class="panel-heading">
-						<h3 class="panel-title">Athletics</h3>
-					</div>
-					<div class="panel-body">
-						Home Page - <a href="http://depts.gpc.edu/~athletic/#.UiY4cJjD_IU">http://depts.gpc.edu/~athletic/#.UiY4cJjD_IU</a>
-					</div>
-				</section>
-      
-      	<section class="panel panel-default">
-					<div class="panel-heading">
-						<h3 class="panel-title">Campus Maps and Locations</h3>
-					</div>
-					<div class="panel-body">
-						Campus Maps and Locations - <a href="http://www.gpc.edu/Facilities_and_Services/campuses.php3">http://www.gpc.edu/Facilities_and_Services/campuses.php3</a>
-					</div>
-				</section>
-      
-      	<section class="panel panel-default">
-					<div class="panel-heading">
-						<h3 class="panel-title">Fine Arts</h3>
-					</div>
-					<div class="panel-body">
-						<!-- List group -->
-						<ul class="list-group">
-							<li class="list-group-item">
-								Home Page - <a href="http://depts.gpc.edu/~clafa/ 
-">http://depts.gpc.edu/~clafa/</a>
-							</li>
-							<li class="list-group-item">
-								Event Calendar - <a href=" http://www.gpc.edu/calendar/index.htm?type=11117-fine_arts"> http://www.gpc.edu/calendar/index.htm?type=11117-fine_arts</a>
-							</li>
-						</ul>
-					</div>
-				</section>
-      
-      	<section class="panel panel-default">
-					<div class="panel-heading">
-						<h3 class="panel-title">Health and Wellness</h3>
-					</div>
-					<div class="panel-body">
-						<!-- List group -->
-						<ul class="list-group">
-							<li class="list-group-item">
-								Home Page - <a href="http://depts.gpc.edu/~gpchwr/#.UiY6wZjD_IU">http://depts.gpc.edu/~gpchwr/#.UiY6wZjD_IU </a>
-							</li>
-							<li class="list-group-item">
-								Event Calendar - <a href="http://www.gpc.edu/calendar/index.htm?type=11117-fine_arts"> http://www.gpc.edu/calendar/index.htm?type=11117-fine_arts</a>
-							</li>
-              <li class="list-group-item">
-                Wellness Events by Campus - <a href="http://depts.gpc.edu/~gpchwr/events.html#.UiY7OZjD_IV">http://depts.gpc.edu/~gpchwr/events.html#.UiY7OZjD_IV</a>
-              </li>
-              <li class="list-group-item">
-                Facilities by Campus - <a href="http://depts.gpc.edu/~gpchwr/campusfacilitieshome.html#.UiY6-ZjD_IU">http://depts.gpc.edu/~gpchwr/campusfacilitieshome.html#.UiY6-ZjD_IU</a>
-              </li>
-						</ul>
-					</div>
-				</section>
+
+        <div class="sectionDesc">
+          <p class="lead"><?php echo "$sectionDesc";?></p>
+        </div>
 
         <section class="panel panel-default">
           <div class="panel-heading">
-            <h3 class="panel-title">Student Affairs</h3>
+            <h3 class="panel-title"></h3>
           </div>
           <div class="panel-body">
             <!-- List group -->
             <ul class="list-group">
               <li class="list-group-item">
-                Deans of Student Services - <a href="http://depts.gpc.edu/~gpcdeans/#.UiY4GZjD_IV">http://depts.gpc.edu/~gpcdeans/#.UiY4GZjD_IV</a>
+                Academic Calendar - <a href="http://www.gpc.edu/calendar/academic/">http://www.gpc.edu/calendar/academic/</a>
               </li>
               <li class="list-group-item">
-                GPC Student Handbook - <a href="http://globaldatebooksonline.com/flipbooks/georgiapc2012/">http://globaldatebooksonline.com/flipbooks/georgiapc2012/</a>
+                Academic Department Websites - <a href="http://www.gpc.edu/Academics/departments/">http://www.gpc.edu/Academics/departments/</a>
               </li>
               <li class="list-group-item">
-                GPC Student Handbook - <a href="#">Download PDF</a>
-              </li>
-            </ul>
-          </div>
-        </section>
-
-        <section class="panel panel-default">
-          <div class="panel-heading">
-            <h3 class="panel-title">Student Life</h3>
-          </div>
-          <div class="panel-body">
-            <!-- List group -->
-            <ul class="list-group">
-              <li class="list-group-item">
-                Student Life Home Page - <a href="http://depts.gpc.edu/~gpcslife/index.html#.UiYy4JjD_IU">http://depts.gpc.edu/~gpcslife/index.html#.UiYy4JjD_IU</a>
+                Course Catalog - <a href="http://www.gpc.edu/catalog/#.UidX7ZjD_IU">http://www.gpc.edu/catalog/#.UidX7ZjD_IU</a>
               </li>
               <li class="list-group-item">
-                Campus Events Calendar - <a href="http://depts.gpc.edu/~gpcslife/campusevents.htm#.UiYzBpjD_IU">http://depts.gpc.edu/~gpcslife/campusevents.htm#.UiYzBpjD_IU</a>
+                DegreeWorks Online Tool for Degree Completion - <a href="http://depts.gpc.edu/~acadaff/publications/DegreeWorks.htm">http://depts.gpc.edu/~acadaff/publications/DegreeWorks.htm</a>
               </li>
               <li class="list-group-item">
-                Student Club and Organization Listing - <a href="http://depts.gpc.edu/~gpcslife/studentclubs.html#.UiYyuJjD_IV">http://depts.gpc.edu/~gpcslife/studentclubs.html#.UiYyuJjD_IV</a>
+                English as a Second Language (ESL) Program - <a href="http://www.gpc.edu/esl/#.UidZy5jD_IU">http://www.gpc.edu/esl/#.UidZy5jD_IU</a>
+              </li>
+              <li class="list-group-item">
+                ESL VIDEO: <a href="https://vimeo.com/70834491">https://vimeo.com/70834491</a>
+              </li>
+              <li class="list-group-item">
+                GPC Educational Achievement Program (GEAP) VIDEO: <a href="https://vimeo.com/70508170">https://vimeo.com/70508170</a>
+              </li>
+              <li class="list-group-item">
+                GPC Educational Achievement Program Home Page - <a href="http://depts2.gpc.edu/geap/#.UidjlZjD_IU">http://depts2.gpc.edu/geap/#.UidjlZjD_IU</a>
+              </li>
+              <li class="list-group-item">
+                Honors Program - <a href="http://depts.gpc.edu/~gpchonp/">http://depts.gpc.edu/~gpchonp/</a>
+              </li>
+              <li class="list-group-item">
+                Programs of Study - <a href="http://www.gpc.edu/programs/#.UidYC5jD_IU">http://www.gpc.edu/programs/#.UidYC5jD_IU</a>
+              </li>
+              <li class="list-group-item">
+                Honors ProgramProgram Advisement Forms - <a href="http://www.gpc.edu/programs/Program-Advisement-Forms#.UidYM5jD_IU">http://www.gpc.edu/programs/Program-Advisement-Forms#.UidYM5jD_IU</a>
               </li>
             </ul>
           </div>

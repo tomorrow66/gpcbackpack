@@ -7,6 +7,7 @@
 	$pageTitle = "Campus Life";
 	$sectionHeader = "Engaging you inside and outside the classroom.";
 	$sectionSubHeader = "";
+  $sectionDesc = "An engaged student is a more successful student.  Get involved and prepare for success by reviewing topics such as GPC Athletics, Campus Maps, Fine Arts, Health and Wellness, Student Clubs and Organizations, and the Collegian Newspaper.";
   $vimeoID = "74936179";
 	# Include header
 	include("includes/header.php"); 
@@ -36,94 +37,10 @@
     <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
   </div> --><!-- /.carousel -->
   
-  <div class="icon-section-full">
-    <div class="container">
-      <!-- Example row of columns -->
-      <div class="icons row">
-        <div class="col-xs-4 col-md-2 bkpk-icons">
-          <div class="icon-bg">
-            <div class="Center-Container">
-              <a href="/academic-success.php">
-                <img src="assets/img/new_icons_3/academic_success.png" class="Absolute-Center is-Image" alt="">
-                <h3 class="icon-title">Academic Success</h3>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-4 col-md-2 bkpk-icons">
-          <div class="icon-bg">
-            <div class="Center-Container">
-              <a href="/campus-life.php">
-                <img src="assets/img/new_icons_3/" class="Absolute-Center is-Image" alt="">
-                 <h3 class="icon-title">Campus Life</h3>
-              </a>
-            </div>
-          </div>
-         </div>
-        <div class="col-xs-4 col-md-2 bkpk-icons">
-          <div class="icon-bg">
-            <div class="Center-Container">
-              <a href="/gpc-online-college.php">
-                <img src="assets/img/new_icons_3/icollege.png" class="Absolute-Center is-Image" alt="">
-                 <h3 class="icon-title">GPC Online Campus</h3>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-4 col-md-2 bkpk-icons">
-          <div class="icon-bg">
-            <div class="Center-Container">
-              <a href="/military-outreach.php">
-                <img src="assets/img/new_icons_3/military_outreach.png" class="Absolute-Center is-Image" alt="">
-                 <h3 class="icon-title">Military Outreach</h3>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-4 col-md-2 bkpk-icons">
-          <div class="icon-bg">
-            <div class="Center-Container">
-              <a href="/paying-for-college.php">
-                <img src="assets/img/new_icons_3/paying_for_college.png" class="Absolute-Center is-Image" alt="">
-                 <h3 class="icon-title">Paying for College</h3>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-4 col-md-2 bkpk-icons">
-          <div class="icon-bg">
-            <div class="Center-Container">
-              <a href="/safety-security.php">
-                <img src="assets/img/new_icons_3/safety_security.png" class="Absolute-Center is-Image" alt="">
-                 <h3 class="icon-title">Safety & Security</h3>
-              </a>
-            </div>
-          </div>
-         </div>
-        <div class="col-xs-4 col-md-2 bkpk-icons">
-          <div class="icon-bg">
-            <div class="Center-Container">
-              <a href="/student-success.php">
-                <img src="assets/img/new_icons_3/personal_success.png" class="Absolute-Center is-Image" alt="">
-                 <h3 class="icon-title">Personal Success</h3>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-4 col-md-2 bkpk-icons">
-          <div class="icon-bg">
-            <div class="Center-Container">
-              <a href="/tech-tips.php">
-                <img src="assets/img/new_icons_3/technology_tips.png" class="Absolute-Center is-Image" alt="">
-                 <h3 class="icon-title">Technology Tips</h3>
-               </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-  </div>
+  <?php
+    # Include Icon Nav
+    include("includes/category-icon-nav.php");
+  ?>
 
   <section class="main">
     <div class="section-header">
@@ -137,9 +54,13 @@
     <!-- Example row of columns -->
     <div id="content" class="container">
       <div class="content">
-
+        
         <div class="videoWrapper">
-          <iframe src="//player.vimeo.com/video/<?php echo "$vimeoID";?>" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/70726792">GPC Infomercial draft 2.1 for team review</a> from <a href="http://vimeo.com/user1162080">Rick Lockridge</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+          <iframe src="//player.vimeo.com/video/<?php echo "$vimeoID";?>" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        </div>
+
+        <div class="sectionDesc">
+          <p class="lead"><?php echo "$sectionDesc";?></p>
         </div>
         
         <section class="panel panel-default">

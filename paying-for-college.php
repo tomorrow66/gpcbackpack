@@ -7,6 +7,8 @@
 	$pageTitle = "Paying for College";
 	$sectionHeader = "Knowing your financial aid and payment options.";
 	$sectionSubHeader = "";
+  $sectionDesc = "Know your financial aid and payment options.  Prepare for success by reviewing topics such as How to Apply for Financial Aid, Financial Aid Forms, Student Accounts, Tuition and Fees, Refund Information, and Student Scholarships.";
+  $vimeoID = "74936179";
 	# Include header
 	include("includes/header.php"); 
 ?>
@@ -35,70 +37,10 @@
     <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
   </div> --><!-- /.carousel -->
   
-  <div class="icon-section-full">
-    <div class="container">
-      <!-- Example row of columns -->
-      <div class="icons row">
-        <div class="col-xs-4 col-md-2 bkpk-icons">
-          <div class="icon-bg">
-            <div class="Center-Container">
-              <a href="/academic-success.php"><img src="assets/img/new_icons/academic_success.png" class="Absolute-Center is-Image" alt=""></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-4 col-md-2 bkpk-icons">
-          <div class="icon-bg">
-            <div class="Center-Container">
-              <a href="/campus-life.php"><img src="assets/img/new_icons/campus_life.png" class="Absolute-Center is-Image" alt=""></a>
-            </div>
-          </div>
-         </div>
-        <div class="col-xs-4 col-md-2 bkpk-icons">
-          <div class="icon-bg">
-            <div class="Center-Container">
-              <a href="/gpc-online-college.php"><img src="assets/img/new_icons/icollege.png" class="Absolute-Center is-Image" alt=""></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-4 col-md-2 bkpk-icons">
-          <div class="icon-bg">
-            <div class="Center-Container">
-              <a href="/military-outreach.php"><img src="assets/img/new_icons/military_outreach.png" class="Absolute-Center is-Image" alt=""></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-4 col-md-2 bkpk-icons">
-          <div class="icon-bg">
-            <div class="Center-Container">
-              <a href="/paying-for-college.php"><img src="assets/img/new_icons/paying_for_college.png" class="Absolute-Center is-Image" alt=""></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-4 col-md-2 bkpk-icons">
-          <div class="icon-bg">
-            <div class="Center-Container">
-              <a href="/safety-security.php"><img src="assets/img/new_icons/safety_security.png" class="Absolute-Center is-Image" alt=""></a>
-            </div>
-          </div>
-         </div>
-        <div class="col-xs-4 col-md-2 bkpk-icons">
-          <div class="icon-bg">
-            <div class="Center-Container">
-              <a href="/student-success.php"><img src="assets/img/new_icons/personal_success.png" class="Absolute-Center is-Image" alt=""></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-4 col-md-2 bkpk-icons">
-          <div class="icon-bg">
-            <div class="Center-Container">
-              <a href="/tech-tips.php"><img src="assets/img/new_icons/tech_tips.png" class="Absolute-Center is-Image" alt=""></a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-  </div>
+  <?php
+    # Include Icon Nav
+    include("includes/category-icon-nav.php");
+  ?>
 
   <section class="main">
     <div class="section-header">
@@ -112,10 +54,95 @@
     <!-- Example row of columns -->
     <div id="content" class="container">
       <div class="content">
-        <p class="lead">Welcome to the Georgia Perimeter College backpack site! </p>
-        <p>Et whatever pariatur bespoke est. Truffaut pickled fanny pack placeat mlkshk. Wolf elit roof party shabby chic literally, disrupt art party chia enim. Wes Anderson direct trade dolor pug aliqua meh. Commodo pug seitan nulla, authentic XOXO fap vinyl. Delectus wolf bespoke aute, reprehenderit culpa hashtag et four loko bicycle rights veniam shabby chic hoodie sustainable mustache. Quinoa est Brooklyn fingerstache Banksy.</p>
-        <p>Duis seitan cardigan, meh nisi aesthetic ad mumblecore wayfarers umami put a bird on it Shoreditch occaecat. Narwhal next level Intelligentsia, quis before they sold out Marfa sartorial polaroid. Nulla messenger bag XOXO skateboard, irure paleo Vice velit polaroid ea ut. 90's Bushwick letterpress, in Truffaut chia Williamsburg. Cray sriracha distillery occaecat, Wes Anderson flexitarian sartorial shabby chic Austin. PBR&B paleo eiusmod seitan sunt. Godard deserunt fashion axe synth sartorial do.</p>
-        <p>Godard deserunt fashion axe synth sartorial do.</p>
+        
+        <section class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">Financial Aid Office</h3>
+          </div>
+          <div class="panel-body">
+            <!-- List group -->
+            <ul class="list-group">
+              <li class="list-group-item">
+                Home Page - <a href="http://depts.gpc.edu/~finaid/#.UidSspjD_IU">http://depts.gpc.edu/~finaid/#.UidSspjD_IU</a>
+              </li>
+              <li class="list-group-item">
+                How to Apply for Financial Aid - <a href="http://depts.gpc.edu/~finaid/applying.htm#.UidTCpjD_IU">http://depts.gpc.edu/~finaid/applying.htm#.UidTCpjD_IU</a>
+              </li>
+              <li class="list-group-item">
+                Free Application for Federal Student Aid (FAFSA) - <a href="http://www.fafsa.ed.gov/">http://www.fafsa.ed.gov/</a>
+              </li>
+              <li class="list-group-item">
+                Check Your GPC Financial Aid Status - <a href="http://depts.gpc.edu/~finaid/checkstatus.htm#.UidS7JjD_IU">http://depts.gpc.edu/~finaid/checkstatus.htm#.UidS7JjD_IU</a>
+              </li>
+              <li class="list-group-item">
+                GPC Financial Aid Forms - <a href="http://depts.gpc.edu/~finaid/printableforms.htm#.UidTcJjD_IU">http://depts.gpc.edu/~finaid/printableforms.htm#.UidTcJjD_IU</a>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">Students Accounts Office</h3>
+          </div>
+          <div class="panel-body">
+            <!-- List group -->
+            <ul class="list-group">
+              <li class="list-group-item">
+                Tuition and Fees - <a href="http://depts.gpc.edu/~gpcsacct/resources/tuition_and_fees.html">http://depts.gpc.edu/~gpcsacct/resources/tuition_and_fees.html</a>
+              </li>
+              <li class="list-group-item">
+                Payment Options - <a href="http://depts.gpc.edu/~gpcsacct/resources/payment_information.html#.UidUNpjD_IU">http://depts.gpc.edu/~gpcsacct/resources/payment_information.html#.UidUNpjD_IU</a>
+              </li>
+              <li class="list-group-item">
+                Nelnet Payment Plan (NBS) - <a href="http://paymentplan.gpc.edu/">http://paymentplan.gpc.edu/</a>
+              </li>
+              <li class="list-group-item">
+                Refund Information - <a href="http://depts.gpc.edu/~gpcsacct/resources/refund_information.html">http://depts.gpc.edu/~gpcsacct/resources/refund_information.html</a>
+              </li>
+              <li class="list-group-item">
+                Third Party Payments to Student Accounts - <a href="http://depts.gpc.edu/~gpcsacct/resources/sponsored_billing.html">http://depts.gpc.edu/~gpcsacct/resources/sponsored_billing.html</a>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">GPC Student Scholarships</h3>
+          </div>
+          <div class="panel-body">
+            <!-- List group -->
+            <ul class="list-group">
+              <li class="list-group-item">
+                Home Page - <a href="http://depts.gpc.edu/Foundation/scholarships.htm">http://depts.gpc.edu/Foundation/scholarships.htm</a>
+              </li>
+              <li class="list-group-item">
+                Frequently Asked Questions - <a href="">PDF Link Needed!</a>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">Veterans Affairs</h3>
+          </div>
+          <div class="panel-body">
+            <!-- List group -->
+            <ul class="list-group">
+              <li class="list-group-item">
+                Home Page - <a href="http://depts.gpc.edu/~finaid/veterans.html#.UidVMpjD_IU">http://depts.gpc.edu/~finaid/veterans.html#.UidVMpjD_IU</a>
+              </li>
+              <li class="list-group-item">
+                How to Apply - <a href="http://depts.gpc.edu/~finaid/howtoapplyveterans.html#.UidVYZjD_IU">http://depts.gpc.edu/~finaid/howtoapplyveterans.html#.UidVYZjD_IU</a>
+              </li>
+              <li class="list-group-item">
+                Frequently Asked Questions - <a href="http://depts.gpc.edu/~finaid/2013-2014%20Printable%20Forms/1314%20VA%20Forms/VA%20FAQ's_1314._rev_2.pdf">http://depts.gpc.edu/~finaid/2013-2014%20Printable%20Forms/1314%20VA%20Forms/VA%20FAQ's_1314._rev_2.pdf</a>
+              </li>
+            </ul>
+          </div>
+        </section>
       
       </div>
     </div>

@@ -7,6 +7,8 @@
 	$pageTitle = "Tech Tips";
 	$sectionHeader = "Tech help is as close as a call, e-mail, website, or JagSPOT.";
 	$sectionSubHeader = "";
+  $sectionDesc = "Tech help is as close as a call, e-mail, website, or JagSPOT.  Prepare for success by reviewing topics such as GPC’s Service Desk, JagSPOTS, GPC Login/Password assistance, Student Information System (SIS), Webmail, SkillSoft Online Learning, DegreeWorks and technical assistance.";
+  $vimeoID = "70793546";
 	# Include header
 	include("includes/header.php"); 
 ?>
@@ -35,70 +37,10 @@
     <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
   </div> --><!-- /.carousel -->
   
-  <div class="icon-section-full">
-    <div class="container">
-      <!-- Example row of columns -->
-      <div class="icons row">
-        <div class="col-xs-4 col-md-2 bkpk-icons">
-          <div class="icon-bg">
-            <div class="Center-Container">
-              <a href="/academic-success.php"><img src="assets/img/new_icons/academic_success.png" class="Absolute-Center is-Image" alt=""></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-4 col-md-2 bkpk-icons">
-          <div class="icon-bg">
-            <div class="Center-Container">
-              <a href="/campus-life.php"><img src="assets/img/new_icons/campus_life.png" class="Absolute-Center is-Image" alt=""></a>
-            </div>
-          </div>
-         </div>
-        <div class="col-xs-4 col-md-2 bkpk-icons">
-          <div class="icon-bg">
-            <div class="Center-Container">
-              <a href="/gpc-online-college.php"><img src="assets/img/new_icons/icollege.png" class="Absolute-Center is-Image" alt=""></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-4 col-md-2 bkpk-icons">
-          <div class="icon-bg">
-            <div class="Center-Container">
-              <a href="/military-outreach.php"><img src="assets/img/new_icons/military_outreach.png" class="Absolute-Center is-Image" alt=""></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-4 col-md-2 bkpk-icons">
-          <div class="icon-bg">
-            <div class="Center-Container">
-              <a href="/paying-for-college.php"><img src="assets/img/new_icons/paying_for_college.png" class="Absolute-Center is-Image" alt=""></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-4 col-md-2 bkpk-icons">
-          <div class="icon-bg">
-            <div class="Center-Container">
-              <a href="/safety-security.php"><img src="assets/img/new_icons/safety_security.png" class="Absolute-Center is-Image" alt=""></a>
-            </div>
-          </div>
-         </div>
-        <div class="col-xs-4 col-md-2 bkpk-icons">
-          <div class="icon-bg">
-            <div class="Center-Container">
-              <a href="/student-success.php"><img src="assets/img/new_icons/personal_success.png" class="Absolute-Center is-Image" alt=""></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-4 col-md-2 bkpk-icons">
-          <div class="icon-bg">
-            <div class="Center-Container">
-              <a href="/tech-tips.php"><img src="assets/img/new_icons/tech_tips.png" class="Absolute-Center is-Image" alt=""></a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-  </div>
+  <?php
+    # Include Icon Nav
+    include("includes/category-icon-nav.php");
+  ?>
 
   <section class="main">
     <div class="section-header">
@@ -112,14 +54,98 @@
     <!-- Example row of columns -->
     <div id="content" class="container">
       <div class="content">
-        <p class="lead">Welcome to the Georgia Perimeter College backpack site! </p>
-        <p>Et whatever pariatur bespoke est. Truffaut pickled fanny pack placeat mlkshk. Wolf elit roof party shabby chic literally, disrupt art party chia enim. Wes Anderson direct trade dolor pug aliqua meh. Commodo pug seitan nulla, authentic XOXO fap vinyl. Delectus wolf bespoke aute, reprehenderit culpa hashtag et four loko bicycle rights veniam shabby chic hoodie sustainable mustache. Quinoa est Brooklyn fingerstache Banksy.</p>
-        <p>Duis seitan cardigan, meh nisi aesthetic ad mumblecore wayfarers umami put a bird on it Shoreditch occaecat. Narwhal next level Intelligentsia, quis before they sold out Marfa sartorial polaroid. Nulla messenger bag XOXO skateboard, irure paleo Vice velit polaroid ea ut. 90's Bushwick letterpress, in Truffaut chia Williamsburg. Cray sriracha distillery occaecat, Wes Anderson flexitarian sartorial shabby chic Austin. PBR&B paleo eiusmod seitan sunt. Godard deserunt fashion axe synth sartorial do.</p>
-        <p>Godard deserunt fashion axe synth sartorial do.</p>
+
+        <div class="videoWrapper">
+          <iframe src="//player.vimeo.com/video/<?php echo "$vimeoID";?>" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        </div>
+      
+        <section class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">Get Help with Technology</h3>
+          </div>
+          <div class="panel-body">
+            <!-- List group -->
+            <ul class="list-group">
+              <li class="list-group-item">
+                Service Desk - <a href="http://www.gpc.edu/oit/servicedesk -  
+">http://www.gpc.edu/oit/servicedesk</a> - assistance by phone, e-mail or chat.
+              </li>
+              <li class="list-group-item">
+                24/7 iCollege Support from the D2L Help Center: <a href="https://d2lhelp.view.usg.edu/">https://d2lhelp.view.usg.edu/</a>
+              </li>
+            </ul>
+          </div>
+        </section>
+      
+        <section class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">Hands-on Access to Technology</h3>
+          </div>
+          <div class="panel-body">
+            <!-- List group -->
+            <ul class="list-group">
+              <li class="list-group-item">
+                JagSpots - <a href="http://www.gpc.edu/oit/jagSPOT">http://www.gpc.edu/oit/jagSPOT </a>
+              </li>
+              <li class="list-group-item">
+                MobileSpot - bring your own laptop or mobile device
+              </li>
+              <li class="list-group-item">
+                TechSpot – access to GPC techs offering laptop support to students</a>
+              </li>
+              <li class="list-group-item">
+                BusinessSpot – access to printing, copying, scanning and faxing</a>
+              </li>
+              <li class="list-group-item">
+                MediaSpot - <a href="http://mediaspot.gpc.edu/">http://mediaspot.gpc.edu/</a>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">Required Technology</h3>
+          </div>
+          <div class="panel-body">
+            <!-- List group -->
+            <ul class="list-group">
+              <li class="list-group-item">
+                Forget a Username or Password - <a href="http://getmylogin.gpc.edu/">http://getmylogin.gpc.edu/</a>
+              </li>
+              <li class="list-group-item">
+                GPC Webmail - <a href="http://webmail.gpc.edu/">http://webmail.gpc.edu/</a>
+              </li>
+              <li class="list-group-item">
+                iCollege - <a href="http://icollege.gpc.edu/">http://icollege.gpc.edu/</a>
+              </li>
+              <li class="list-group-item">
+                GPC’s Student Information System (SIS) - <a href="http://sis.gpc.edu/">http://sis.gpc.edu/</a>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">Software/Hardware/Downloading</h3>
+          </div>
+          <div class="panel-body">
+            <!-- List group -->
+            <ul class="list-group">
+              <li class="list-group-item">
+                Skill Soft  Online Learning - <a href="https://eapps.gpc.edu/training/">https://eapps.gpc.edu/training/</a>
+              </li>
+              <li class="list-group-item">
+                Student Software - <a href="http://www.gpc.edu/oit/servicedesk">http://www.gpc.edu/oit/servicedesk</a>
+              </li>
+            </ul>
+          </div>
+        </section>
       
       </div>
     </div>
-
+   
   </section>
 
 <?php

@@ -1,11 +1,11 @@
 	  </div><!--end #wrap-->
 	  <div id="footer">
       <div class="container">
-      	<ul class="nav nav-justified">
+      	<!-- <ul class="nav nav-justified">
           <li><a href="#">FAQ</a></li>
           <li><a href="#">Login Assistance</a></li>
           <li><a href="#">Calendar</a></li>
-        </ul>
+        </ul> -->
         <p class="text-muted credit">&copy; <?php echo date("Y"); ?> Copyright. All Rights Reserved.</p>
       </div>
     </div>

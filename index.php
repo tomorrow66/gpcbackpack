@@ -5,8 +5,8 @@
 	$pageDesc  = "Georgia Perimeter College";
 	# Page title eg. homepage, blog etc.
 	$pageTitle = "Home";
-	$sectionHeader = "GPC Backpack Site";
-	$sectionSubHeader = "Preparing for success";
+	$sectionHeader = "Welcome to the Georgia Perimeter College backpack site!";
+	$sectionSubHeader = "";
 	# Include header
 	include("includes/header.php"); 
 ?>
@@ -27,7 +27,7 @@
 
   <figure class="fluidratio">
     <figcaption class="container">
-      <strong class="headline">Welcome to your Digital Backpack</strong>
+      <strong class="headline">Prepare for Success.</strong>
       <p>
         <span>Use the backpack site below to guide you to online and on campus resources.</span>
       </p>
@@ -148,15 +148,18 @@
     <div class="section-header">
       <div class="container">
         <strong class="title"><?php echo "$sectionHeader";?></strong>
-        <div class="subtitle">Preparing for success</div>
+        <?php if (!empty($sectionSubHeader)) :?>
+        <div class="subtitle"><?php echo "$sectionSubHeader";?></div>
+        <?php endif; ?>
       </div>
     </div>
     <!-- Example row of columns -->
     <div id="content" class="container">
       <div class="content">
-        <p class="lead">Welcome to the Georgia Perimeter College backpack site! </p>
-        <p>Here you will find helpful GPC information organized into eight (8) main sections. Each section provides online and on campus resources such as direct web links, downloads, and videos to support your academic and personal success.
-      </p>
+        <p class="lead">Here you will find helpful GPC information organized into eight (8) main sections. Each section provides online and on campus resources such as direct web links, downloads, and videos to support your academic and personal success.</p>
+
+        <p>Popular resources such as GPC Calendars, Frequently Asked Questions (FAQs), Login/Password Help, and Student Information System (SIS) links are provided below.</p>
+        <p>Best wishes on a great semester.  Go Jaguars!</p>
 
         <div class="panel-group" id="accordion">
           <div class="panel panel-default">
@@ -272,9 +275,6 @@
             </div>
           </div>
         </div>
-
-        <p>Popular resources such as GPC Calendars, Frequently Asked Questions (FAQs), Login/Password Help, and Student Information System (SIS) links are provided below.</p>
-        <p>Best wishes on a great semester.  Go Jaguars!</p>
       
       </div>
     </div>
