@@ -44,13 +44,20 @@
        }
     }
   }
+
+  .container > .navbar-collapse {
+    @media (min-width: $screen-sm) {
+      margin-left: -24px;
+      margin-right: -24px;
+    }
+  }
   
   .navbar-nav {
-    width: 100%;
     background: #900627;
-    float: right;
+    margin-top: 0;
     @media (min-width: $screen-sm) {
       width: 75%;
+      float: right;
     }
     
     li {
@@ -453,14 +460,17 @@ figure.fluidratio {
   @include fluid-ratio(1200px 350px, 400px 225px);
 
   background-image: url(/assets/img/slider/bannerimage.png);
-  margin-top: 97px;
+  margin-top: 135px;
   position: relative;
   @media (min-width: $grid-float-breakpoint) {
-    margin-top: 156px;
+    margin-top: 194px;
   }
   @media (min-width: $screen-md) {
-    margin-top: 106px;
+    margin-top: 144px;
   }
+}
+figcaption.container {
+  width: 80%;
 }
 /* Since positioning the image, we need to help out the caption */
 figcaption {

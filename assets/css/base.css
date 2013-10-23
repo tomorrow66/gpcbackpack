@@ -7551,34 +7551,41 @@ td.visible-print {
 .navbar-default .navbar-header {
   background: #a30532;
 }
-/* line 48, ../scss/base.scss */
-.navbar-default .navbar-nav {
-  width: 100%;
-  background: #900627;
-  float: right;
-}
 @media (min-width: 768px) {
   /* line 48, ../scss/base.scss */
-  .navbar-default .navbar-nav {
-    width: 75%;
+  .navbar-default .container > .navbar-collapse {
+    margin-left: -24px;
+    margin-right: -24px;
   }
 }
-/* line 57, ../scss/base.scss */
+/* line 55, ../scss/base.scss */
+.navbar-default .navbar-nav {
+  background: #900627;
+  margin-top: 0;
+}
+@media (min-width: 768px) {
+  /* line 55, ../scss/base.scss */
+  .navbar-default .navbar-nav {
+    width: 75%;
+    float: right;
+  }
+}
+/* line 64, ../scss/base.scss */
 .navbar-default .navbar-nav li a {
   font-size: 12px;
 }
-/* line 62, ../scss/base.scss */
+/* line 69, ../scss/base.scss */
 .navbar-default .navbar-toggle {
   border-radius: 0;
 }
-/* line 65, ../scss/base.scss */
+/* line 72, ../scss/base.scss */
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #fff;
   height: 3px;
   border-radius: 0;
 }
 
-/* line 73, ../scss/base.scss */
+/* line 80, ../scss/base.scss */
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
   background-color: transparent;
   outline-color: transparent;
@@ -7586,7 +7593,7 @@ td.visible-print {
 
 /* Sticky footer styles
 -------------------------------------------------- */
-/* line 82, ../scss/base.scss */
+/* line 89, ../scss/base.scss */
 html,
 body {
   height: 100%;
@@ -7594,7 +7601,7 @@ body {
 }
 
 /* Wrapper for page content to push down footer */
-/* line 89, ../scss/base.scss */
+/* line 96, ../scss/base.scss */
 #wrap {
   min-height: 100%;
   height: auto !important;
@@ -7605,7 +7612,7 @@ body {
   padding: 0 0 135px;
 }
 @media (min-width: 768px) {
-  /* line 89, ../scss/base.scss */
+  /* line 96, ../scss/base.scss */
   #wrap {
     margin: 0 auto -60px;
     padding: 0 0 60px;
@@ -7613,27 +7620,27 @@ body {
 }
 
 /* Set the fixed height of the footer here */
-/* line 105, ../scss/base.scss */
+/* line 112, ../scss/base.scss */
 #footer {
   height: 135px;
   background-color: #a20532;
 }
 @media (min-width: 768px) {
-  /* line 105, ../scss/base.scss */
+  /* line 112, ../scss/base.scss */
   #footer {
     height: 60px;
   }
 }
-/* line 113, ../scss/base.scss */
+/* line 120, ../scss/base.scss */
 #footer .credit {
   text-align: center;
   margin: 5px 0;
 }
-/* line 120, ../scss/base.scss */
+/* line 127, ../scss/base.scss */
 #footer .nav.nav-justified li a {
   padding: 5px 15px;
 }
-/* line 122, ../scss/base.scss */
+/* line 129, ../scss/base.scss */
 #footer .nav.nav-justified li a:hover, #footer .nav.nav-justified li a:focus {
   background-color: transparent;
 }
@@ -7641,40 +7648,40 @@ body {
 /* Custom page CSS
 -------------------------------------------------- */
 /* Not required for template or sticky footer method. */
-/* line 137, ../scss/base.scss */
+/* line 144, ../scss/base.scss */
 #wrap > .container {
   background: #e0e4cd;
   padding: 60px 15px 0;
   overflow-x: hidden;
 }
 
-/* line 142, ../scss/base.scss */
+/* line 149, ../scss/base.scss */
 .content {
   padding: 20px 0;
 }
 
-/* line 146, ../scss/base.scss */
+/* line 153, ../scss/base.scss */
 #footer > .container {
   padding-left: 15px;
   padding-right: 15px;
 }
 
-/* line 151, ../scss/base.scss */
+/* line 158, ../scss/base.scss */
 code {
   font-size: 80%;
 }
 
 /* Slider styles
 -------------------------------------------------- */
-/* line 157, ../scss/base.scss */
+/* line 164, ../scss/base.scss */
 #slider {
   overflow: hidden;
 }
-/* line 160, ../scss/base.scss */
+/* line 167, ../scss/base.scss */
 #slider .item {
   position: relative;
 }
-/* line 163, ../scss/base.scss */
+/* line 170, ../scss/base.scss */
 #slider .item .title, #slider .item p {
   position: absolute;
   background-color: transparent;
@@ -7685,7 +7692,7 @@ code {
   left: 15%;
 }
 
-/* line 173, ../scss/base.scss */
+/* line 180, ../scss/base.scss */
 #owl-slider .item img {
   display: block;
   width: 100%;
@@ -7695,20 +7702,20 @@ code {
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 /* Carousel base class */
-/* line 183, ../scss/base.scss */
+/* line 190, ../scss/base.scss */
 .carousel {
   position: relative;
   margin-top: 97px;
 }
 @media (min-width: 768px) {
-  /* line 183, ../scss/base.scss */
+  /* line 190, ../scss/base.scss */
   .carousel {
     margin-top: 100px;
   }
 }
 
 /* Since positioning the image, we need to help out the caption */
-/* line 191, ../scss/base.scss */
+/* line 198, ../scss/base.scss */
 .carousel-caption {
   z-index: 10;
   top: 12%;
@@ -7717,29 +7724,29 @@ code {
   text-align: left;
 }
 @media (min-width: 768px) {
-  /* line 191, ../scss/base.scss */
+  /* line 198, ../scss/base.scss */
   .carousel-caption {
     top: 20%;
   }
 }
-/* line 202, ../scss/base.scss */
+/* line 209, ../scss/base.scss */
 .carousel-caption h3 {
   color: #ffc626;
   font-size: 18px;
 }
 @media (min-width: 768px) {
-  /* line 202, ../scss/base.scss */
+  /* line 209, ../scss/base.scss */
   .carousel-caption h3 {
     font-size: 36px;
   }
 }
 @media (min-width: 768px) {
-  /* line 209, ../scss/base.scss */
+  /* line 216, ../scss/base.scss */
   .carousel-caption p {
     font-size: 18px;
   }
 }
-/* line 214, ../scss/base.scss */
+/* line 221, ../scss/base.scss */
 .carousel-caption h3, .carousel-caption p span {
   display: inline;
   line-height: 2.2;
@@ -7756,20 +7763,20 @@ code {
 }
 
 /* Declare heights because of positioning of img element */
-/* line 226, ../scss/base.scss */
+/* line 233, ../scss/base.scss */
 .carousel .item {
   background-color: #777;
   height: auto;
 }
 
-/* line 230, ../scss/base.scss */
+/* line 237, ../scss/base.scss */
 .carousel-inner {
   position: relative;
   width: 100%;
   overflow: hidden;
 }
 
-/* line 235, ../scss/base.scss */
+/* line 242, ../scss/base.scss */
 .carousel-inner > .item > img {
   top: 0;
   left: 0;
@@ -7777,40 +7784,40 @@ code {
   height: auto;
 }
 
-/* line 243, ../scss/base.scss */
+/* line 250, ../scss/base.scss */
 .carousel-control {
   width: 5%;
 }
 
 /* Homepage & Section icon styles
 -------------------------------------------------- */
-/* line 251, ../scss/base.scss */
+/* line 258, ../scss/base.scss */
 #home .icon-section-full {
   background: url("/assets/img/icons/icon_pattern.png");
   padding: 0;
   padding-bottom: 0;
 }
 @media (min-width: 768px) {
-  /* line 251, ../scss/base.scss */
+  /* line 258, ../scss/base.scss */
   #home .icon-section-full {
     background: #252525;
     padding: 30px 0;
   }
 }
-/* line 259, ../scss/base.scss */
+/* line 266, ../scss/base.scss */
 #home .icon-section-full .bkpk-icons {
   margin-bottom: 0;
   padding-left: 12px;
   padding-right: 12px;
 }
 @media (min-width: 768px) {
-  /* line 264, ../scss/base.scss */
+  /* line 271, ../scss/base.scss */
   #home .icon-section-full .icon-bg {
     padding: 10px 0 50%;
   }
 }
 
-/* line 271, ../scss/base.scss */
+/* line 278, ../scss/base.scss */
 .icon-section-full {
   background: url("/assets/img/icons/icon_pattern.png");
   padding: 7px 0 5px;
@@ -7819,49 +7826,49 @@ code {
   *zoom: 1;
 }
 @media (min-width: 768px) {
-  /* line 271, ../scss/base.scss */
+  /* line 278, ../scss/base.scss */
   .icon-section-full {
     background: #252525;
     padding: 7px 0 5px;
   }
 }
-/* line 280, ../scss/base.scss */
+/* line 287, ../scss/base.scss */
 .icon-section-full .bkpk-icons {
   margin-bottom: 20px;
   padding-left: 2px;
   padding-right: 2px;
 }
 @media (min-width: 768px) {
-  /* line 285, ../scss/base.scss */
+  /* line 292, ../scss/base.scss */
   .icon-section-full .icon-bg {
     padding: 10px 0 80%;
   }
 }
 
-/* line 291, ../scss/base.scss */
+/* line 298, ../scss/base.scss */
 .icon-section-full .icons.row:last-of-type {
   margin-top: 20px;
 }
 
-/* line 295, ../scss/base.scss */
+/* line 302, ../scss/base.scss */
 .icons.row .col-xs-3 {
   padding-left: 0;
   padding-right: 0;
 }
 @media (min-width: 768px) {
-  /* line 295, ../scss/base.scss */
+  /* line 302, ../scss/base.scss */
   .icons.row .col-xs-3 {
     padding-left: 15px;
     padding-right: 15px;
   }
 }
 
-/* line 305, ../scss/base.scss */
+/* line 312, ../scss/base.scss */
 .icon-bg {
   padding-bottom: 100%;
 }
 @media (min-width: 768px) {
-  /* line 305, ../scss/base.scss */
+  /* line 312, ../scss/base.scss */
   .icon-bg {
     background: url("/assets/img/icons/icon_pattern.png");
     border-radius: 8px;
@@ -7873,7 +7880,7 @@ code {
   }
 }
 
-/* line 319, ../scss/base.scss */
+/* line 326, ../scss/base.scss */
 .Absolute-Center {
   width: 50%;
   height: 50%;
@@ -7887,33 +7894,33 @@ code {
 }
 
 @media (min-width: 768px) {
-  /* line 334, ../scss/base.scss */
+  /* line 341, ../scss/base.scss */
   #home .Absolute-Center.is-Image {
     width: 80%;
   }
 }
 
-/* line 341, ../scss/base.scss */
+/* line 348, ../scss/base.scss */
 .Absolute-Center.is-Image {
   width: 100%;
   height: auto;
   padding: 0;
 }
 @media (min-width: 768px) {
-  /* line 341, ../scss/base.scss */
+  /* line 348, ../scss/base.scss */
   .Absolute-Center.is-Image {
     width: 100%;
     padding: 10px;
   }
 }
 
-/* line 350, ../scss/base.scss */
+/* line 357, ../scss/base.scss */
 .Absolute-Center.is-Image img {
   width: 100%;
   height: auto;
 }
 
-/* line 355, ../scss/base.scss */
+/* line 362, ../scss/base.scss */
 .caption {
   color: #eee;
   font-size: 13px;
@@ -7922,17 +7929,17 @@ code {
 
 /* Section area styles
 -------------------------------------------------- */
-/* line 363, ../scss/base.scss */
+/* line 370, ../scss/base.scss */
 section.main #content {
   background: #e0e4cd;
 }
 
-/* line 366, ../scss/base.scss */
+/* line 373, ../scss/base.scss */
 .section-header {
   color: #fff;
   background: #9c9e8e;
 }
-/* line 370, ../scss/base.scss */
+/* line 377, ../scss/base.scss */
 .section-header .container {
   background: #b70c32;
   padding: 10px;
@@ -7942,20 +7949,20 @@ section.main #content {
   overflow: hidden;
   *zoom: 1;
 }
-/* line 378, ../scss/base.scss */
+/* line 385, ../scss/base.scss */
 .section-header .container strong.title {
   font-weight: bold;
   font-size: 28px;
   float: left;
   margin-right: 20px;
 }
-/* line 384, ../scss/base.scss */
+/* line 391, ../scss/base.scss */
 .section-header .container .subtitle {
   float: left;
   margin-top: 13px;
 }
 
-/* line 391, ../scss/base.scss */
+/* line 398, ../scss/base.scss */
 .videoWrapper {
   position: relative;
   padding-bottom: 56.25%;
@@ -7964,7 +7971,7 @@ section.main #content {
   height: 0;
   margin-bottom: 20px;
 }
-/* line 398, ../scss/base.scss */
+/* line 405, ../scss/base.scss */
 .videoWrapper iframe {
   position: absolute;
   top: 0;
@@ -7975,28 +7982,28 @@ section.main #content {
 
 /* Panel Group styles
 -------------------------------------------------- */
-/* line 409, ../scss/base.scss */
+/* line 416, ../scss/base.scss */
 .panel-group {
   margin: 20px 0;
 }
 
-/* line 413, ../scss/base.scss */
+/* line 420, ../scss/base.scss */
 .panel-body {
   text-overflow: ellipsis;
   overflow: hidden;
 }
-/* line 416, ../scss/base.scss */
+/* line 423, ../scss/base.scss */
 .panel-body a {
   color: #267CFD;
 }
 
-/* line 421, ../scss/base.scss */
+/* line 428, ../scss/base.scss */
 .list-group-item {
   text-overflow: ellipsis;
   overflow: hidden;
 }
 
-/* line 426, ../scss/base.scss */
+/* line 433, ../scss/base.scss */
 .panel-title {
   font-size: 16px;
   font-weight: 700;
@@ -8005,7 +8012,7 @@ section.main #content {
 /* Test styles
 -------------------------------------------------- */
 /* Calculate fluid ratio based on two dimensions (width/height) */
-/* line 451, ../scss/base.scss */
+/* line 458, ../scss/base.scss */
 figure.fluidratio {
   /* This element will have fluid ratio from 4:1 at 800px to 2:1 at 300px. */
   padding-top: 15.625%;
@@ -8016,24 +8023,29 @@ figure.fluidratio {
   background-position: center;
   /* Internet Explorer 7/8 */
   background-image: url(/assets/img/slider/bannerimage.png);
-  margin-top: 97px;
+  margin-top: 135px;
   position: relative;
 }
 @media (min-width: 768px) {
-  /* line 451, ../scss/base.scss */
+  /* line 458, ../scss/base.scss */
   figure.fluidratio {
-    margin-top: 156px;
+    margin-top: 194px;
   }
 }
 @media (min-width: 992px) {
-  /* line 451, ../scss/base.scss */
+  /* line 458, ../scss/base.scss */
   figure.fluidratio {
-    margin-top: 106px;
+    margin-top: 144px;
   }
 }
 
+/* line 472, ../scss/base.scss */
+figcaption.container {
+  width: 80%;
+}
+
 /* Since positioning the image, we need to help out the caption */
-/* line 466, ../scss/base.scss */
+/* line 476, ../scss/base.scss */
 figcaption {
   z-index: 10;
   top: 20%;
@@ -8044,36 +8056,36 @@ figcaption {
   position: absolute;
 }
 @media (min-width: 768px) {
-  /* line 466, ../scss/base.scss */
+  /* line 476, ../scss/base.scss */
   figcaption {
     top: 0%;
   }
 }
 @media (min-width: 992px) {
-  /* line 466, ../scss/base.scss */
+  /* line 476, ../scss/base.scss */
   figcaption {
     top: 5%;
   }
 }
-/* line 483, ../scss/base.scss */
+/* line 493, ../scss/base.scss */
 figcaption .headline {
   color: #ffc626;
   font-size: 18px;
   font-weight: normal;
 }
 @media (min-width: 992px) {
-  /* line 483, ../scss/base.scss */
+  /* line 493, ../scss/base.scss */
   figcaption .headline {
     font-size: 42px;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 483, ../scss/base.scss */
+  /* line 493, ../scss/base.scss */
   figcaption .headline {
     font-size: 30px;
   }
 }
-/* line 494, ../scss/base.scss */
+/* line 504, ../scss/base.scss */
 figcaption p {
   color: #FFF;
   font-family: 'Arvo', san-serif;
@@ -8081,7 +8093,7 @@ figcaption p {
   max-width: 450px;
 }
 @media (min-width: 992px) {
-  /* line 494, ../scss/base.scss */
+  /* line 504, ../scss/base.scss */
   figcaption p {
     font-size: 22px;
     line-height: normal;
@@ -8089,14 +8101,14 @@ figcaption p {
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 494, ../scss/base.scss */
+  /* line 504, ../scss/base.scss */
   figcaption p {
     font-size: 18px;
     line-height: normal;
     margin-top: -2px;
   }
 }
-/* line 510, ../scss/base.scss */
+/* line 520, ../scss/base.scss */
 figcaption .headline, figcaption p span {
   display: inline;
   line-height: 1.8;
@@ -8112,13 +8124,13 @@ figcaption .headline, figcaption p span {
   clear: both;
 }
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 510, ../scss/base.scss */
+  /* line 520, ../scss/base.scss */
   figcaption .headline, figcaption p span {
     line-height: 1.9;
   }
 }
 
-/* line 524, ../scss/base.scss */
+/* line 534, ../scss/base.scss */
 .icon {
   background: url("/assets/img/icons/icon_pattern.png");
   border-radius: 8px;
@@ -8127,7 +8139,7 @@ figcaption .headline, figcaption p span {
   padding: 10px;
 }
 
-/* line 532, ../scss/base.scss */
+/* line 542, ../scss/base.scss */
 .icon-title {
   position: absolute;
   left: 10%;
