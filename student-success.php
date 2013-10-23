@@ -77,60 +77,41 @@
               </li>
               <li class="list-group-item">
                 Transfer Admission Guarantee (TAG) Information
-              </li>
-              <li class="list-group-item">
-                Home page - <a href="http://depts.gpc.edu/tag/ 
+                <ul>
+                  <li>
+                    Home page - <a href="http://depts.gpc.edu/tag/ 
 ">http://depts.gpc.edu/tag/</a>
+                  </li>
+                  <li>
+                    Schools to Choose from - <a href="http://depts.gpc.edu/tag/schoolstochoosefrom.html#.UiX_-5jD_IU">http://depts.gpc.edu/tag/schoolstochoosefrom.html#.UiX_-5jD_IU</a>
+                  </li>
+                  <li>
+                    FAQ’s: - <a href="http://depts.gpc.edu/tag/frequentlyaskedquestions.htm">http://depts.gpc.edu/tag/frequentlyaskedquestions.htm</a>
+                  </li>
+                </ul>
               </li>
               <li class="list-group-item">
-                Schools to Choose from - <a href="http://depts.gpc.edu/tag/schoolstochoosefrom.html#.UiX_-5jD_IU">http://depts.gpc.edu/tag/schoolstochoosefrom.html#.UiX_-5jD_IU</a>
+                How to register for classes in the Student Information System (SIS) - <a href="">PDF</a>
               </li>
               <li class="list-group-item">
-                FAQ’s: - <a href="http://depts.gpc.edu/tag/frequentlyaskedquestions.htm">http://depts.gpc.edu/tag/frequentlyaskedquestions.htm</a>
+                How to Build a Class Schedule Worksheet - <a href="">PDF</a>
+              </li>
+              <li class="list-group-item">
+                Student Course Withdrawal Request - <a href="https://eapps.gpc.edu/swf/main_s.php">https://eapps.gpc.edu/swf/main_s.php</a>
+              </li>
+              <li class="list-group-item">
+                GPC Class Schedule Listing - <a href="https://sis.gpc.edu/PROD/bwckschd.p_disp_dyn_sched">https://sis.gpc.edu/PROD/bwckschd.p_disp_dyn_sched</a>
+              </li>
+              <li class="list-group-item">
+                Transfer College Admissions Checklist - <a href="">PDF Link Needed!</a>
+              </li>
+              <li class="list-group-item">
+                Transfer Course Listing by Institution - <a href="https://sis.gpc.edu/PROD/wwtraneq.P_TranEq_Ltr">https://sis.gpc.edu/PROD/wwtraneq.P_TranEq_Ltr</a>
+              </li>
+              <li class="list-group-item">
+                GPC Grade Forgiveness Form - <a href="">PDF</a>
               </li>
             </ul>
-          </div>
-        </section>
-        
-        <section class="panel panel-default">
-					<div class="panel-body">
-						How to register for classes in the Student Information System (SIS) - <a href="">PDF</a>
-					</div>
-				</section>
-
-        <section class="panel panel-default">
-          <div class="panel-body">
-            How to Build a Class Schedule Worksheet - <a href="">PDF</a>
-          </div>
-        </section>
-      
-      	<section class="panel panel-default">
-					<div class="panel-body">
-						Student Course Withdrawal Request - <a href="https://eapps.gpc.edu/swf/main_s.php">https://eapps.gpc.edu/swf/main_s.php</a>
-					</div>
-				</section>
-
-        <section class="panel panel-default">
-          <div class="panel-body">
-            GPC Class Schedule Listing - <a href="https://sis.gpc.edu/PROD/bwckschd.p_disp_dyn_sched">https://sis.gpc.edu/PROD/bwckschd.p_disp_dyn_sched</a>
-          </div>
-        </section>
-
-        <section class="panel panel-default">
-          <div class="panel-body">
-            Transfer College Admissions Checklist - <a href="">PDF Link Needed!</a>
-          </div>
-        </section>
-
-        <section class="panel panel-default">
-          <div class="panel-body">
-            Transfer Course Listing by Institution - <a href="https://sis.gpc.edu/PROD/wwtraneq.P_TranEq_Ltr">https://sis.gpc.edu/PROD/wwtraneq.P_TranEq_Ltr</a>
-          </div>
-        </section>
-
-        <section class="panel panel-default">
-          <div class="panel-body">
-            GPC Grade Forgiveness Form - <a href="">PDF</a>
           </div>
         </section>
       
