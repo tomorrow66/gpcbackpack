@@ -11,30 +11,24 @@
     </div>
 	  <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
 	  <script src="http://code.jquery.com/jquery-latest.js"></script>
-	  <script src="assets/js/owl.carousel.min.js"></script>
-	  <script src="assets/js/jquery.slides.min.js"></script>
 	  <script src="assets/js/bootstrap.min.js"></script>
+	  <script src="assets/js/unslider.min.js"></script>
 	  <script src="assets/js/svgeezy.min.js"></script>
 	  <script src="assets/js/holder.js"></script>
 	  <script>
 	  	$(document).ready(function() {
  
-			  $("#owl-demo").owlCarousel({
-			 			
-			      navigation : true, // Show next and prev buttons
-			      slideSpeed : 300,
-			      paginationSpeed : 400,
-			      singleItem:true
-			 
-			      // "singleItem:true" is a shortcut for:
-			      // items : 1, 
-			      // itemsDesktop : false,
-			      // itemsDesktopSmall : false,
-			      // itemsTablet: false,
-			      // itemsMobile : false
-			 
-			  });
-			 
+			  if(window.chrome) {
+					$('.banner li').css('background-size', 'cover');
+				}
+
+				$('.banner').unslider({
+				  speed: 500,
+				  delay: 9000,
+					arrows: false,
+					fluid: true,
+					dots: true
+				});			 
 			});
 	  </script>
 	  <script>

@@ -8,6 +8,23 @@
 	$sectionHeader = "Earning your degree or taking classes online.";
 	$sectionSubHeader = "";
   $sectionDesc = "Earn your degree or take classes online. Prepare for online success by reviewing topics such as GPC’s Online College, Departmental Contacts, Online Degrees, iCollege orientation, and How to Request Assistance.";
+  #Banner Images with captions
+	$bannerImg1       = "assets/img/slider/bannerimage.png";
+	$bannerHeader1    = "Prepare for Success.";
+  $bannerSubHeader1 = "Use the backpack site below to guide you to online and on campus resources.";
+  
+	$bannerImg2       = "assets/img/slider/bannerimage.png";
+	$bannerHeader2    = "Prepare for Your Success.";
+  $bannerSubHeader2 = "Use the backpack site below to guide you to online and on campus resources.";
+  
+	$bannerImg3       = "";
+	$bannerImg3_H1    = "";
+  $bannerImg3_Sub   = "";
+  
+	$bannerImg4       = "";
+	$bannerImg1_H1    = "";
+  $bannerImg1_Sub   = "";
+  #Vimeo ID
   $vimeoID = "74936179";
 	# Include header
 	include("includes/header.php"); 
@@ -18,24 +35,6 @@
       <strong class="headline"><?php echo "$pageTitle";?></strong>
     </figcaption>
   </figure>
-
-  <!-- Carousel
-  ================================================== -->
-  <!-- <div id="homeCarousel" class="carousel slide">
-    <div class="carousel-inner">
-      <div class="item active">
-        <img src="assets/img/slider/bannerimage.png" alt="First slide">
-        <div class="container">
-          <div class="carousel-caption">
-            <h3>Welcome!</h3>
-            <p><span>Use the backpack site below to guide you to online and on campus resources.</span></p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-    <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
-  </div> --><!-- /.carousel -->
   
   <?php
     # Include Icon Nav

@@ -3,3 +3,11 @@
 /data/*.sqlite3
 /log/*
 !/log/messages.log
+/.gem
+.zip
+/.sass-cache
+/img
+/assets/img/*
+!/assets/img/logos
+!/assets/img/slider
+!/assets/img/svg-icons

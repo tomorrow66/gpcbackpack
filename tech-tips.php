@@ -8,6 +8,23 @@
 	$sectionHeader = "Tech help is as close as a call, e-mail, website, or JagSPOT.";
 	$sectionSubHeader = "";
   $sectionDesc = "Tech help is as close as a call, e-mail, website, or JagSPOT.  Prepare for success by reviewing topics such as GPC’s Service Desk, JagSPOTS, GPC Login/Password assistance, Student Information System (SIS), Webmail, SkillSoft Online Learning, DegreeWorks and technical assistance.";
+  #Banner Images with captions
+	$bannerImg1       = "assets/img/slider/bannerimage.png";
+	$bannerHeader1    = "Prepare for Success.";
+  $bannerSubHeader1 = "Use the backpack site below to guide you to online and on campus resources.";
+  
+	$bannerImg2       = "assets/img/slider/bannerimage.png";
+	$bannerHeader2    = "Prepare for Your Success.";
+  $bannerSubHeader2 = "Use the backpack site below to guide you to online and on campus resources.";
+  
+	$bannerImg3       = "";
+	$bannerImg3_H1    = "";
+  $bannerImg3_Sub   = "";
+  
+	$bannerImg4       = "";
+	$bannerImg1_H1    = "";
+  $bannerImg1_Sub   = "";
+  #Vimeo ID
   $vimeoID = "70793546";
 	# Include header
 	include("includes/header.php"); 
