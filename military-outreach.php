@@ -74,7 +74,10 @@
                 GPC Veterans Affairs Office - <a href="http://depts.gpc.edu/~finaid/veterans.html#.Uidc3ZjD_IU">http://depts.gpc.edu/~finaid/veterans.html#.Uidc3ZjD_IU</a>
               </li>
               <li class="list-group-item">
-                FAQs for Military Students and Veterans - <a href="">PDF Link Needed!</a>
+                FAQs for VA Financial Aid - <a href="/files/MOC_VA_Financial_Aid_FAQ.pdf" download="MOC_VA_Financial_Aid_FAQ.pdf">Download PDF</a>
+              </li>
+              <li class="list-group-item">
+                FAQs for Military Students and Veterans - <a href="/files/MOC_FAQ_Military_Veteran_Students.pdf" download="MOC_FAQ_Military_Veteran_Students.pdf">Download PDF</a>
               </li>
             </ul>
           </div>

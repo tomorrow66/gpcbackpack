@@ -72,7 +72,7 @@
                 How to read a GPC Program Advisement Form - <a href="http://www.youtube.com/watch?v=xsAZ0Uw8rGg&list=UUCC6T8dqGp-VsC07FkaMcFw&index=3">Video</a>
               </li>
               <li class="list-group-item">
-                Next Steps flyer for students taking ONLINE ONLY classes - <a href="">PDF</a>
+                Next Steps flyer for students taking ONLINE ONLY classes - <a href="/files/StudentSuccess_ACRS_NextStepsFlyerforOnlineStudents_PDF.pdf" download="StudentSuccess_ACRS_NextStepsFlyerforOnlineStudents_PDF.pdf">Download PDF</a>
               </li>
               <li class="list-group-item">
                 Transfer Admission Guarantee (TAG) Information
@@ -90,10 +90,10 @@
                 </ul>
               </li>
               <li class="list-group-item">
-                How to register for classes in the Student Information System (SIS) - <a href="">PDF</a>
+                How to register for classes in the Student Information System (SIS) - <a href="/files/SIS-Registration Instructions.pdf" download="SIS-Registration Instructions.pdf">Download PDF</a>
               </li>
               <li class="list-group-item">
-                How to Build a Class Schedule Worksheet - <a href="">PDF</a>
+                How to Build a Class Schedule Worksheet - <a href="/files/HowtoBuildaClassScheduleWorksheet.pdf" download="HowtoBuildaClassScheduleWorksheet.pdf">Download PDF</a>
               </li>
               <li class="list-group-item">
                 Student Course Withdrawal Request - <a href="https://eapps.gpc.edu/swf/main_s.php">https://eapps.gpc.edu/swf/main_s.php</a>
@@ -102,7 +102,7 @@
                 GPC Class Schedule Listing - <a href="https://sis.gpc.edu/PROD/bwckschd.p_disp_dyn_sched">https://sis.gpc.edu/PROD/bwckschd.p_disp_dyn_sched</a>
               </li>
               <li class="list-group-item">
-                Transfer College Admissions Checklist - <a href="">PDF Link Needed!</a>
+                Transfer College Admissions Checklist - <a href="/files/" download="">Download PDF</a>
               </li>
               <li class="list-group-item">
                 Transfer Course Listing by Institution - <a href="https://sis.gpc.edu/PROD/wwtraneq.P_TranEq_Ltr">https://sis.gpc.edu/PROD/wwtraneq.P_TranEq_Ltr</a>
@@ -185,7 +185,7 @@
                 Family Education Rights and Privacy Act (FERPA) - <a href="http://depts2.gpc.edu/~gpcem/ferpa.htm">http://depts2.gpc.edu/~gpcem/ferpa.htm</a>
               </li>
               <li class="list-group-item">
-                GPC Acceptance of Transfer Credit Policy - <a href="">PDF</a>
+                GPC Acceptance of Transfer Credit Policy - <a href="/files/GPCAcceptanceofTransferCreditPolicy.pdf" download="GPCAcceptanceofTransferCreditPolicy.pdf">Download PDF</a>
               </li>
               <li class="list-group-item">
                 Advanced Placement (AP) Transfer Credit - <a href="http://depts2.gpc.edu/~gpcem/registrar/ap_scores.html#.UiYYqJjD_IU">http://depts2.gpc.edu/~gpcem/registrar/ap_scores.html#.UiYYqJjD_IU</a>
@@ -203,7 +203,7 @@
                 How to Submit a Course Withdrawal Request - <a href="http://depts2.gpc.edu/~gpcem/registrar/howtowithdraw.html#.UiYZqpjD_IU">http://depts2.gpc.edu/~gpcem/registrar/howtowithdraw.html#.UiYZqpjD_IU</a>
               </li>
               <li class="list-group-item">
-                GPC Grade Change Policy - <a href="">PDF</a>
+                GPC Grade Change Policy - <a href="/files/GPCGradeChangePolicy.pdf" download="GPCGradeChangePolicy.pdf">Download PDF</a>
               </li>
               <li class="list-group-item">
                 GPC Tuition Classification Policy - <a href="http://www.gpc.edu/catalog/tuition-classification">http://www.gpc.edu/catalog/tuition-classification</a>
@@ -229,7 +229,7 @@
                 Information for New Arrivals to the US - <a href="http://depts2.gpc.edu/~gpcisaa/newarrival.htm">http://depts2.gpc.edu/~gpcisaa/newarrival.htm</a>
               </li>
               <li class="list-group-item">
-                International Student Manual - <a href="">PDF</a>
+                International Student Manual - <a href="/files/USG_International_Student_Manual.pdf" download="USG_International_Student_Manual.pdf">Download PDF</a>
               </li>
               <li class="list-group-item">
                 English as a Second Language (ESL) Program - <a href="http://www.gpc.edu/esl/#.UidZy5jD_IU">http://www.gpc.edu/esl/#.UidZy5jD_IU</a>
@@ -249,22 +249,22 @@
                 Learning Support Home Page - <a href="http://lsupport.gpc.edu/">http://lsupport.gpc.edu/ </a>
               </li>
               <li class="list-group-item">
-                Learning Support Brochure - <a href="">PDF</a>
+                Learning Support Brochure - <a href="/files/LS_Brochure.pdf" download="LS_Brochure.pdf">Download PDF</a>
               </li>
               <li class="list-group-item">
-                Learning Support Policy Guide - <a href="">PDF</a>
+                Learning Support Policy Guide - <a href="/files/LS_Manual.pdf" download="LS_Manual.pdf">Download PDF</a>
               </li>
               <li class="list-group-item">
                 Learning Support VIDEO: <a href="https://vimeo.com/70566687"> https://vimeo.com/70566687</a>
               </li>
               <li class="list-group-item">
-                Strategies for Success in Learning Support - <a href="">PDF</a>
+                Strategies for Success in Learning Support - <a href="/files/Strategies_for_Success.pdf" download="Strategies_for_Success.pdf">Download PDF</a>
               </li>
               <li class="list-group-item">
-                Allowable College-Level Courses LS Students May Take - <a href="">PDF</a>
+                Allowable College-Level Courses LS Students May Take - <a href="/files/LSAllowable_College_Courses.pdf" download="LSAllowable_College_Courses.pdf">Download PDF</a>
               </li>
               <li class="list-group-item">
-                Educational Option(s) for Students On or Near LS Suspension - <a href="">PDF</a>
+                Educational Option(s) for Students On or Near LS Suspension - <a href="/files/LSOptionsforStudentsOnorNearLSSuspension.pdf" download="LSOptionsforStudentsOnorNearLSSuspension.pdf">Download PDF</a>
               </li>
             </ul>
           </div>

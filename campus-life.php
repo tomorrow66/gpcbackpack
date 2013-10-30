@@ -135,7 +135,7 @@
                 GPC Student Handbook - <a href="http://globaldatebooksonline.com/flipbooks/georgiapc2012/">http://globaldatebooksonline.com/flipbooks/georgiapc2012/</a>
               </li>
               <li class="list-group-item">
-                GPC Student Handbook - <a href="#">Download PDF</a>
+                GPC Student Handbook - <a href="/files/StudentAffairs_studenthandbook.pdf" download="StudentAffairs_studenthandbook.pdf">Download PDF</a>
               </li>
             </ul>
           </div>

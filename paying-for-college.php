@@ -117,7 +117,7 @@
                 Home Page - <a href="http://depts.gpc.edu/Foundation/scholarships.htm">http://depts.gpc.edu/Foundation/scholarships.htm</a>
               </li>
               <li class="list-group-item">
-                Frequently Asked Questions - <a href="">PDF Link Needed!</a>
+                Frequently Asked Questions - <a href="/files/StudentScholarships_FAQs_PDF.pdf" download="StudentScholarships_FAQs_PDF.pdf"> Download PDF</a>
               </li>
             </ul>
           </div>

@@ -90,7 +90,7 @@
                 JCard Policies - <a href="http://www.gpc.edu/jcard/jcard-policies-0#.UiY1upjD_IU">http://www.gpc.edu/jcard/jcard-policies-0#.UiY1upjD_IU</a>
               </li>
               <li class="list-group-item">
-                How to Accept JCard within SIS - <a href="">PDF Link Needed!</a>
+                How to Accept JCard within SIS - <a href="/files/HowtoAcceptJcardinSIS.pdf" download="HowtoAcceptJcardinSIS.pdf">Download PDF</a>
               </li>
 						</ul>
 					</div>
@@ -113,7 +113,7 @@
                 Sexual Misconduct (Title IX) Information - <a href="http://depts.gpc.edu/gpcmisconduct">http://depts.gpc.edu/gpcmisconduct</a>
               </li>
               <li class="list-group-item">
-                Sexual Misconduct (Title IX) brochure - <a href="#">PDF Link Needed!</a>
+                Sexual Misconduct (Title IX) brochure - <a href="/files/PublicSafety_SexualMisconductbrochure_PDF.pdf" download="PublicSafety_SexualMisconductbrochure_PDF.pdf">Download PDF</a>
               </li>
             </ul>
           </div>
