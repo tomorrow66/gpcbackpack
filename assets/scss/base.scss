@@ -10,6 +10,31 @@
   height: 28px;
   text-align: right;
 
+  .left, .right {
+    display: inline-block;
+  }
+
+  .left {
+    float: left;
+    
+    a {
+      width: 24px;
+      height: 24px;
+      display: inline-block;
+      margin-top: 3px;
+      margin-right: -5px;
+    }
+  }
+
+  .right {
+    float: right;
+  }
+
+  .facebook { background: url(/assets/img/social/facebook.svg) no-repeat; }
+  .twitter { background: url(/assets/img/social/twitter.svg) no-repeat; }
+  .youtube { background: url(/assets/img/social/youtube.svg) no-repeat; }
+  .linkedin { background: url(/assets/img/social/linkedin.svg) no-repeat; }
+
   a {
     font-family: 'Open Sans', san-serif;
     font-size: .875em;

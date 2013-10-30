@@ -1,9 +1,17 @@
 <nav class="topUtil-nav navbar-fixed-top">
   <div class="container">
-    <a href="http://eapps.gpc.edu/FAQ/">FAQ</a>
-    <a href="https://www.gpc.edu/Request/w3_form/">Contact Us</a>
-    <a href="https://sis.gpc.edu/PROD/twbkwbis.P_GenMenu?name=homepage">SIS</a>
-    <a href="https://idmgmt.gpc.edu/gml/">Login/Password Help</a>
+    <nav class="left">
+      <a class="facebook" href="https://www.facebook.com/georgiaperimetercollege" title="Facebook"></a>
+      <a class="twitter" href="https://twitter.com/gpctweets" title="Twitter"></a>
+      <a class="linkedin" href="http://www.linkedin.com/company/georgia-perimeter-college" title="Linkedin"></a>
+      <a class="youtube" href="http://www.youtube.com/gaperimetercollege" title="Youtube"></a>
+    </nav>
+    <nav class="right">
+      <a href="http://eapps.gpc.edu/FAQ/">FAQ</a>
+      <a href="https://www.gpc.edu/Request/w3_form/">Contact Us</a>
+      <a href="https://sis.gpc.edu/PROD/twbkwbis.P_GenMenu?name=homepage">SIS</a>
+      <a href="https://idmgmt.gpc.edu/gml/">Login/Password Help</a>
+    </nav>
   </div>
 </nav>
 <!-- Fixed navbar -->
