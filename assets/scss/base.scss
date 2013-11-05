@@ -18,11 +18,11 @@
     float: left;
     
     a {
-      width: 24px;
-      height: 24px;
+      width: 25px;
+      height: 16px;
       display: inline-block;
-      margin-top: 3px;
-      margin-right: -5px;
+      margin-top: 6px;
+      margin-right: 0px;
     }
   }
 
@@ -30,10 +30,10 @@
     float: right;
   }
 
-  .facebook { background: url(/assets/img/social/facebook.svg) no-repeat; }
-  .twitter { background: url(/assets/img/social/twitter.svg) no-repeat; }
-  .youtube { background: url(/assets/img/social/youtube.svg) no-repeat; }
-  .linkedin { background: url(/assets/img/social/linkedin.svg) no-repeat; }
+  .facebook { background: url(/assets/img/social/gpc_facebook.svg) no-repeat; }
+  .twitter { background: url(/assets/img/social/gpc_twitter.svg) no-repeat; }
+  .youtube { background: url(/assets/img/social/gpc_youtube.svg) no-repeat; }
+  .linkedin { background: url(/assets/img/social/gpc_linkedin.svg) no-repeat; }
 
   a {
     font-family: 'Open Sans', san-serif;
@@ -371,6 +371,18 @@ figure.fluidratio {
     margin-top: 144px;
   }
 }
+#academic-success figure.fluidratio {
+  background-image: url(/assets/img/slider/graduation.jpg); 
+}
+#campus-life figure.fluidratio {
+  background-image: url(/assets/img/slider/campus_life.jpg); 
+}
+#safety-security figure.fluidratio {
+  background-image: url(/assets/img/slider/safety_and_security.jpg); 
+}
+#paying-for-college figure.fluidratio {
+  background-image: url(/assets/img/slider/financial_aid.jpg); 
+}
 figcaption.container {
   width: 80%;
 }
@@ -471,6 +483,10 @@ figcaption {
   }
   .icon-bg {
     @media (min-width: $grid-float-breakpoint) {
+      padding: ($line-height-computed / 2) 0 10%;
+    }
+
+    @media (min-width: $screen-md) {
       padding: ($line-height-computed / 2) 0 0%;
     }
   }
@@ -524,10 +540,11 @@ figcaption {
   left:10%;
   right:10%;
   bottom:5%;
-  font-size: 1em;
+  font-size: 0.8em;
   color: #fff;
   text-align:center;
   margin:0;
+  padding: 0 5px;
 
   @media (min-width: $screen-md) {
     margin-top: -10px;
@@ -653,14 +670,15 @@ section.main #content {
 -------------------------------------------------- */
 
 /* Styles */
-
+#home .c-container {
+  @media (min-width: $grid-float-breakpoint) {
+    min-height: 138px;
+  }
+}
 .c-container {
     // background: #2e5f3e;
     // color: #4fa46b;
     width: 100%;
-    @media (min-width: $grid-float-breakpoint) {
-      min-height: 138px;
-    }
     margin: 0;
     clear: both;
 }

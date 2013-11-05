@@ -158,16 +158,16 @@
            id="stop71"
            style="stop-color:#252525;stop-opacity:1"
            offset="1" /></linearGradient><polygon
-         points="26.397,27.764 84.652,54.764 142.512,27.764 84.652,5.5 "
+         points="84.652,54.764 142.512,27.764 84.652,5.5 26.397,27.764 "
          id="polygon73"
          style="stroke-miterlimit:10" /><polygon
-         points="114,81 114,43.848 81.886,32.492 83.332,28.693 118,41.004 118,81 "
+         points="114,43.848 81.886,32.492 83.332,28.693 118,41.004 118,81 114,81 "
          id="polygon75" /><circle
          cx="115.744"
          cy="70.540001"
          r="4.8740001"
          id="circle77" /><polygon
-         points="116.021,77.293 121.626,87 110.417,87 "
+         points="121.626,87 110.417,87 116.021,77.293 "
          id="polygon79" /></g><text
        transform="translate(2.54,108.5)"
        id="text81"
@@ -377,7 +377,7 @@
        id="text217"
        style="font-size:18px">Safety &amp; Security</text>
 </g><g
-     transform="translate(0.5,0)"
+     transform="matrix(0.85714286,0,0,0.85714286,12.5,11.714286)"
      id="Miltary_Outreach"><rect
        width="140"
        height="7"
