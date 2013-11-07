@@ -8088,41 +8088,47 @@ td.visible-print {
 .navbar-default .navbar-header {
   background: #a30532;
 }
+/* line 57, ../sass/_top_nav.scss */
+.navbar-default .navbar-header .navbar-brand .icon-gpc_logo {
+  width: 156px;
+  height: 61.263px;
+  margin: 0;
+}
 @media (min-width: 768px) {
-  /* line 63, ../sass/_top_nav.scss */
+  /* line 65, ../sass/_top_nav.scss */
   .navbar-default .container > .navbar-collapse {
     margin-left: -24px;
     margin-right: -24px;
   }
 }
-/* line 70, ../sass/_top_nav.scss */
+/* line 72, ../sass/_top_nav.scss */
 .navbar-default .navbar-nav {
   background: #900627;
   margin-top: 0;
 }
 @media (min-width: 768px) {
-  /* line 70, ../sass/_top_nav.scss */
+  /* line 72, ../sass/_top_nav.scss */
   .navbar-default .navbar-nav {
     width: 75%;
     float: right;
   }
 }
-/* line 79, ../sass/_top_nav.scss */
+/* line 81, ../sass/_top_nav.scss */
 .navbar-default .navbar-nav li a {
   font-size: 12px;
 }
-/* line 84, ../sass/_top_nav.scss */
+/* line 86, ../sass/_top_nav.scss */
 .navbar-default .navbar-toggle {
   border-radius: 0;
 }
-/* line 87, ../sass/_top_nav.scss */
+/* line 89, ../sass/_top_nav.scss */
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #fff;
   height: 3px;
   border-radius: 0;
 }
 
-/* line 95, ../sass/_top_nav.scss */
+/* line 97, ../sass/_top_nav.scss */
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
   background-color: transparent;
   outline-color: transparent;
@@ -8674,4 +8680,92 @@ figcaption .headline, figcaption p span {
   figcaption .headline, figcaption p span {
     line-height: 1.9;
   }
+}
+
+/* Section area styles
+-------------------------------------------------- */
+/* line 3, ../sass/_layout.scss */
+section.main #content {
+  background: #e0e4cd;
+}
+
+/* line 6, ../sass/_layout.scss */
+.section-header {
+  color: #fff;
+  background: #9c9e8e;
+}
+/* line 10, ../sass/_layout.scss */
+.section-header .container {
+  background: #b70c32;
+  padding: 10px;
+  border-bottom-color: #8fa68e;
+  border-bottom-width: 10px;
+  border-bottom-style: solid;
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 18, ../sass/_layout.scss */
+.section-header .container strong.title {
+  font-weight: bold;
+  font-size: 1.2em;
+  float: left;
+  margin-right: 20px;
+}
+@media (min-width: 768px) {
+  /* line 18, ../sass/_layout.scss */
+  .section-header .container strong.title {
+    font-size: 1.75em;
+  }
+}
+/* line 27, ../sass/_layout.scss */
+.section-header .container .subtitle {
+  float: left;
+  margin-top: 13px;
+}
+
+/* line 34, ../sass/_layout.scss */
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+  margin-bottom: 20px;
+}
+/* line 41, ../sass/_layout.scss */
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Panel Group styles
+-------------------------------------------------- */
+/* line 52, ../sass/_layout.scss */
+.panel-group {
+  margin: 20px 0;
+}
+
+/* line 56, ../sass/_layout.scss */
+.panel-body {
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+/* line 59, ../sass/_layout.scss */
+.panel-body a {
+  color: #267CFD;
+}
+
+/* line 64, ../sass/_layout.scss */
+.list-group-item {
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+/* line 69, ../sass/_layout.scss */
+.panel-title {
+  font-size: 16px;
+  font-weight: 700;
 }
