@@ -72,7 +72,7 @@
   }
   
   .icons.row {
-    margin: 20px 0; 
+    margin: 20px 0 0; 
 
     .col-xs-2, .col-xs-4 {
       padding-left: 2px;
@@ -80,6 +80,7 @@
     }
   }
   .icons.row.last {
+    margin-top: 0;
     margin-bottom: 20px; 
   }
   .bkpk-icons {
