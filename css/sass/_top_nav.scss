@@ -1,0 +1,98 @@
+/* Top Nav styles
+-------------------------------------------------- */
+.topUtil-nav {
+  background: #212121;
+  height: 28px;
+  text-align: right;
+
+  .left, .right {
+    display: inline-block;
+  }
+
+  .left {
+    float: left;
+    
+    a {
+      width: 25px;
+      height: 16px;
+      display: inline-block;
+      margin-top: 6px;
+      margin-right: 0px;
+    }
+  }
+
+  .right {
+    float: right;
+  }
+
+  a {
+    font-family: 'Open Sans', san-serif;
+    font-size: .875em;
+    line-height: 2.5;
+    color: #898989;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    margin-right: 15px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    &:hover {
+      color: #FFF;
+      text-decoration: none;
+    }
+  }
+}
+.navbar-default {
+	border-top-width: 15px;
+	border-top-color: #b70d32;
+  margin-top: 28px;
+	
+	.navbar-header {
+    background: #a30532;
+    
+    .navbar-brand {
+
+       img {
+         
+       }
+    }
+  }
+
+  .container > .navbar-collapse {
+    @media (min-width: $screen-sm) {
+      margin-left: -24px;
+      margin-right: -24px;
+    }
+  }
+  
+  .navbar-nav {
+    background: #900627;
+    margin-top: 0;
+    @media (min-width: $screen-sm) {
+      width: 75%;
+      float: right;
+    }
+    
+    li {
+      a {
+        font-size: 12px;
+      }
+    }
+  }
+  .navbar-toggle {
+  	border-radius: 0;
+  	
+  	.icon-bar {
+      background-color: #fff;
+      height: 3px;
+      border-radius: 0;
+    }
+  }
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: transparent;
+  outline-color: transparent;
+}

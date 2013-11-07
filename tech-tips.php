@@ -84,11 +84,11 @@
             <!-- List group -->
             <ul class="list-group">
               <li class="list-group-item">
-                Service Desk - <a href="http://www.gpc.edu/oit/servicedesk -  
-">http://www.gpc.edu/oit/servicedesk</a> - assistance by phone, e-mail or chat.
+                <a href="http://www.gpc.edu/oit/servicedesk  
+">Service Desk - assistance by phone, e-mail or chat.</a>
               </li>
               <li class="list-group-item">
-                24/7 iCollege Support from the D2L Help Center: <a href="https://d2lhelp.view.usg.edu/">https://d2lhelp.view.usg.edu/</a>
+                <a href="https://d2lhelp.view.usg.edu/">24/7 iCollege Support from the D2L Help Center</a>
               </li>
             </ul>
           </div>
@@ -102,10 +102,10 @@
             <!-- List group -->
             <ul class="list-group">
               <li class="list-group-item">
-                JagSpots - <a href="http://www.gpc.edu/oit/jagSPOT">http://www.gpc.edu/oit/jagSPOT </a>
+                <a href="http://www.gpc.edu/oit/jagSPOT">JagSpots</a>
               </li>
               <li class="list-group-item">
-                MobileSpot - bring your own laptop or mobile device
+                MobileSpotbring your own laptop or mobile device
               </li>
               <li class="list-group-item">
                 TechSpot – access to GPC techs offering laptop support to students</a>
@@ -114,7 +114,7 @@
                 BusinessSpot – access to printing, copying, scanning and faxing</a>
               </li>
               <li class="list-group-item">
-                MediaSpot - <a href="http://mediaspot.gpc.edu/">http://mediaspot.gpc.edu/</a>
+                <a href="http://mediaspot.gpc.edu/">MediaSpot</a>
               </li>
             </ul>
           </div>
@@ -128,16 +128,16 @@
             <!-- List group -->
             <ul class="list-group">
               <li class="list-group-item">
-                Forget a Username or Password - <a href="http://getmylogin.gpc.edu/">http://getmylogin.gpc.edu/</a>
+                <a href="http://getmylogin.gpc.edu/">Forget a Username or Password</a>
               </li>
               <li class="list-group-item">
-                GPC Webmail - <a href="http://webmail.gpc.edu/">http://webmail.gpc.edu/</a>
+                <a href="http://webmail.gpc.edu/">GPC Webmail</a>
               </li>
               <li class="list-group-item">
-                iCollege - <a href="http://icollege.gpc.edu/">http://icollege.gpc.edu/</a>
+                <a href="http://icollege.gpc.edu/">iCollege</a>
               </li>
               <li class="list-group-item">
-                GPC’s Student Information System (SIS) - <a href="http://sis.gpc.edu/">http://sis.gpc.edu/</a>
+                <a href="http://sis.gpc.edu/">GPC’s Student Information System (SIS)</a>
               </li>
             </ul>
           </div>
@@ -151,10 +151,10 @@
             <!-- List group -->
             <ul class="list-group">
               <li class="list-group-item">
-                Skill Soft  Online Learning - <a href="https://eapps.gpc.edu/training/">https://eapps.gpc.edu/training/</a>
+                <a href="https://eapps.gpc.edu/training/">Skill Soft  Online Learning</a>
               </li>
               <li class="list-group-item">
-                Student Software - <a href="http://www.gpc.edu/oit/servicedesk">http://www.gpc.edu/oit/servicedesk</a>
+                <a href="http://www.gpc.edu/oit/servicedesk">Student Software</a>
               </li>
             </ul>
           </div>

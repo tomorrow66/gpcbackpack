@@ -70,37 +70,37 @@
             <!-- List group -->
             <ul class="list-group">
               <li class="list-group-item">
-                Academic Calendar - <a href="http://www.gpc.edu/calendar/academic/">http://www.gpc.edu/calendar/academic/</a>
+                <a href="http://www.gpc.edu/calendar/academic/">Academic Calendar</a>
               </li>
               <li class="list-group-item">
-                Academic Department Websites - <a href="http://www.gpc.edu/Academics/departments/">http://www.gpc.edu/Academics/departments/</a>
+                <a href="http://www.gpc.edu/Academics/departments/">Academic Department Websites</a>
               </li>
               <li class="list-group-item">
-                Course Catalog - <a href="http://www.gpc.edu/catalog/#.UidX7ZjD_IU">http://www.gpc.edu/catalog/#.UidX7ZjD_IU</a>
+                <a href="http://www.gpc.edu/catalog/#.UidX7ZjD_IU">Course Catalog</a>
               </li>
               <li class="list-group-item">
-                DegreeWorks Online Tool for Degree Completion - <a href="http://depts.gpc.edu/~acadaff/publications/DegreeWorks.htm">http://depts.gpc.edu/~acadaff/publications/DegreeWorks.htm</a>
+                <a href="http://depts.gpc.edu/~acadaff/publications/DegreeWorks.htm">DegreeWorks Online Tool for Degree Completion</a>
               </li>
               <li class="list-group-item">
-                English as a Second Language (ESL) Program - <a href="http://www.gpc.edu/esl/#.UidZy5jD_IU">http://www.gpc.edu/esl/#.UidZy5jD_IU</a>
+                <a href="http://www.gpc.edu/esl/#.UidZy5jD_IU">English as a Second Language (ESL) Program</a>
               </li>
               <li class="list-group-item">
-                ESL VIDEO: <a href="https://vimeo.com/70834491">https://vimeo.com/70834491</a>
+                <a href="https://vimeo.com/70834491">ESL VIDEO</a>
               </li>
               <li class="list-group-item">
-                GPC Educational Achievement Program (GEAP) VIDEO: <a href="https://vimeo.com/70508170">https://vimeo.com/70508170</a>
+                <a href="https://vimeo.com/70508170">GPC Educational Achievement Program (GEAP) VIDEO</a>
               </li>
               <li class="list-group-item">
-                GPC Educational Achievement Program Home Page - <a href="http://depts2.gpc.edu/geap/#.UidjlZjD_IU">http://depts2.gpc.edu/geap/#.UidjlZjD_IU</a>
+                <a href="http://depts2.gpc.edu/geap/#.UidjlZjD_IU">GPC Educational Achievement Program Home Page</a>
               </li>
               <li class="list-group-item">
-                Honors Program - <a href="http://depts.gpc.edu/~gpchonp/">http://depts.gpc.edu/~gpchonp/</a>
+                <a href="http://depts.gpc.edu/~gpchonp/">Honors Program</a>
               </li>
               <li class="list-group-item">
-                Programs of Study - <a href="http://www.gpc.edu/programs/#.UidYC5jD_IU">http://www.gpc.edu/programs/#.UidYC5jD_IU</a>
+                <a href="http://www.gpc.edu/programs/#.UidYC5jD_IU">Programs of Study</a>
               </li>
               <li class="list-group-item">
-                Honors ProgramProgram Advisement Forms - <a href="http://www.gpc.edu/programs/Program-Advisement-Forms#.UidYM5jD_IU">http://www.gpc.edu/programs/Program-Advisement-Forms#.UidYM5jD_IU</a>
+                 <a href="http://www.gpc.edu/programs/Program-Advisement-Forms#.UidYM5jD_IU">Program Advisement Forms</a>
               </li>
             </ul>
           </div>

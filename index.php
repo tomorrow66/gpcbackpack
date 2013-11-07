@@ -8,11 +8,11 @@
 	$sectionHeader    = "Welcome to the Georgia Perimeter College backpack site!";
 	$sectionSubHeader = "";
 	#Banner Images with captions
-	$bannerImg1       = "assets/img/slider/bannerimage.png";
+	$bannerImg1       = "img/banners/bannerimage.png";
 	$bannerHeader1    = "Prepare for Success.";
   $bannerSubHeader1 = "Use the backpack site below to guide you to online and on campus resources.";
   
-	$bannerImg2       = "assets/img/slider/bannerimage.png";
+	$bannerImg2       = "img/banners/bannerimage.png";
 	$bannerHeader2    = "Prepare for Your Success.";
   $bannerSubHeader2 = "Use the backpack site below to guide you to online and on campus resources.";
 
@@ -49,9 +49,7 @@
     <!-- Example row of columns -->
     <div id="content" class="container">
       <div class="content">
-        <p class="lead">Here you will find helpful GPC information organized into eight (8) main sections. Each section provides online and on campus resources such as direct web links, downloads, and videos to support your academic and personal success.</p>
-
-        <p>Popular resources such as GPC Calendars, Frequently Asked Questions (FAQs), Login/Password Help, and Student Information System (SIS) links are provided below.</p>
+        <p>Here you will find helpful GPC information organized into eight (8) main sections.  Each section provides online and on campus resources such as direct web links, downloads, and videos to support your academic and personal success.  Social Media and popular links such as FAQs, Login/Password Help, and Student Information System (SIS) are provided at the top of the page.</p> 
         <p>Best wishes on a great semester.  Go Jaguars!</p>
 
         <div class="panel-group" id="accordion">

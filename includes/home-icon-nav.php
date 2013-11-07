@@ -8,7 +8,7 @@
               <div class="c-block">
                 <!-- CONTENT -->
                 <a href="/academic-success.php">
-                  <img src="assets/img/svg-icons/academic_success2.svg"  alt="">
+                  <i class="navicon icon-academic_success"></i>
                   <h3 class="icon-title">Academic Success</h3>
                 </a>
               </div>
@@ -21,7 +21,7 @@
               <div class="c-block">
                 <!-- CONTENT -->
                 <a href="/campus-life.php">
-                  <img src="assets/img/svg-icons/campus_life2.svg"  alt="">
+                  <i class="navicon icon-campus_life"></i>
                    <h3 class="icon-title">Campus Life</h3>
                 </a>
               </div>
@@ -33,9 +33,9 @@
             <div class="c-container inlined">
               <div class="c-block">
                 <!-- CONTENT -->
-                <a href="/gpc-online-college.php">
-                  <img src="assets/img/svg-icons/icollege2.svg"  alt="">
-                   <h3 class="icon-title">GPC Online Campus</h3>
+                <a href="/gpc-online.php">
+                  <i class="navicon icon-icollege"></i>
+                   <h3 class="icon-title">GPC Online</h3>
                 </a>
               </div>
             </div>
@@ -47,7 +47,7 @@
               <div class="c-block">
                 <!-- CONTENT -->
                 <a href="/military-outreach.php">
-                  <img src="assets/img/svg-icons/military_outreach2.svg"  alt="">
+                  <i class="navicon icon-military_outreach"></i>
                    <h3 class="icon-title">Military Outreach</h3>
                 </a>
               </div>
@@ -56,14 +56,14 @@
         </div>
       </div>
       <!-- Example row of columns -->
-      <div class="icons row">
+      <div class="icons row last">
         <div class="col-xs-4 bkpk-icons">
           <div class="icon-bg">
             <div class="c-container inlined">
               <div class="c-block">
                 <!-- CONTENT -->
                 <a href="/paying-for-college.php">
-                  <img src="assets/img/svg-icons/paying_for_college2.svg"  alt="">
+                  <i class="navicon icon-paying_for_college"></i>
                    <h3 class="icon-title">Paying for College</h3>
                 </a>
               </div>
@@ -76,7 +76,7 @@
               <div class="c-block">
                 <!-- CONTENT -->
                 <a href="/safety-security.php">
-                  <img src="assets/img/svg-icons/safety_security2.svg"  alt="">
+                  <i class="navicon icon-safety_security"></i>
                    <h3 class="icon-title">Safety & Security</h3>
                 </a>
               </div>
@@ -88,8 +88,8 @@
             <div class="c-container inlined">
               <div class="c-block">
                 <!-- CONTENT -->
-                <a href="/student-success.php">
-                  <img src="assets/img/svg-icons/personal_success2.svg"  alt="">
+                <a href="/personal-success.php">
+                  <i class="navicon icon-personal_success"></i>
                    <h3 class="icon-title">Personal Success</h3>
                 </a>
               </div>
@@ -102,7 +102,7 @@
               <div class="c-block">
                 <!-- CONTENT -->
                 <a href="/tech-tips.php">
-                  <img src="assets/img/svg-icons/technology_tips2.svg"  alt="">
+                  <i class="navicon icon-technology_tips"></i>
                    <h3 class="icon-title">Technology Tips</h3>
                  </a>
               </div>

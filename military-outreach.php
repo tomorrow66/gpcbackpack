@@ -62,16 +62,16 @@
             <!-- List group -->
             <ul class="list-group">
               <li class="list-group-item">
-                Military Outreach Center (MOC) Home Page - <a href="http://depts.gpc.edu/militaryoutreach/#.UidcjZjD_IU">http://depts.gpc.edu/militaryoutreach/#.UidcjZjD_IU</a>
+                <a href="http://depts.gpc.edu/militaryoutreach/#.UidcjZjD_IU">Military Outreach Center (MOC) Home Page</a>
               </li>
               <li class="list-group-item">
-                MOC Scholarships - <a href="http://depts.gpc.edu/militaryoutreach/MOC%20Scholarships%20rvsd%20july2013.pdf">http://depts.gpc.edu/militaryoutreach/MOC%20Scholarships%20rvsd%20july2013.pdf</a>
+                <a href="http://depts.gpc.edu/militaryoutreach/MOC%20Scholarships%20rvsd%20july2013.pdf">MOC Scholarships</a>
               </li>
               <li class="list-group-item">
-                MOC VIDEO: <a href="https://vimeo.com/70487586">https://vimeo.com/70487586</a>
+                <a href="https://vimeo.com/70487586">MOC VIDEO</a>
               </li>
               <li class="list-group-item">
-                GPC Veterans Affairs Office - <a href="http://depts.gpc.edu/~finaid/veterans.html#.Uidc3ZjD_IU">http://depts.gpc.edu/~finaid/veterans.html#.Uidc3ZjD_IU</a>
+                <a href="http://depts.gpc.edu/~finaid/veterans.html#.Uidc3ZjD_IU">GPC Veterans Affairs Office</a>
               </li>
               <li class="list-group-item">
                 FAQs for VA Financial Aid - <a href="/files/MOC_VA_Financial_Aid_FAQ.pdf" download="MOC_VA_Financial_Aid_FAQ.pdf">Download PDF</a>

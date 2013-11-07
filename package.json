@@ -1,0 +1,32 @@
+{
+  "name": "GPC_Backback",
+  "version": "0.0.1",
+  "description": "GPC Backpack website",
+  "main": "gruntfile.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/"
+  },
+  "keywords": [
+    "grunt",
+    "takeoff"
+  ],
+  "author": "DeAndre Johnson",
+  "license": "",
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "grunt": "*",
+    "grunt-contrib-concat": "*",
+    "grunt-contrib-jshint": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-csslint": "*",
+    "grunt-contrib-cssmin": "*",
+    "grunt-smushit": "*",
+    "grunt-contrib-sass": "*",
+    "grunt-contrib-compass": "*",
+    "grunt-grunticon": "*",
+    "grunt-contrib-clean": "*",
+    "grunt-svgmin": "*"
+  }
+}

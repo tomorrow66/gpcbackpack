@@ -62,19 +62,19 @@
             <!-- List group -->
             <ul class="list-group">
               <li class="list-group-item">
-                Home Page - <a href="http://depts.gpc.edu/~finaid/#.UidSspjD_IU">http://depts.gpc.edu/~finaid/#.UidSspjD_IU</a>
+                <a href="http://depts.gpc.edu/~finaid/#.UidSspjD_IU">Home Page</a>
               </li>
               <li class="list-group-item">
-                How to Apply for Financial Aid - <a href="http://depts.gpc.edu/~finaid/applying.htm#.UidTCpjD_IU">http://depts.gpc.edu/~finaid/applying.htm#.UidTCpjD_IU</a>
+                <a href="http://depts.gpc.edu/~finaid/applying.htm#.UidTCpjD_IU">How to Apply for Financial Aid</a>
               </li>
               <li class="list-group-item">
-                Free Application for Federal Student Aid (FAFSA) - <a href="http://www.fafsa.ed.gov/">http://www.fafsa.ed.gov/</a>
+                <a href="http://www.fafsa.ed.gov/">Free Application for Federal Student Aid (FAFSA)</a>
               </li>
               <li class="list-group-item">
-                Check Your GPC Financial Aid Status - <a href="http://depts.gpc.edu/~finaid/checkstatus.htm#.UidS7JjD_IU">http://depts.gpc.edu/~finaid/checkstatus.htm#.UidS7JjD_IU</a>
+                <a href="http://depts.gpc.edu/~finaid/checkstatus.htm#.UidS7JjD_IU">Check Your GPC Financial Aid Status</a>
               </li>
               <li class="list-group-item">
-                GPC Financial Aid Forms - <a href="http://depts.gpc.edu/~finaid/printableforms.htm#.UidTcJjD_IU">http://depts.gpc.edu/~finaid/printableforms.htm#.UidTcJjD_IU</a>
+                <a href="http://depts.gpc.edu/~finaid/printableforms.htm#.UidTcJjD_IU">GPC Financial Aid Forms</a>
               </li>
             </ul>
           </div>
@@ -88,19 +88,19 @@
             <!-- List group -->
             <ul class="list-group">
               <li class="list-group-item">
-                Tuition and Fees - <a href="http://depts.gpc.edu/~gpcsacct/resources/tuition_and_fees.html">http://depts.gpc.edu/~gpcsacct/resources/tuition_and_fees.html</a>
+                <a href="http://depts.gpc.edu/~gpcsacct/resources/tuition_and_fees.html">Tuition and Fees</a>
               </li>
               <li class="list-group-item">
-                Payment Options - <a href="http://depts.gpc.edu/~gpcsacct/resources/payment_information.html#.UidUNpjD_IU">http://depts.gpc.edu/~gpcsacct/resources/payment_information.html#.UidUNpjD_IU</a>
+                <a href="http://depts.gpc.edu/~gpcsacct/resources/payment_information.html#.UidUNpjD_IU">Payment Options</a>
               </li>
               <li class="list-group-item">
-                Nelnet Payment Plan (NBS) - <a href="http://paymentplan.gpc.edu/">http://paymentplan.gpc.edu/</a>
+                <a href="http://paymentplan.gpc.edu/">Nelnet Payment Plan (NBS)</a>
               </li>
               <li class="list-group-item">
-                Refund Information - <a href="http://depts.gpc.edu/~gpcsacct/resources/refund_information.html">http://depts.gpc.edu/~gpcsacct/resources/refund_information.html</a>
+                <a href="http://depts.gpc.edu/~gpcsacct/resources/refund_information.html">Refund Information</a>
               </li>
               <li class="list-group-item">
-                Third Party Payments to Student Accounts - <a href="http://depts.gpc.edu/~gpcsacct/resources/sponsored_billing.html">http://depts.gpc.edu/~gpcsacct/resources/sponsored_billing.html</a>
+                <a href="http://depts.gpc.edu/~gpcsacct/resources/sponsored_billing.html">Third Party Payments to Student Accounts</a>
               </li>
             </ul>
           </div>
@@ -114,7 +114,7 @@
             <!-- List group -->
             <ul class="list-group">
               <li class="list-group-item">
-                Home Page - <a href="http://depts.gpc.edu/Foundation/scholarships.htm">http://depts.gpc.edu/Foundation/scholarships.htm</a>
+                <a href="http://depts.gpc.edu/Foundation/scholarships.htm">Home Page</a>
               </li>
               <li class="list-group-item">
                 Frequently Asked Questions - <a href="/files/StudentScholarships_FAQs_PDF.pdf" download="StudentScholarships_FAQs_PDF.pdf"> Download PDF</a>
@@ -131,13 +131,13 @@
             <!-- List group -->
             <ul class="list-group">
               <li class="list-group-item">
-                Home Page - <a href="http://depts.gpc.edu/~finaid/veterans.html#.UidVMpjD_IU">http://depts.gpc.edu/~finaid/veterans.html#.UidVMpjD_IU</a>
+                <a href="http://depts.gpc.edu/~finaid/veterans.html#.UidVMpjD_IU">Home Page</a>
               </li>
               <li class="list-group-item">
-                How to Apply - <a href="http://depts.gpc.edu/~finaid/howtoapplyveterans.html#.UidVYZjD_IU">http://depts.gpc.edu/~finaid/howtoapplyveterans.html#.UidVYZjD_IU</a>
+                <a href="http://depts.gpc.edu/~finaid/howtoapplyveterans.html#.UidVYZjD_IU">How to Apply</a>
               </li>
               <li class="list-group-item">
-                Frequently Asked Questions - <a href="http://depts.gpc.edu/~finaid/2013-2014%20Printable%20Forms/1314%20VA%20Forms/VA%20FAQ's_1314._rev_2.pdf">http://depts.gpc.edu/~finaid/2013-2014%20Printable%20Forms/1314%20VA%20Forms/VA%20FAQ's_1314._rev_2.pdf</a>
+                <a href="http://depts.gpc.edu/~finaid/2013-2014%20Printable%20Forms/1314%20VA%20Forms/VA%20FAQ's_1314._rev_2.pdf">Frequently Asked Questions</a>
               </li>
             </ul>
           </div>

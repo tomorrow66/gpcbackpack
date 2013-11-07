@@ -66,8 +66,8 @@
 						<!-- List group -->
 						<ul class="list-group">
 							<li class="list-group-item">
-								Campus Maps and Locations - <a href="http://www.gpc.edu/Facilities_and_Services/campuses.php3 
-">http://www.gpc.edu/Facilities_and_Services/campuses.php3</a>
+								<a href="http://www.gpc.edu/Facilities_and_Services/campuses.php3 
+">Campus Maps and Locations</a>
 							</li>
 						</ul>
 					</div>
@@ -81,13 +81,13 @@
 						<!-- List group -->
 						<ul class="list-group">
 							<li class="list-group-item">
-								JCard Home Page - <a href="http://www.gpc.edu/jcard/#.UiY1J5jD_IU">http://www.gpc.edu/jcard/#.UiY1J5jD_IU</a>
+								<a href="http://www.gpc.edu/jcard/#.UiY1J5jD_IU">JCard Home Page</a>
 							</li>
 							<li class="list-group-item">
-								Frequently Asked Questions - <a href="http://www.gpc.edu/jcard/frequently-asked-questions-0#.UiY2B5jD_IU"> http://www.gpc.edu/jcard/frequently-asked-questions-0#.UiY2B5jD_IU</a>
+								<a href="http://www.gpc.edu/jcard/frequently-asked-questions-0#.UiY2B5jD_IU">Frequently Asked Questions</a>
 							</li>
               <li class="list-group-item">
-                JCard Policies - <a href="http://www.gpc.edu/jcard/jcard-policies-0#.UiY1upjD_IU">http://www.gpc.edu/jcard/jcard-policies-0#.UiY1upjD_IU</a>
+                <a href="http://www.gpc.edu/jcard/jcard-policies-0#.UiY1upjD_IU">JCard Policies</a>
               </li>
               <li class="list-group-item">
                 How to Accept JCard within SIS - <a href="/files/HowtoAcceptJcardinSIS.pdf" download="HowtoAcceptJcardinSIS.pdf">Download PDF</a>
@@ -104,13 +104,13 @@
             <!-- List group -->
             <ul class="list-group">
               <li class="list-group-item">
-                Home page - <a href="http://depts.gpc.edu/~gpcpd/">http://depts.gpc.edu/~gpcpd/</a>
+                <a href="http://depts.gpc.edu/~gpcpd/">Home page</a>
               </li>
               <li class="list-group-item">
-                Emergency Information (JagAlert) - <a href="http://depts.gpc.edu/jagalert/#.UiX_hZjD_IU">http://depts.gpc.edu/jagalert/#.UiX_hZjD_IU</a>
+                <a href="http://depts.gpc.edu/jagalert/#.UiX_hZjD_IU">Emergency Information (JagAlert)</a>
               </li>
               <li class="list-group-item">
-                Sexual Misconduct (Title IX) Information - <a href="http://depts.gpc.edu/gpcmisconduct">http://depts.gpc.edu/gpcmisconduct</a>
+                <a href="http://depts.gpc.edu/gpcmisconduct">Sexual Misconduct (Title IX) Information</a>
               </li>
               <li class="list-group-item">
                 Sexual Misconduct (Title IX) brochure - <a href="/files/PublicSafety_SexualMisconductbrochure_PDF.pdf" download="PublicSafety_SexualMisconductbrochure_PDF.pdf">Download PDF</a>

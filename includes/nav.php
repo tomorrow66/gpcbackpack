@@ -1,10 +1,10 @@
 <nav class="topUtil-nav navbar-fixed-top">
   <div class="container">
     <nav class="left">
-      <a class="facebook" href="https://www.facebook.com/georgiaperimetercollege" title="Facebook"></a>
-      <a class="twitter" href="https://twitter.com/gpctweets" title="Twitter"></a>
-      <a class="linkedin" href="http://www.linkedin.com/company/georgia-perimeter-college" title="Linkedin"></a>
-      <a class="youtube" href="http://www.youtube.com/gaperimetercollege" title="Youtube"></a>
+      <a class="icon-gpc_facebook" href="https://www.facebook.com/georgiaperimetercollege" title="Facebook"></a>
+      <a class="icon-gpc_twitter" href="https://twitter.com/gpctweets" title="Twitter"></a>
+      <a class="icon-gpc_linkedin" href="http://www.linkedin.com/company/georgia-perimeter-college" title="Linkedin"></a>
+      <a class="icon-gpc_youtube" href="http://www.youtube.com/gaperimetercollege" title="Youtube"></a>
     </nav>
     <nav class="right">
       <a href="http://eapps.gpc.edu/FAQ/">FAQ</a>
@@ -24,7 +24,7 @@
         <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand" href="/">
-        <img class="img-responsive" src="assets/img/logos/gpc_logo_white2a.svg" alt="logo" title="<?php echo "$siteTitle";?> - HOME">
+        <h1 class="icon-gpc_logo"></h1>
       </a>
     </div>
     <nav class="collapse navbar-collapse">
@@ -32,7 +32,7 @@
         <li class="<?php echo ($_SERVER['PHP_SELF'] == '/index.php' ? 'active' : '');?>"><a href="/">Home</a></li>
         <li class="<?php echo ($_SERVER['PHP_SELF'] == '/academic-success.php' ? 'active' : '');?>"><a href="/academic-success.php">Academic Success</a></li>
         <li class="<?php echo ($_SERVER['PHP_SELF'] == '/campus-life.php' ? ' active' : '');?>"><a href="/campus-life.php">Campus-Life</a></li>
-        <li class="<?php echo ($_SERVER['PHP_SELF'] == '/gpc-online-college.php' ? 'active' : '');?>"><a href="/gpc-online-college.php">GPC Online College</a></li>
+        <li class="<?php echo ($_SERVER['PHP_SELF'] == '/gpc-online.php' ? 'active' : '');?>"><a href="/gpc-online.php">GPC Online</a></li>
         <li class="<?php echo ($_SERVER['PHP_SELF'] == '/military-outreach.php' ? 'active' : '');?>"><a href="/military-outreach.php">Military Outreach</a></li>
         <li class="<?php echo ($_SERVER['PHP_SELF'] == '/safety-security.php' ? 'active' : '');?>"><a href="/safety-security.php">Safety & Security</a></li>
         <li class="<?php echo ($_SERVER['PHP_SELF'] == '/personal-success.php' ? 'active' : '');?>"><a href="/personal-success.php">Personal Success</a></li>

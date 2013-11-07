@@ -1,0 +1,183 @@
+/* Homepage & Section icon styles
+-------------------------------------------------- */
+#home { 
+  .icon-section-full {
+    // background: url("/img/icon_pattern2.jpg");
+    // padding: 0;
+    // padding-bottom: 0;
+    // @media (min-width: $grid-float-breakpoint) {
+    //   background: #252525;
+    //   //padding: ($line-height-computed * 1.5) 0;
+    // }
+    .icons.row {
+      .col-xs-4 {
+        // padding-left: 2px;
+        // padding-right: 2px;
+        
+        @media (min-width: $grid-float-breakpoint) {
+          padding-left: 12px;
+          padding-right: 12px;
+        }
+      }
+    }
+    .bkpk-icons {
+      // padding-left: 2px;
+      // padding-right: 2px;
+      //margin-bottom: 0;
+      @media (min-width: $grid-float-breakpoint) {
+        padding-left: 12px;
+        padding-right: 12px;
+      }
+    }
+    .icon-bg {
+      @media (min-width: $grid-float-breakpoint) {
+        padding: ($line-height-computed / 2) 0 0%;
+      }
+      img {
+        width: 100%;
+      }
+      .c-container {
+        @media (min-width: $grid-float-breakpoint) {
+          min-height: 138px;
+        }
+      }
+    }
+    .navicon {
+      @media (min-width: $grid-float-breakpoint) {
+        width: 150px;
+        height: 103px;
+      }
+      @media (min-width: $screen-md) {
+        width: 169px;
+        height: 116px;
+      }
+    }
+    .icon-title {
+      font-size: 1em;
+      @media (min-width: $grid-float-breakpoint) {
+        font-size: .8em;
+      }
+    }
+  }
+}
+
+.icon-section-full {
+  background: url("/img/icon_pattern.png");
+  // padding: 7px 0 5px;
+  padding-bottom: 0;
+	@include clearfix();
+  @media (min-width: $grid-float-breakpoint) {
+    background: #252525;
+    // padding: 7px 0 5px;
+  }
+  
+  .icons.row {
+    margin: 20px 0; 
+
+    .col-xs-2, .col-xs-4 {
+      padding-left: 2px;
+      padding-right: 2px;
+    }
+  }
+  .icons.row.last {
+    margin-bottom: 20px; 
+  }
+  .bkpk-icons {
+    margin: 10px 0;
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+  .icon-bg {
+    padding-bottom: 0;
+    @media (min-width: $grid-float-breakpoint) {
+    	background: url("/img/icon_pattern.png");
+      border-radius: $border-radius-base * 2;
+      padding: ($line-height-computed / 2) 0 10%;
+      //min-height: 140px;
+      position: relative;
+      -moz-box-shadow:    inset 1px -1px 1px 1px #000000;
+       -webkit-box-shadow: inset 1px -1px 1px 1px #000000;
+       box-shadow:         inset 1px -1px 1px 1px #000000;
+    }
+  }
+  .c-container {
+    // background: #2e5f3e;
+    // color: #4fa46b;
+    width: 100%;
+    margin: 0;
+    clear: both;
+  }
+  .c-container.inlined { 
+    text-align: center;
+    overflow: hidden;
+  }
+  .c-container.inlined:after,
+  .inlined .c-block {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  .c-container.inlined:after {
+    content: '';
+    height: 100%;
+    margin-left: -0.25em; /* To offset spacing. May vary by font */
+  }
+  
+  .inlined .c-block {
+    max-width: 99%; /* Prevents issues with long content causes the content block to be pushed to the top */
+    /* max-width: calc(100% - 0.25em) /* Only for IE9+ */ 
+  }
+  
+  .c-block .headline, .c-block p span {
+      display: inline;
+      line-height: 1.8;
+      background-color: transparent;
+      background-color: rgba(0, 0, 0, 0.7);
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='black',endColorstr='black');
+      zoom: 1;
+      -moz-box-shadow: rgba(0, 0, 0, 0.7) 10px 0 0, rgba(0, 0, 0, 0.7) -10px 0 0;
+      -webkit-box-shadow: rgba(0, 0, 0, 0.7) 10px 0 0, rgba(0, 0, 0, 0.7) -10px 0 0;
+      box-shadow: rgba(0, 0, 0, 0.7) 10px 0 0, rgba(0, 0, 0, 0.7) -10px 0 0;
+      padding: 5px;
+      margin: 5px 0;
+      clear: both;
+  }
+  
+  .c-block > p {
+      max-width: 300px;
+      line-height: 2;
+      margin: 2px;
+  }
+  
+  .c-block img {
+    max-width: 100%;
+    width: 100%;
+  }
+  .navicon {
+    width: 80px;
+    height: 55px;
+    background-size: cover;
+    display: block;
+    margin: 0 auto;
+    -ms-behavior: url(/backgroundsize.min.htc);
+    @media (min-width: $grid-float-breakpoint) {
+      width: 120px;
+      height: 82px;
+    }
+  }
+  .icon-title {
+    left:10%;
+    right:10%;
+    bottom:5%;
+    font-size: .8em;
+    font-weight: 700;
+    color: #fff;
+    text-align:center;
+    margin:0;
+    padding: 0 5px;
+  
+    @media (min-width: $screen-md) {
+      margin-top: -10px;
+    }
+  }
+}
