@@ -9056,7 +9056,7 @@ figure.fluidratio {
 
 /* line 166, ../sass/_banners.scss */
 #home figure.fluidratio {
-  background-image: url(/img/banners/home_banner.jpg);
+  background-image: url(/img/banners/home_banner2.jpg);
 }
 
 /* line 169, ../sass/_banners.scss */
@@ -9090,12 +9090,22 @@ figure.fluidratio {
 }
 
 /* line 187, ../sass/_banners.scss */
+#gpc-online figure.fluidratio {
+  background-image: url(/img/banners/gpc_online.jpg);
+}
+
+/* line 190, ../sass/_banners.scss */
+#tech-tips figure.fluidratio {
+  background-image: url(/img/banners/technology_tips.jpg);
+}
+
+/* line 193, ../sass/_banners.scss */
 figcaption.container {
   width: 80%;
 }
 
 /* Since positioning the image, we need to help out the caption */
-/* line 191, ../sass/_banners.scss */
+/* line 197, ../sass/_banners.scss */
 figcaption {
   z-index: 10;
   top: 30%;
@@ -9105,25 +9115,25 @@ figcaption {
   text-align: left;
   position: absolute;
 }
-/* line 200, ../sass/_banners.scss */
+/* line 206, ../sass/_banners.scss */
 figcaption .headline {
   color: #ffc626;
   font-size: 18px;
   font-weight: normal;
 }
 @media (min-width: 992px) {
-  /* line 200, ../sass/_banners.scss */
+  /* line 206, ../sass/_banners.scss */
   figcaption .headline {
     font-size: 42px;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 200, ../sass/_banners.scss */
+  /* line 206, ../sass/_banners.scss */
   figcaption .headline {
     font-size: 30px;
   }
 }
-/* line 211, ../sass/_banners.scss */
+/* line 217, ../sass/_banners.scss */
 figcaption p {
   color: #FFF;
   font-family: 'Arvo', san-serif;
@@ -9131,7 +9141,7 @@ figcaption p {
   max-width: 450px;
 }
 @media (min-width: 992px) {
-  /* line 211, ../sass/_banners.scss */
+  /* line 217, ../sass/_banners.scss */
   figcaption p {
     font-size: 22px;
     line-height: normal;
@@ -9139,14 +9149,14 @@ figcaption p {
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 211, ../sass/_banners.scss */
+  /* line 217, ../sass/_banners.scss */
   figcaption p {
     font-size: 18px;
     line-height: normal;
     margin-top: -2px;
   }
 }
-/* line 227, ../sass/_banners.scss */
+/* line 233, ../sass/_banners.scss */
 figcaption .headline, figcaption p span {
   display: inline;
   line-height: 1.8;
@@ -9162,7 +9172,7 @@ figcaption .headline, figcaption p span {
   clear: both;
 }
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 227, ../sass/_banners.scss */
+  /* line 233, ../sass/_banners.scss */
   figcaption .headline, figcaption p span {
     line-height: 1.9;
   }

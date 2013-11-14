@@ -12,7 +12,7 @@
 	$bannerHeader1    = "Prepare for Success.";
   $bannerSubHeader1 = "Use the backpack site below to guide you to online and on campus resources.";
   
-	$bannerImg2       = "img/banners/home_banner.jpg";
+	$bannerImg2       = "img/banners/home_banner2.jpg";
 	$bannerHeader2    = "Prepare for Your Success.";
   $bannerSubHeader2 = "Use the backpack site below to guide you to online and on campus resources.";
 
