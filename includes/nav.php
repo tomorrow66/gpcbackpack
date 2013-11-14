@@ -25,7 +25,7 @@
         <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand" href="/">
-        <h1 class="icon-gpc_logo"></h1>
+        <h1 class="icon-gpc_logo_white"></h1>
       </a>
     </div>
     <nav class="collapse navbar-collapse">

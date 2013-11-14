@@ -8090,47 +8090,47 @@ td.visible-print {
 .navbar-default .navbar-header {
   background: #a30532;
 }
-/* line 58, ../sass/_top_nav.scss */
-.navbar-default .navbar-header .navbar-brand .icon-gpc_logo {
-  width: 156px;
-  height: 61.263px;
+/* line 63, ../sass/_top_nav.scss */
+.navbar-default .navbar-header .navbar-brand .icon-gpc_logo_white {
+  width: 160px;
+  height: 70px;
   margin: 0;
 }
 @media (min-width: 768px) {
-  /* line 66, ../sass/_top_nav.scss */
+  /* line 71, ../sass/_top_nav.scss */
   .navbar-default .container > .navbar-collapse {
     margin-left: -24px;
     margin-right: -24px;
   }
 }
-/* line 73, ../sass/_top_nav.scss */
+/* line 78, ../sass/_top_nav.scss */
 .navbar-default .navbar-nav {
   background: #900627;
   margin-top: 0;
 }
 @media (min-width: 768px) {
-  /* line 73, ../sass/_top_nav.scss */
+  /* line 78, ../sass/_top_nav.scss */
   .navbar-default .navbar-nav {
     width: 75%;
     float: right;
   }
 }
-/* line 82, ../sass/_top_nav.scss */
+/* line 87, ../sass/_top_nav.scss */
 .navbar-default .navbar-nav li a {
   font-size: 12px;
 }
-/* line 87, ../sass/_top_nav.scss */
+/* line 92, ../sass/_top_nav.scss */
 .navbar-default .navbar-toggle {
   border-radius: 0;
 }
-/* line 90, ../sass/_top_nav.scss */
+/* line 95, ../sass/_top_nav.scss */
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #fff;
   height: 3px;
   border-radius: 0;
 }
 
-/* line 98, ../sass/_top_nav.scss */
+/* line 103, ../sass/_top_nav.scss */
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
   background-color: transparent;
   outline-color: transparent;
