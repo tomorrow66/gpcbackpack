@@ -1,4 +1,4 @@
-<nav class="topUtil-nav navbar-fixed-top">
+<div class="topUtil-nav navbar-fixed-top">
   <div class="container">
     <nav class="left">
       <a class="icon-gpc_facebook" href="https://www.facebook.com/georgiaperimetercollege" title="Facebook"></a>
@@ -7,13 +7,14 @@
       <a class="icon-gpc_youtube" href="http://www.youtube.com/gaperimetercollege" title="Youtube"></a>
     </nav>
     <nav class="right">
+      <a href="http://gpc.edu/">GPC.edu</a>
       <a href="http://eapps.gpc.edu/FAQ/">FAQ</a>
       <a href="https://www.gpc.edu/Request/w3_form/">Contact Us</a>
       <a href="https://sis.gpc.edu/PROD/twbkwbis.P_GenMenu?name=homepage">SIS</a>
       <a href="https://idmgmt.gpc.edu/gml/">Login/Password Help</a>
     </nav>
   </div>
-</nav>
+</div>
 <!-- Fixed navbar -->
 <div class="navbar navbar-default navbar-fixed-top">
   <div class="container">

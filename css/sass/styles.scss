@@ -4,7 +4,12 @@
 @import "_vendor/_twbs/bootstrap";
 @import "compass";
 @import "top_nav";
+@import "_jquery_naver";
 @import "navicons";
 @import "sticky_footer";
 @import "banners";
 @import "layout";
+
+// @media screen and (max-width: 740px) {
+//   nav a { float: none; margin: 0 0 1px 0; width: 100%; }
+// }

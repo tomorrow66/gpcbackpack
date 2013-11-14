@@ -16,6 +16,16 @@
 		arrows: false,
 		fluid: true,
 		dots: true
-	});	
+	});
+	
+	$("nav.left").naver({
+    animated: true,
+    labelClosed: "Share"
+  });
+  
+  $("nav.right").naver({
+    animated: true,
+    labelClosed: "Links"
+  });
 
 }(jQuery));

@@ -65,6 +65,9 @@
                 <a href="http://eapps.gpc.edu/askgpc/index.php?category_search=25&search_text">Ask GPC Online</a>
               </li>
               <li class="list-group-item">
+                <a href="https://gpc.view.usg.edu/">iCollege Orientation</a>
+              </li>
+              <li class="list-group-item">
                 <a href="http://www.gpc.edu/online/content/currentstudents/online-student-success-team#.UidcVJjD_IU">Current Online Students</a>
               </li>
               <li class="list-group-item">

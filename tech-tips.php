@@ -105,16 +105,16 @@
                 <a href="http://www.gpc.edu/oit/jagSPOT">JagSpots</a>
               </li>
               <li class="list-group-item">
-                MobileSpotbring your own laptop or mobile device
+                <a href="http://www.gpc.edu/oit/sites/default/files/media/jagspot/mobileSPOT.pdf">MobileSpot - bring your own laptop or mobile device</a>
               </li>
               <li class="list-group-item">
-                TechSpot – access to GPC techs offering laptop support to students</a>
+                <a href="http://www.gpc.edu/oit/jagspot/techspot">TechSpot – access to GPC techs offering laptop support to students</a>
               </li>
               <li class="list-group-item">
-                BusinessSpot – access to printing, copying, scanning and faxing</a>
+                <a href="http://www.gpc.edu/oit/jagspot/techspot">BusinessSpot – access to printing, copying, scanning and faxing</a>
               </li>
               <li class="list-group-item">
-                <a href="http://mediaspot.gpc.edu/">MediaSpot</a>
+                <a href="http://mediaspot.gpc.edu/">MediaSpot - access to media production and post-production equipment, facilities, and training</a>
               </li>
             </ul>
           </div>
@@ -155,6 +155,17 @@
               </li>
               <li class="list-group-item">
                 <a href="http://www.gpc.edu/oit/servicedesk">Student Software</a>
+              </li>
+              <li class="list-group-item">
+                DegreeWorks – web-based tool that enables students to monitor their progress toward degree completion
+                <ul>
+                  <li>
+                    <a href="http://depts.gpc.edu/~acadaff/publications/DegreeWorksFAQv3.htm">FAQs</a>
+                  </li>
+                  <li>
+                    <a href="http://depts.gpc.edu/~acadaff/publications/DegreeWorks.htm">Video Tutorials</a>
+                  </li>
+                </ul>
               </li>
             </ul>
           </div>

@@ -25,7 +25,7 @@
 	$bannerImg1_H1    = "";
   $bannerImg1_Sub   = "";
   #Vimeo ID
-  $vimeoID = "74936179";
+  $vimeoID = "70487586";
 	# Include header
 	include("includes/header.php"); 
 ?>
@@ -53,6 +53,10 @@
     <!-- Example row of columns -->
     <div id="content" class="container">
       <div class="content">
+      
+        <div class="videoWrapper">
+          <iframe src="//player.vimeo.com/video/<?php echo "$vimeoID";?>" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        </div>
         
         <section class="panel panel-default">
           <div class="panel-heading">

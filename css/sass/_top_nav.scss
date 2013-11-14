@@ -4,6 +4,7 @@
   background: #212121;
   height: 28px;
   text-align: right;
+  z-index: 1130;
 
   .left, .right {
     display: inline-block;
@@ -28,8 +29,8 @@
   a {
     font-family: 'Open Sans', san-serif;
     font-size: .875em;
-    line-height: 2.5;
-    color: #898989;
+    line-height: 2.4;
+    color: #fff;
     letter-spacing: .05em;
     text-transform: uppercase;
     margin-right: 15px;

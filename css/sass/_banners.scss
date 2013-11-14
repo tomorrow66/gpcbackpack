@@ -42,6 +42,7 @@
 
       box-shadow: inset 0 -3px 6px rgba(0,0,0,.1);
       position: relative;
+      -ms-behavior: url(/backgroundsize.min.htc);
     }
   }
 
@@ -163,19 +164,25 @@ figure.fluidratio {
   }
 }
 #home figure.fluidratio {
-  background-image: url(/img/banners/bannerimage.png); 
+  background-image: url(/img/banners/home_banner.jpg); 
 }
 #academic-success figure.fluidratio {
-  background-image: url(/img/banners/graduation.png); 
+  background-image: url(/img/banners/graduation.jpg); 
 }
 #campus-life figure.fluidratio {
-  background-image: url(/img/banners/campus_life.png); 
+  background-image: url(/img/banners/campus_life2.jpg); 
 }
 #safety-security figure.fluidratio {
-  background-image: url(/img/banners/safety_and_security.png); 
+  background-image: url(/img/banners/safety_and_security.jpg); 
 }
 #paying-for-college figure.fluidratio {
-  background-image: url(/img/banners/financial_aid.png); 
+  background-image: url(/img/banners/financial_aid.jpg); 
+}
+#military-outreach figure.fluidratio {
+  background-image: url(/img/banners/military_outreach.jpg); 
+}
+#personal-success figure.fluidratio {
+  background-image: url(/img/banners/personal_success.jpg); 
 }
 figcaption.container {
   width: 80%;

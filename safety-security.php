@@ -118,6 +118,20 @@
             </ul>
           </div>
         </section>
+        
+        <section class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">Enrollment and Registration Services</h3>
+          </div>
+          <div class="panel-body">
+            <!-- List group -->
+            <ul class="list-group">
+              <li class="list-group-item">
+                <a href="http://depts2.gpc.edu/~gpcem/ferpa.htm">Family Education Rights and Privacy Act (FERPA)</a>
+              </li>
+            </ul>
+          </div>
+        </section>
       
       </div>
     </div>

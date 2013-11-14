@@ -58,10 +58,6 @@
           <iframe src="//player.vimeo.com/video/<?php echo "$vimeoID";?>" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
         </div>
 
-        <div class="sectionDesc">
-          <p class="lead"><?php echo "$sectionDesc";?></p>
-        </div>
-
         <section class="panel panel-default">
           <div class="panel-heading">
             <h3 class="panel-title"></h3>

@@ -147,7 +147,7 @@ module.exports = function(grunt) {
       dist: {
         files: [{
           expand: true,
-          cwd: 'css/custom/svg',
+          cwd: 'css/custom/svg/src',
           src: '{,*/}*.svg',
           dest: 'css/custom/svg'
         }]

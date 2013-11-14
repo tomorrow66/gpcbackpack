@@ -103,6 +103,17 @@
               <li class="list-group-item">
                 <a href="https://sis.gpc.edu/PROD/wwtraneq.P_TranEq_Ltr">Transfer Course Listing by Institution</a>
               </li>
+              <li class="list-group-item">
+                DegreeWorks – web-based tool that enables students to monitor their progress toward degree completion
+                <ul>
+                  <li>
+                    <a href="http://depts.gpc.edu/~acadaff/publications/DegreeWorksFAQv3.htm">FAQs</a>
+                  </li>
+                  <li>
+                    <a href="http://depts.gpc.edu/~acadaff/publications/DegreeWorks.htm">Video Tutorials</a>
+                  </li>
+                </ul>
+              </li>
             </ul>
           </div>
         </section>
@@ -120,9 +131,6 @@
 							<li class="list-group-item">
 								<a href="http://www.gpc.edu/collegeservices/faq#.UiYOnJjD_IU">Bookstore Frequently Asked Questions (FAQs)</a>
 							</li>
-              <li class="list-group-item">
-                <a href="http://depts.gpc.edu/cds/transition.htm">Student Guide to Disability Services</a>
-              </li>
 						</ul>
 					</div>
 				</section>
@@ -159,6 +167,9 @@
               </li>
               <li class="list-group-item">
                 <a href="http://depts.gpc.edu/cds/faq.htm">Frequently Asked Questions</a>
+              </li>
+              <li class="list-group-item">
+                <a href="http://depts.gpc.edu/cds/transition.htm">Student Guide to Disability Services</a>
               </li>
             </ul>
           </div>
