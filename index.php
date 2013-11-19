@@ -16,13 +16,13 @@
 	$bannerHeader2    = "Prepare for Your Success.";
   $bannerSubHeader2 = "Use the backpack site below to guide you to online and on campus resources.";
 
-	$bannerImg3       = "";
-	$bannerImg3_H1    = "";
-  $bannerImg3_Sub   = "";
+	$bannerImg3       = "img/banners/home_banner3.jpg";
+	$bannerHeader3    = "Preparing for Success.";
+  $bannerSubHeader3   = "Use the backpack site below to guide you to online and on campus resources.";
   
 	$bannerImg4       = "";
-	$bannerImg1_H1    = "";
-  $bannerImg1_Sub   = "";
+	$bannerHeader4    = "";
+  $bannerSubHeader4   = "";
 	# Include header
 	include("includes/header.php"); 
 ?>

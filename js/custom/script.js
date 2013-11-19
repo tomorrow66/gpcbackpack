@@ -12,7 +12,7 @@
 
 	$('.banner').unslider({
     speed: 500,
-    delay: 9000,
+    delay: 4500,
 		arrows: false,
 		fluid: true,
 		dots: true
