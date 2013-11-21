@@ -6,7 +6,6 @@
 	# Page title eg. homepage, blog etc.
 	$pageTitle        = "Home";
 	$sectionHeader    = "Welcome to the Georgia Perimeter College backpack site!";
-	$sectionSubHeader = "";
 	#Banner Images with captions
 	$bannerImg1       = "img/banners/home_banner.jpg";
 	$bannerHeader1    = "Prepare for Success.";
@@ -41,9 +40,6 @@
     <div class="section-header">
       <div class="container">
         <strong class="title"><?php echo "$sectionHeader";?></strong>
-        <?php if (!empty($sectionSubHeader)) :?>
-        <div class="subtitle"><?php echo "$sectionSubHeader";?></div>
-        <?php endif; ?>
       </div>
     </div>
     <!-- Example row of columns -->

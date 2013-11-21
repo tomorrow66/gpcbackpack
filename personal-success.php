@@ -6,24 +6,7 @@
 	# Page title eg. homepage, blog etc.
 	$pageTitle = "Personal Success";
 	$sectionHeader = "Utilizing the services and support available to you.";
-	$sectionSubHeader = "";
   $sectionDesc = "Utilize the services and support available to you.  Prepare for success by reviewing topics such as Advising, Counseling and Retention Offices, Bookstores, Career Services, Disability Services, Enrollment and Registration Services, International Admissions and Advising, Learning Support, Learning and Tutoring Centers, Libraries, Personal Counseling, and Student Health Center.";
-  #Banner Images with captions
-	$bannerImg1       = "assets/img/slider/bannerimage.png";
-	$bannerHeader1    = "Prepare for Success.";
-  $bannerSubHeader1 = "Use the backpack site below to guide you to online and on campus resources.";
-  
-	$bannerImg2       = "assets/img/slider/bannerimage.png";
-	$bannerHeader2    = "Prepare for Your Success.";
-  $bannerSubHeader2 = "Use the backpack site below to guide you to online and on campus resources.";
-  
-	$bannerImg3       = "";
-	$bannerImg3_H1    = "";
-  $bannerImg3_Sub   = "";
-  
-	$bannerImg4       = "";
-	$bannerImg1_H1    = "";
-  $bannerImg1_Sub   = "";
   #Vimeo ID
   $vimeoID = "72978117";
 	# Include header
@@ -45,9 +28,6 @@
     <div class="section-header">
       <div class="container">
         <strong class="title"><?php echo "$sectionHeader";?></strong>
-        <?php if (!empty($sectionSubHeader)) :?>
-        <div class="subtitle"><?php echo "$sectionSubHeader";?></div>
-        <?php endif; ?>
       </div>
     </div>
     <!-- Example row of columns -->
@@ -183,7 +163,7 @@
             <!-- List group -->
             <ul class="list-group">
               <li class="list-group-item">
-                <a href="http://depts.gpc.edu/~gpcslife/index.html#.UiYy4JjD_IU">ERS Home Page</a>
+                <a href="http://registrar.gpc.edu/">ERS Home Page</a>
               </li>
               <li class="list-group-item">
                 <a href="http://www.gpc.edu/catalog/#.UiYdyZjD_IU">GPC Catalog</a>
@@ -233,7 +213,7 @@
                 <a href="http://depts2.gpc.edu/~gpcisaa/F1students.htm">Information for F-1 Students</a>
               </li>
               <li class="list-group-item">
-                <a href="http://depts2.gpc.edu/~gpcisaa/newarrival.htm">Information for New Arrivals to the US</a>
+                <a href="http://depts2.gpc.edu/~gpcisaa/arrival.htm">Information for New Arrivals to the US</a>
               </li>
               <li class="list-group-item">
                 International Student Manual - <a href="/files/USG_International_Student_Manual.pdf" download="USG_International_Student_Manual.pdf">Download PDF</a>
@@ -358,9 +338,6 @@
               </li>
               <li class="list-group-item">
                 <a href="http://www.usg.edu/student_affairs/students/frequently_asked_questions">Frequently Asked Questions</a>
-              </li>
-              <li class="list-group-item">
-                <a href="https://vimeo.com/72978117">VIDEO – Student Quest</a>
               </li>
             </ul>
           </div>

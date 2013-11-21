@@ -6,24 +6,7 @@
 	# Page title eg. homepage, blog etc.
 	$pageTitle = "Military Outreach";
 	$sectionHeader = "Helping and honoring those who have served.";
-	$sectionSubHeader = "";
   $sectionDesc = "GPC helps and honors those who have served.  Prepare for success by reviewing topics such as GPC’s Military Outreach Center (MOC), MOC scholarships, and Veteran’s Affairs.";
-  #Banner Images with captions
-	$bannerImg1       = "assets/img/slider/bannerimage.png";
-	$bannerHeader1    = "Prepare for Success.";
-  $bannerSubHeader1 = "Use the backpack site below to guide you to online and on campus resources.";
-  
-	$bannerImg2       = "assets/img/slider/bannerimage.png";
-	$bannerHeader2    = "Prepare for Your Success.";
-  $bannerSubHeader2 = "Use the backpack site below to guide you to online and on campus resources.";
-  
-	$bannerImg3       = "";
-	$bannerImg3_H1    = "";
-  $bannerImg3_Sub   = "";
-  
-	$bannerImg4       = "";
-	$bannerImg1_H1    = "";
-  $bannerImg1_Sub   = "";
   #Vimeo ID
   $vimeoID = "70487586";
 	# Include header
@@ -45,9 +28,6 @@
     <div class="section-header">
       <div class="container">
         <strong class="title"><?php echo "$sectionHeader";?></strong>
-        <?php if (!empty($sectionSubHeader)) :?>
-        <div class="subtitle"><?php echo "$sectionSubHeader";?></div>
-        <?php endif; ?>
       </div>
     </div>
     <!-- Example row of columns -->
