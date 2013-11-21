@@ -1,13 +1,11 @@
 <?php
-	# The name of your company, website etc.
-	#$siteTitle = "Georgia Perimeter College";
-	# Website description
+	# Website description (SEO)
 	$pageDesc         = "Georgia Perimeter College";
 	# Page title eg. homepage, blog etc.
 	$pageTitle        = "Home";
 	$sectionHeader    = "Welcome to the Georgia Perimeter College backpack site!";
 	#Banner Images with captions
-	$bannerImg1       = "img/banners/home_banner.jpg";
+	$bannerImg1       = "img/banners/personal_success.jpg";
 	$bannerHeader1    = "Prepare for Success.";
   $bannerSubHeader1 = "Use the backpack site below to guide you to online and on campus resources.";
   

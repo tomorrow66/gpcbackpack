@@ -1,6 +1,6 @@
 <?php
   # The name of your company, website etc.
-  $siteTitle = "GPC";
+  $siteTitle = "Georgia Perimeter College Backpack";
 
 function slug($pageTitle) {
    $pageTitle = str_replace(" ", "-", $pageTitle); // Replaces all spaces with hyphens.

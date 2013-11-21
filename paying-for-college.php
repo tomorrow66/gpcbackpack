@@ -1,7 +1,5 @@
 <?php
-	# The name of your company, website etc.
-	#$siteTitle = "Georgia Perimeter College";
-	# Website description
+	# Website description (SEO)
 	$pageDesc  = "Georgia Perimeter College";
 	# Page title eg. homepage, blog etc.
 	$pageTitle = "Paying for College";

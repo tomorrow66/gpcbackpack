@@ -6,12 +6,18 @@
   text-align: right;
   z-index: 1130;
 
+  > container {
+    position: relative;
+  }
+  
   .left, .right {
     display: inline-block;
   }
 
   .left {
     float: left;
+    text-align: left;
+    position: absolute;
     
     a {
       width: 25px;
@@ -28,12 +34,17 @@
 
   a {
     font-family: 'Open Sans', san-serif;
-    font-size: .875em;
-    line-height: 2.4;
+    font-size: .625em;
+    @media (min-width: $screen-sm) {
+      font-size: .875em;
+      line-height: 2.4;
+      margin-right: 15px;
+    }
+    line-height: 3.2;
     color: #fff;
     letter-spacing: .05em;
     text-transform: uppercase;
-    margin-right: 15px;
+    margin-right: 5px;
 
     &:last-child {
       margin-right: 0;
